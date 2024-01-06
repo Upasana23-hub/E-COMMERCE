@@ -1,9 +1,11 @@
+import React from 'react'
 import './Nav.css';
-
-function Nav() {
+const Nav = () => {
   return (
-    <></>
-  );
+    <div>
+      
+    </div>
+  )
 }
 
 export default Nav;
