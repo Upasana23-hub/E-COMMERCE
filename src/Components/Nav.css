@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer-nav{
+    height: 10vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: inline-flex;
+}
+.logo{
+
+}
+.search-bar{
+
+}
+.account{
+
+}
+.cart{
+    
+}
