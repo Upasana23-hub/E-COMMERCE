@@ -7,16 +7,16 @@ function App() {
     </div>
 =======
 import './App.css';
-// import { BrowserRouter,Routes, Route } from "react-router-dom";
+import { BrowserRouter,Routes, Route } from "react-router-dom";
 function App() {
   return (
    
     <>
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route/>
       </Routes>
-    </BrowserRouter> */}
+    </BrowserRouter>
     </>
    
 >>>>>>> c888be3d1f5e8cbc48573a4e3a4df263aac8c29c
