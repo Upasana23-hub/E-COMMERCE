@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Ubuntu:wght@300&display=swap');
+
+.first_slider{
+    height: 60vh;
+    width: 100%;
+    /* background-color: black; */
+    margin-top: 5%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(../pictures/back_photo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.information{
+    height: 100%;
+    width: 50%;
+    /* background-color:aqua; */
+    margin-left: 10%;
+}
+
+.photo{
+    height: 100%;
+    width: 50%;
+    /* background-color:blue; */
+}
+
+.Inf10{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.Inf11{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.delivery{
+    display: flex;
+}
+
+.Inf12{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.discout_banner{
+    height: 40px;
+    width: 350px;
+    /* background-color: chocolate; */
+    margin-left: 25%;
+    margin-top: 4%;
+    display: flex;
+}
+
+.bank_photo{
+    height: 100%;
+    width: 80px;
+    background-color: cornflowerblue;
+    background-image: url(../pictures/bank_pic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bank_dis{
+    height: 100%;
+    width: 270px;
+    background-color: rgb(220, 103, 19);
+
+}
+
+.dis{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+.photo1{
+    height: 80%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 25%;
+    /* background-color:darkgreen; */
+    background-image: url(../pictures/1st_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second_slider{
+    height: 60vh;
+    width: 100%;
+    /* background-color: black; */
+    margin-top: 5%;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(../pictures/Back_photo2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.information1{
+    height: 100%;
+    width: 50%;
+    /* background-color:aqua; */
+    margin-left: 10%;
+}
+
+.photo2{
+    height: 100%;
+    width: 50%;
+    /* background-color:blue; */
+}
+
+.Inf20{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.Inf21{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.delivery{
+    display: flex;
+}
+
+.Inf22{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.photo3{
+    height: 80%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 25%;
+    /* background-color:darkgreen; */
+    background-image: url(../pictures/1st_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
