@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-=======
 import './App.css';
 import { BrowserRouter,Routes } from "react-router-dom";
 
@@ -21,7 +13,6 @@ function App() {
     
     </>
    
->>>>>>> c888be3d1f5e8cbc48573a4e3a4df263aac8c29c
   );
 }
 
