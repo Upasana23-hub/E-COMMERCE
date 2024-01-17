@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Nav.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
 const Nav = () => {
   // State for search input
   const [searchTerm, setSearchTerm] = useState('');
