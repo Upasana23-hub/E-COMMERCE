@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+}
+.outer-div{
+    height: 12vh;
+    width: 97%;
+    background-color:rgb(23, 9, 64);
+    display: inline-flex;
+    padding-left: 0%;
+    padding-right: 3%;
+}
+.name{
+    height: 12vh;
+    width: 12%;
+    /* background-color: azure; */
+    margin-left: 3%;
+    display: inline-flex;
+}
+.search-bar{
+    height: 12vh;
+    width: 55%;
+    background-color: rgb(23, 9, 64);
+    margin-left: 7%;
+}
+.search{
+    height: 8vh;
+    width: 87%;
+    background-color: azure;
+    margin-left: 1%;
+    /* margin-top: vh; */
+   border-radius: 5px;
+   font-size: large;
+}
+.search-button{
+    height: 8.9vh;
+    width: 9%;
+    /* background-color: rgb(94, 131, 254); */
+    background-color:rgb(23, 9, 64);
+    margin-top: 1.7vh;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: larger;
+    border-color: transparent;
+}
+.search-button:hover{
+    border-color: rgb(121, 115, 139);
+    cursor: pointer;
+}
+.cart-button{
+    height: 12vh;
+    width: 10%;
+    /* background-color: azure; */
+    margin-left: 3%;
+    font-size: larger;
+}
+.logo{
+    height: 12vh;
+    width: 44%;
+    background-color: transparent;
+}
+.heading{
+    height: 6vh;
+    width: 60%;
+    margin-top: 2.5vh;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin-left: 3%;
+
+}
+.dropdown{
+    height: 7vh;
+    width: 10%;
+    /* background-color: rgb(94, 131, 254); */
+    /* margin-top: 1.5vh; */
+    border-radius: 5px;
+    margin-left: 5%;
+}
+.dropdown-list{
+    height: 8vh;
+    width: 100%;
+    margin-top: 1.8vh;
+    border-radius: 5px;
+    font-size: larger;
+    background-color:rgb(23, 9, 64);
+    color: white;
+    border-color: transparent;
+}
+.dropdown-list:hover{
+    border-color: rgb(121, 115, 139);
+    cursor: pointer;
+}
+.cart-button{
+    height: 8.5vh;
+    width: 10%;
+    background-color:rgb(23, 9, 64);
+    border-color: transparent;
+    color: white;
+    margin-top: 1.5vh;
+    border-radius: 5px;
+    margin-left: 3%;
+}
+.cart-button:hover{
+    border-color: rgb(121, 115, 139);
+    cursor: pointer;
+}
