@@ -44,7 +44,7 @@ const Nav = () => {
       <div className="dropdown">
         <select value={selectedOption} onChange={handleDropdownChange} className='dropdown-list'>
           <option value="" disabled >
-            My Account
+            <p>My Account</p>
           </option>
           {dropdownOptions.map((option) => (
             <option key={option} value={option}>
@@ -55,13 +55,11 @@ const Nav = () => {
       </div>
       <button className='wishlist'>
       <i className="fa-solid fa-heart"></i>
-      &nbsp;
-      Wishlist
+      <p>Wishlist</p>
       </button>
       <button className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
-      &nbsp;
-        Cart
+      <p>Cart</p>
       </button>
       
     </nav>
