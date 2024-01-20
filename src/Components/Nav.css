@@ -35,7 +35,7 @@
 }
 .search-button{
     height: 8.9vh;
-    width: 9%;
+    width: 7%;
     /* background-color: rgb(94, 131, 254); */
     background-color:rgb(23, 9, 64);
     margin-top: 1.7vh;
@@ -72,11 +72,11 @@
 }
 .dropdown{
     height: 7vh;
-    width: 10%;
+    width: 11.7%;
     /* background-color: rgb(94, 131, 254); */
     /* margin-top: 1.5vh; */
     border-radius: 5px;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 .dropdown-list{
     height: 8vh;
@@ -101,6 +101,22 @@
     margin-top: 1.5vh;
     border-radius: 5px;
     margin-left: 3%;
+    font-size: larger;
+}
+.wishlist{
+    height: 8.5vh;
+    width: 10%;
+    background-color:rgb(23, 9, 64);
+    border-color: transparent;
+    color: white;
+    margin-top: 1.5vh;
+    border-radius: 5px;
+    margin-left: 3.5%;
+    font-size: larger;
+}
+.wishlist:hover{
+    border-color: rgb(121, 115, 139);
+    cursor: pointer;
 }
 .cart-button:hover{
     border-color: rgb(121, 115, 139);

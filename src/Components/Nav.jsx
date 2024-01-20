@@ -32,7 +32,7 @@ const Nav = () => {
       <div className="search-bar">
         <input className='search'
           type="text"
-          placeholder="Search..."
+          placeholder="Search for products...."
           value={searchTerm}
           onChange={handleSearchChange}
         />
@@ -53,6 +53,11 @@ const Nav = () => {
           ))}
         </select>
       </div>
+      <button className='wishlist'>
+      <i className="fa-solid fa-heart"></i>
+      &nbsp;
+      Wishlist
+      </button>
       <button className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
       &nbsp;
