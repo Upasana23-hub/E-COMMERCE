@@ -35,23 +35,20 @@ const Nav = () => {
       </div>
 
       <div className="dropdown">
-        <select value={selectedOption} onChange={handleDropdownChange} className='dropdown-list'>
-          <option value="" disabled >
+        <button className='dropdown-list'>
+        <i class="fa-solid fa-user"></i>
+        &nbsp;
             My Account
-          </option>
-          {dropdownOptions.map((option) => (
-            <option key={option} value={option}>
-              {option}
-            </option>
-          ))}
-        </select>
+        </button>
       </div>
       <button className='wishlist'>
       <i className="fa-solid fa-heart"></i>
+      &nbsp;
       <p>Wishlist</p>
       </button>
       <button className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
+      &nbsp;
       <p>Cart</p>
       </button>
       
