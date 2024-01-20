@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.outer-div1{
+    height: 29vh;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    padding-top: 1vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.inner-2{
+    height: 25vh;
+    width: 98%;
+    margin-left: 0.5%;
+    background-color: white;
+    display: inline-flex;
+    padding-top: 3vh;
+    padding-right: 1%;
+    border-radius: 5px;
+}

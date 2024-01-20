@@ -14,23 +14,28 @@
 }
 .name{
     height: 12vh;
-    width: 12%;
+    width: 22%;
     /* background-color: azure; */
-    margin-left: 3%;
+    background-color: rgb(23, 9, 64);
+    margin-left: 2.5%;
     display: inline-flex;
+    border-color: transparent;
+}
+.name:hover{
+    cursor: pointer;
 }
 .search-bar{
     height: 12vh;
-    width: 40%;
-    background-color:rgb(23, 9, 64);
+    width: 64%;
+    background-color: rgb(23, 9, 64);
     margin-left: 7%;
-    display: inline-flex;
 }
 .search{
     height: 8vh;
-    width: 90%;
-    background-color: rgb(255, 255, 255);
-    margin-top: 2vh;
+    width: 87%;
+    background-color: azure;
+    margin-left: 1%;
+    /* margin-top: vh; */
    border-radius: 5px;
    font-size: large;
 }
@@ -39,7 +44,8 @@
     width: 7%;
     background-color:rgb(23, 9, 64);
     margin-top: 1.7vh;
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     font-size: larger;
     border-color: transparent;
     margin-left: 2%;
@@ -49,7 +55,7 @@
     cursor: pointer;
 }
 .logo{
-    height: 12vh;
+    height: 11vh;
     width: 44%;
     background-color: transparent;
 }
@@ -65,9 +71,7 @@
 }
 .dropdown{
     height: 7vh;
-    width: 11.7%;
-    /* background-color: rgb(94, 131, 254); */
-    /* margin-top: 1.5vh; */
+    width: 14.9%;
     border-radius: 5px;
     margin-left: 3%;
 }
@@ -80,6 +84,8 @@
     background-color:rgb(23, 9, 64);
     color: white;
     border-color: transparent;
+    display: inline-flex;
+    padding-top: 2.5vh;
 }
 .dropdown-list:hover{
     border-color: rgb(121, 115, 139);
@@ -87,16 +93,16 @@
 }
 .wishlist{
     height: 8.5vh;
-    width: 10%;
+    width: 12%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
     margin-top: 1.5vh;
     border-radius: 5px;
-    margin-left: 3%;
+    margin-left: 2%;
     font-size: larger;
     display: inline-flex;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 3vh;
 }
 .wishlist:hover{
     border-color: rgb(121, 115, 139);
@@ -105,16 +111,20 @@
 }
 .cart-button{
     height: 8.5vh;
-    width: 10%;
+    width: 11%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
     margin-top: 1.8vh;
     border-radius: 5px;
-    margin-left: 3%;
+    margin-left: 1.8%;
     font-size: larger;
     display: inline-flex;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 3vh;
+}
+.wishlist:hover{
+    border-color: rgb(121, 115, 139);
+    cursor: pointer;
 }
 .cart-button:hover{
     border-color: rgb(121, 115, 139);

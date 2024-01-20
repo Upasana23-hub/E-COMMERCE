@@ -6,28 +6,21 @@ const Nav = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   // State for dropdown selection
-  const [selectedOption, setSelectedOption] = useState('');
+  // const [selectedOption, setSelectedOption] = useState('');
 
   // Options for the dropdown
-  const dropdownOptions = ['Profile', 'Orders', 'Wishlist', 'Customer Service'];
+  // const dropdownOptions = ['Profile', 'Orders', 'Customer Service'];
  
 
-  // Function to handle search input change
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
   };
-
-  // Function to handle dropdown selection change
-  const handleDropdownChange = (event) => {
-    setSelectedOption(event.target.value);
-  };
-
   return (
     <nav className='outer-div'>
-      <div className='name'>
+      <button className='name' >
            <img src='SHOPEE.png' alt='name' className='logo'/>
           <div className='heading'>SHOPEE</div>
-      </div>
+      </button>
 
       <div className="search-bar">
         <input className='search'
@@ -42,23 +35,20 @@ const Nav = () => {
       </div>
 
       <div className="dropdown">
-        <select value={selectedOption} onChange={handleDropdownChange} className='dropdown-list'>
-          <option value="" disabled >
-            <p>My Account</p>
-          </option>
-          {dropdownOptions.map((option) => (
-            <option key={option} value={option}>
-              {option}
-            </option>
-          ))}
-        </select>
+        <button className='dropdown-list'>
+        <i class="fa-solid fa-user"></i>
+        &nbsp;
+            My Account
+        </button>
       </div>
       <button className='wishlist'>
       <i className="fa-solid fa-heart"></i>
+      &nbsp;
       <p>Wishlist</p>
       </button>
       <button className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
+      &nbsp;
       <p>Cart</p>
       </button>
       

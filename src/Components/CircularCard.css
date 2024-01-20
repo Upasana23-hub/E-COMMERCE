@@ -1,0 +1,21 @@
+.outer1{
+    height: 25vh;
+    width: 12%;
+    margin-left: 2%;
+}
+.img{
+    height: 18vh;
+    width: 96%;
+    border-radius: 50%;
+}
+.inner-text-div{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 2vh;
+    font-size: large;
+}
+.outer1:hover{
+    cursor: pointer;
+}  
