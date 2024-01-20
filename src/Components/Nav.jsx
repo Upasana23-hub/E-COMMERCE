@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Nav.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
 const Nav = () => {
   // State for search input
   const [searchTerm, setSearchTerm] = useState('');
@@ -36,21 +35,24 @@ const Nav = () => {
       </div>
 
       <div className="dropdown">
-        <button className='dropdown-list'>
-        <i class="fa-solid fa-user"></i>
-        &nbsp;
+        <select value={selectedOption} onChange={handleDropdownChange} className='dropdown-list'>
+          <option value="" disabled >
             My Account
-        </button>
+          </option>
+          {dropdownOptions.map((option) => (
+            <option key={option} value={option}>
+              {option}
+            </option>
+          ))}
+        </select>
       </div>
       <button className='wishlist'>
       <i className="fa-solid fa-heart"></i>
-      &nbsp;
-      Wishlist
+      <p>Wishlist</p>
       </button>
       <button className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
-      &nbsp;
-        Cart
+      <p>Cart</p>
       </button>
       
     </nav>

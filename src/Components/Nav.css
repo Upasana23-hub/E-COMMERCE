@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0 ;
     padding: 0;
@@ -27,13 +28,13 @@
     height: 12vh;
     width: 55%;
     background-color: rgb(23, 9, 64);
-    margin-left: 3%;
+    margin-left: 7%;
 }
 .search{
     height: 8vh;
-    width: 89%;
+    width: 87%;
     background-color: azure;
-    margin-left: 3%;
+    margin-left: 1%;
     /* margin-top: vh; */
    border-radius: 5px;
    font-size: large;
@@ -41,24 +42,17 @@
 .search-button{
     height: 8.9vh;
     width: 7%;
-    /* background-color: rgb(94, 131, 254); */
     background-color:rgb(23, 9, 64);
-    margin-top: 1.5vh;
+    margin-top: 1.7vh;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     font-size: larger;
     border-color: transparent;
+    margin-left: 2%;
 }
 .search-button:hover{
     border-color: rgb(121, 115, 139);
     cursor: pointer;
-}
-.cart-button{
-    height: 12vh;
-    width: 10%;
-    /* background-color: azure; */
-    margin-left: 3%;
-    font-size: larger;
 }
 .logo{
     height: 11vh;
@@ -99,7 +93,7 @@
     border-color: rgb(121, 115, 139);
     cursor: pointer;
 }
-.cart-button{
+.wishlist{
     height: 8.5vh;
     width: 12%;
     background-color:rgb(23, 9, 64);
@@ -109,19 +103,22 @@
     border-radius: 5px;
     margin-left: 1%;
     font-size: larger;
-    padding-top: 1.5vh;
 }
-.wishlist{
+.wishlist:hover{
+    border-color: rgb(121, 115, 139);
+    cursor: pointer;
+    color: white;
+}
+.cart-button{
     height: 8.5vh;
     width: 12%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
-    margin-top: 1.5vh;
+    margin-top: 1.8vh;
     border-radius: 5px;
-    margin-left: 2%;
+    margin-left: 3.5%;
     font-size: larger;
-    padding-top: 1.5vh;
 }
 .wishlist:hover{
     border-color: rgb(121, 115, 139);
@@ -130,4 +127,5 @@
 .cart-button:hover{
     border-color: rgb(121, 115, 139);
     cursor: pointer;
+    color: white;
 }
