@@ -1,22 +1,33 @@
 import React from "react";
 import { Slider } from "./Components/Slider";
-import Footer from "./Components/Footer";
-import Nav from "./Components/Nav";
-import Product from "./Components/Product";
-
+import { Data } from "./Components/Data";
+import { useEffect, useState } from "react";
+import {Card} from "./Components/Card";
 function App() {
+  const [category, setcategory] = useState([]);
+  useEffect(() =>{
+    filter("");
+  },[]);
+  const filter = (names) => {
+    const filtered = Data.filter((item) => item.name.includes(names));
+    console.log(filtered);
+    setcategory(filtered);
+  };
   return (
     
     <div className="App">
-      <>
-      <Nav/>
-      <Product/>
-
-      <Slider/>
-      <Footer/>
-      
-      </>
-      
+      <Slider/>    
+      <div style={{display:'flex',flexWrap: "wrap"}}>
+        {category.map((item) => (
+        <Card
+          image={item.image}
+          Name={item.Name}
+          about={item.about}
+          actualPrice={item.actualPrice}
+          offerPrice={item.offerPrice}
+        />
+        ))}
+      </div>
     </div>
   );
 }

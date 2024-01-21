@@ -1,0 +1,55 @@
+.card{
+    padding: 20px;
+}
+.card>.card__image>img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.card__heart{
+    float: right;
+    color: lightgray;
+
+}
+.card__details > p{
+    padding: 0%;
+    margin: 0%;
+}
+.card__details>.title{
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(165, 165, 165);
+}
+.card__details>p{
+    font-size: 14px;
+}
+.card__details>.span1{
+    font-weight: bold;
+}
+.card__details>.span2{
+    color: gray;
+    padding-left: 7px;
+    text-decoration: line-through;
+}
+.card__details>.span3{
+    color: rgb(2, 98, 2);
+    padding-left: 7px;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.productDet{
+    position: relative;
+    transition: 0.5s;
+}
+.productDet>.card__size{
+    opacity: 0;
+    position: absolute;
+}
+.card:hover .productDet{
+    transform: translateY(-20%);
+    transition: 0.5s;
+}
+.card:hover .productDet > .card__size{
+    opacity: 1;
+}
