@@ -4,10 +4,22 @@ import Footer from "./Components/Footer";
 import Homecard from "./Components/Homecard";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Home from "./Pages/Home";
+import { Data } from "./Components/Data";
+import { useEffect, useState } from "react";
+import {Card} from "./Components/Card";
 import Nav from "./Components/Nav";
 import Product from "./Components/Product";
 
 function App() {
+  const [category, setcategory] = useState([]);
+  useEffect(() =>{
+    filter("");
+  },[]);
+  const filter = (names) => {
+    const filtered = Data.filter((item) => item.name.includes(names));
+    console.log(filtered);
+    setcategory(filtered);
+  };
   return (
     
     <div className="App">
@@ -16,6 +28,17 @@ function App() {
       <Product/>
 
       <Slider/>
+      <div style={{display:'flex',flexWrap: "wrap"}}>
+        {category.map((item) => (
+        <Card
+          image={item.image}
+          Name={item.Name}
+          about={item.about}
+          actualPrice={item.actualPrice}
+          offerPrice={item.offerPrice}
+        />
+        ))}
+      </div>
       <Homecard/>
       <Footer/>
       
