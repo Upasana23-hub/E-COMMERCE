@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Ubuntu:wght@300&display=swap');
+
+
+
+.card_outer{
+    /* background-color: black; */
+    height: 55vh;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.first_card{
+    height: 100%;
+    width: 23%;
+    /* background-color: aqua; */
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.instr{
+    /* background-color: blue; */
+    margin-top: 4%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.pic{
+    /* background-color: brown; */
+    height: 75%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+
+.up_pics{
+    /* background-color: burlywood; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.pic1{
+    /* background-color: yellow; */
+    height: 90%;
+    width: 47.5%;
+}
+
+.p1{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/ac.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p2{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/fridge.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/microwave.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p4{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/washing.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic2{
+    /* background-color: yellow; */
+    height: 90%;
+    width: 47.5%;
+    margin-left: 5%;
+}
+
+.p5{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/baby_dyper.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p6{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/baby_carry.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p7{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/baby_toy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p8{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/baby_bag.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p9{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/spin_mops.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p10{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/bathroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p11{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/hammer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p12{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/extension.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dwn_pics{
+    /* background-color: burlywood; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.pic3{
+    /* background-color: yellow; */
+    height: 90%;
+    width: 47.5%;
+}
+
+.pic4{
+    /* background-color: yellow; */
+    height: 90%;
+    width: 47.5%;
+    margin-left: 5%;
+}
+
+.second_card{
+    height: 100%;
+    width: 23%;
+    /* background-color: aqua; */
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.third_card{
+    height: 100%;
+    width: 23%;
+    /* background-color: aqua; */
+    margin-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fourth_card{
+    height: 100%;
+    width: 23%;
+    /* background-color: aqua; */
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url(../pictures/phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slider_outer{
+    height: 50vh;
+    width: 96%;
+    /* background-color: black; */
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 10%;
+    /* display: flex; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.second_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 7%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.third_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.fourth_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.fifth_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.sixth_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.sli1{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/sports_shoe.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli2{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/men_bag.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli3{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/bacca_bucci.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli4{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/tshirts.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli5{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/gijer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli6{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/umbrella.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dis_red{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: red;
+    font-weight:bolder;
+    margin-left: 2%;
+}
+
+.under_dis{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight:bolder;
+    margin-left: 2%;
+}
+
+.seventh_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.eightth_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.nineth_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.tenth_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.eleventh_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.twelveth_div{
+    height: 70%;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aqua; */
+}
+
+.sli7{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/ladies_kurti.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli8{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/formal_shoes.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli9{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/tffin_box.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli10{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/frying_pan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli11{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/make_up.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sli12{
+    height: 80%;
+    width: 100%;
+    background-color: blueviolet;
+    background-image: url(../pictures/ladders.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info_div{
+    height: 10%;
+    width: 20%;
+    /* background-color: aqua; */
+    display: inline-block;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size:x-large;
+    margin-left: 1%;
+    margin-top: 1%;
+
+}
+
+.mySwiper{
+    height: 100%;
+    margin-bottom:10% ;
+}
+
