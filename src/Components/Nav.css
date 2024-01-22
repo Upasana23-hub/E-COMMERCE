@@ -7,14 +7,14 @@
 .outer-div{
     height: 12vh;
     width: 97%;
-    background-color:rgb(23, 9, 64);
+    background-color: rgb(23, 9, 64);
     display: inline-flex;
     padding-left: 0%;
     padding-right: 3%;
 }
 .name{
     height: 12vh;
-    width: 22%;
+    width: 25%;
     /* background-color: azure; */
     background-color: rgb(23, 9, 64);
     margin-left: 2.5%;
@@ -26,7 +26,7 @@
 }
 .search-bar{
     height: 12vh;
-    width: 64%;
+    width: 60%;
     background-color: rgb(23, 9, 64);
     margin-left: 7%;
 }
@@ -78,7 +78,7 @@
 .dropdown-list{
     height: 8vh;
     width: 100%;
-    margin-top: 1.8vh;
+    margin-top: 1.4vh;
     border-radius: 5px;
     font-size: larger;
     background-color:rgb(23, 9, 64);
@@ -92,17 +92,20 @@
     cursor: pointer;
 }
 .wishlist{
-    height: 8.5vh;
+    height: 8vh;
     width: 12%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
-    margin-top: 1.5vh;
+    margin-top: 1vh;
     border-radius: 5px;
     margin-left: 2%;
     font-size: larger;
     display: inline-flex;
     padding-top: 3vh;
+}
+.wishlist p{
+    font-size: large;
 }
 .wishlist:hover{
     border-color: rgb(121, 115, 139);
@@ -110,17 +113,20 @@
     color: white;
 }
 .cart-button{
-    height: 8.5vh;
+    height: 7vh;
     width: 11%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
-    margin-top: 1.8vh;
+    margin-top: 1vh;
     border-radius: 5px;
     margin-left: 1.8%;
     font-size: larger;
     display: inline-flex;
     padding-top: 3vh;
+}
+.cart-button p{
+    font-size: large;
 }
 .wishlist:hover{
     border-color: rgb(121, 115, 139);

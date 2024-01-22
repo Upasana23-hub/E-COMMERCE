@@ -17,10 +17,10 @@ const Nav = () => {
   };
   return (
     <nav className='outer-div'>
-      <button className='name' >
+      <div className='name' >
            <img src='SHOPEE.png' alt='name' className='logo'/>
           <div className='heading'>SHOPEE</div>
-      </button>
+      </div>
 
       <div className="search-bar">
         <input className='search'
@@ -35,22 +35,22 @@ const Nav = () => {
       </div>
 
       <div className="dropdown">
-        <button className='dropdown-list'>
+        <div className='dropdown-list' >
         <i class="fa-solid fa-user"></i>
         &nbsp;
             My Account
-        </button>
+        </div>
       </div>
-      <button className='wishlist'>
+      <div className='wishlist'>
       <i className="fa-solid fa-heart"></i>
       &nbsp;
       <p>Wishlist</p>
-      </button>
-      <button className='cart-button'>
+      </div>
+      <div className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
       &nbsp;
       <p>Cart</p>
-      </button>
+      </div>
       
     </nav>
   );

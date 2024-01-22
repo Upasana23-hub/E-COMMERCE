@@ -14,9 +14,12 @@
     display: inline-flex;
 }
 .footer-lower{
-    height: 8vh;
+    height: 6vh;
     width: 100%;
     background-color: rgb(63, 62, 62);
+    color: white;
+    text-align: center;
+    padding-top: 2vh;
 }
 .hr1{
     width: 90%;
@@ -24,34 +27,44 @@
 }
 .footer1{
     height: 32vh;
-    width: 23%;
+    width: 15%;
     background-color: rgb(23, 9, 64);
     /* display: inline-flex; */
     padding-top: 10vh;
-    margin-left: 4%;
+    margin-left: 3%;
 }
 .footer2{
     height: 32vh;
-    width: 21%;
+    width: 12%;
     background-color: rgb(23, 9, 64);
     padding-top: 6vh;
-    margin-left: 8%;
+    margin-left: 7%;
 }
 .footer3{
     height: 32vh;
-    width: 24%;
+    width: 15%;
     background-color: rgb(23, 9, 64);
     padding-top: 6vh;
-    margin-left: 5%;
+    margin-left: 6%;
 }
 .footer4{
     height: 32vh;
-    width: 24%;
+    width: 15%;
     background-color: rgb(23, 9, 64);
     padding-top: 6vh;
-    margin-left: 5%;
+    margin-left: 6%;
 }
-
+.footer5{
+    height: 32vh;
+    width: 15%;
+    background-color: rgb(23, 9, 64);
+    padding-top: 6vh;
+    margin-left: 3%;
+    color: white;
+}
+.footer5 h3{
+    margin-left: 21.6%;
+}
 .shopee{
     height: 12vh;
     width: 80%;
@@ -97,4 +110,76 @@ ul{
 li{
     margin-top: 3.9px;
     /* background-color: rgb(23, 9, 64); */
+}
+.address{
+    height: 11vh;
+    width: 74%;
+    background-color: rgb(23, 9, 64);
+    margin-left: 1.5%;
+    color: rgb(177, 177, 177);
+    display: flex;
+}
+.address i{
+    margin-top: 2vh;
+}
+.address p{
+    margin-top: 2vh;
+    margin-left: 9%;
+}
+.hr2{
+    width: 77%;
+}
+.phone i{
+    margin-top: 2vh;
+}
+.phone p{
+    margin-top: 2vh;
+    margin-left: 9%;
+}
+.phone{
+    height: 3.5vh;
+    width: 74%;
+    background-color: rgb(23, 9, 64);
+    margin-left: 1.5%;
+    color: rgb(177, 177, 177);
+    display: flex;
+}
+.email i{
+    margin-top: 2vh;
+}
+.email p{
+    margin-top: 2vh;
+    margin-left: 9%;
+}
+.email{
+    height: 3.5vh;
+    width: 74%;
+    background-color: rgb(23, 9, 64);
+    margin-left: 1.5%;
+    color: rgb(177, 177, 177);
+    display: flex;
+}
+.social{
+    height: 3.5vh;
+    width: 74%;
+    background-color: rgb(23, 9, 64);
+    color: rgb(177, 177, 177);
+    display: flex;
+    margin-top: 1.5vh;
+    margin-left: 13.5%;
+}
+.social i{
+    margin-left: 6%;
+}
+.news{
+    height: 4vh;
+    width: 83%;
+}
+.newsletter button{
+    height: 4vh;
+    width: 50%;
+    font-size: small;
+    border-radius: 10px;
+    margin-left: 17%;
+    background-color: rgb(94, 131, 254);
 }
