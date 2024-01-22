@@ -1,10 +1,8 @@
 import React from 'react'
 import './Slider.css';
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 export const Slider = () => {
   return (
