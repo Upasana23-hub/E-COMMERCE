@@ -1,8 +1,15 @@
 import React from "react";
 import { Slider } from "./Components/Slider";
+import Footer from "./Components/Footer";
+import Homecard from "./Components/Homecard";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Home from "./Pages/Home";
 import { Data } from "./Components/Data";
 import { useEffect, useState } from "react";
 import {Card} from "./Components/Card";
+import Nav from "./Components/Nav";
+import Product from "./Components/Product";
+
 function App() {
   const [category, setcategory] = useState([]);
   useEffect(() =>{
@@ -16,7 +23,11 @@ function App() {
   return (
     
     <div className="App">
-      <Slider/>    
+      <>
+      <Nav/>
+      <Product/>
+
+      <Slider/>
       <div style={{display:'flex',flexWrap: "wrap"}}>
         {category.map((item) => (
         <Card
@@ -28,6 +39,11 @@ function App() {
         />
         ))}
       </div>
+      <Homecard/>
+      <Footer/>
+      
+      </>
+      
     </div>
   );
 }
