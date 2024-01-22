@@ -21,27 +21,19 @@ export const Slider = () => {
     className="mySwiper"
     >
       <SwiperSlide>
-        <div className='first_slider'>
-        <div className='information'>
-            <h1 className='Inf10'>Starting From ₹199</h1>
-            <h3 className='Inf11'>Deals on Top Brands</h3>
-            <h4 className='Inf12'>Free Delivery  </h4>
-            <h4 className='Inf12'>  Latest Trend</h4>
-            <div className='discout_banner'>
-                <div className='bank_photo'>
+      <div className='fourth_slider'>
+        <div className='photo6'>
+            <div className='photo7'>
 
-                </div>
-                <div className='bank_dis'>
-                    <h3 className='dis'>10% discount on credit cards</h3>
-                </div>
             </div>
         </div>
-        <div className='photo'>
-            <div className='photo1'>
-
-            </div>
+        <div className='information3'>
+            <h1 className='Inf40'>WINTER FEST</h1>
+            <h2 className='Inf41'><i>40-70% OFF</i></h2>
+                <h4 className='Inf42'>HOTTEST WINTER STYLES!</h4>
         </div>
       </div>
+        
       </SwiperSlide>
       <SwiperSlide>
         <div className='second_slider'>
@@ -81,16 +73,25 @@ export const Slider = () => {
       </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className='fourth_slider'>
-        <div className='photo6'>
-            <div className='photo7'>
+      <div className='first_slider'>
+        <div className='information'>
+            <h1 className='Inf10'>Starting From ₹199</h1>
+            <h3 className='Inf11'>Deals on Top Brands</h3>
+            <h4 className='Inf12'>Free Delivery  </h4>
+            <h4 className='Inf12'>  Latest Trend</h4>
+            <div className='discout_banner'>
+                <div className='bank_photo'>
 
+                </div>
+                <div className='bank_dis'>
+                    <h3 className='dis'>10% discount on credit cards</h3>
+                </div>
             </div>
         </div>
-        <div className='information3'>
-            <h1 className='Inf40'>WINTER FEST</h1>
-            <h2 className='Inf41'><i>40-70% OFF</i></h2>
-                <h4 className='Inf42'>HOTTEST WINTER STYLES!</h4>
+        <div className='photo'>
+            <div className='photo1'>
+
+            </div>
         </div>
       </div>
       </SwiperSlide>
@@ -107,5 +108,6 @@ export const Slider = () => {
       </div>
       </SwiperSlide>
     </Swiper>
+    
   )
 }
