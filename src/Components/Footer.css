@@ -7,3 +7,93 @@
     width: 100%;
     background-color: rgb(23, 9, 64);
 }
+.footer-upper{
+    height: 42vh;
+    width: 100%;
+    background-color: rgb(23, 9, 64);
+    display: inline-flex;
+}
+.footer-lower{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(63, 62, 62);
+}
+.hr1{
+    width: 90%;
+    margin-left: 5%;
+}
+.footer1{
+    height: 32vh;
+    width: 23%;
+    background-color: rgb(23, 9, 64);
+    /* display: inline-flex; */
+    padding-top: 10vh;
+    margin-left: 4%;
+}
+.footer2{
+    height: 32vh;
+    width: 21%;
+    background-color: rgb(23, 9, 64);
+    padding-top: 6vh;
+    margin-left: 8%;
+}
+.footer3{
+    height: 32vh;
+    width: 24%;
+    background-color: rgb(23, 9, 64);
+    padding-top: 6vh;
+    margin-left: 5%;
+}
+.footer4{
+    height: 32vh;
+    width: 24%;
+    background-color: rgb(23, 9, 64);
+    padding-top: 6vh;
+    margin-left: 5%;
+}
+
+.shopee{
+    height: 12vh;
+    width: 80%;
+    background-color: rgb(23, 9, 64);
+    margin-left: 6%;
+    display: inline-flex;
+}
+.name:hover{
+    cursor: pointer;
+}
+.logo{
+    height: 11vh;
+    width: 100%;
+    background-color: transparent;
+}
+.heading{
+    height: 6vh;
+    width: 60%;
+    margin-top: 2.5vh;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin-left: 2%;
+
+}
+.line{
+    color: rgb(167, 167, 167);
+    margin-top: 2vh;
+    margin-left: 24%;
+}
+.heading-footer{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+}
+ul{
+    color: rgb(177, 177, 177);
+    margin-top: 1.6vh;
+    margin-left: 7.5%;
+}
+li{
+    margin-top: 3.9px;
+}
