@@ -39,12 +39,40 @@ const Footer = () => {
                 </div>
                 <div className="footer4">
                 <h3 className="heading-footer">CONTACT</h3>
+                <div className="address">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Address: XYZ, New Delhi, India. Pin Code:110051</p>
+                  </div>
+                  <hr className="hr2"/>
+                  <div className="phone">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>Phone: 8976297534</p>
+                  </div>
+                  <div className="email">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>Email: contact@shopee.com</p>
+                  </div>
+                  <div className="connect">
+                  </div>
                 </div>
-                <div className="footer5"></div>
+                <div className="footer5">
+                  <h3>SOCIAL</h3>
+                  <div className="social">
+                  <i class="fa-brands fa-facebook" ></i>
+                  <i class="fa-brands fa-instagram" ></i>
+                  <i class="fa-brands fa-youtube" ></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <br/><br/>
+                  <div className="newsletter"> 
+                    <input type="text" className="news"/>
+                    <button>Subscribe</button>
+                  </div>
+                </div>
             </div>
             <hr className="hr1"/>
             <div className="footer-lower">
-              <p></p>
+              <p> &copy; <em id="date"></em>2024 Shopee, All Right Reserved.</p>
             </div>
         </div>
         </>
