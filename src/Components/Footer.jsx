@@ -58,10 +58,10 @@ const Footer = () => {
                 <div className="footer5">
                   <h3>SOCIAL</h3>
                   <div className="social">
-                  <i class="fa-brands fa-facebook" ></i>
-                  <i class="fa-brands fa-instagram" ></i>
-                  <i class="fa-brands fa-youtube" ></i>
-                  <i class="fa-brands fa-twitter"></i>
+                  <a href="hgg"><i class="fa-brands fa-facebook" ></i></a>
+                  <a href="hgg"><i class="fa-brands fa-instagram" ></i></a>
+                  <a href="hgg"><i class="fa-brands fa-youtube" ></i></a>
+                  <a href="gjhg"><i class="fa-brands fa-twitter"></i></a>
                   </div>
                   <br/><br/>
                   <div className="newsletter"> 
