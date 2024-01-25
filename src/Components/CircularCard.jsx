@@ -1,6 +1,6 @@
 import React from 'react';
 import './CircularCard.css';
-import men from "../pictures/men.avif"
+import men from "../pictures/men.avif";
 import women from "../pictures/women.avif"
 import winterwear from "../pictures/winterwear.avif"
 import kids from "../pictures/kids.avif"

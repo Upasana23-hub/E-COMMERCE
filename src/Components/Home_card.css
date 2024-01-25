@@ -344,7 +344,7 @@ p{
 .sli6{
     height: 80%;
     width: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     background-image: url(../pictures/umbrella.jpeg);
     background-position: center;
     background-repeat: no-repeat;
