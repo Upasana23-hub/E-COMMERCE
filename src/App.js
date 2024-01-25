@@ -2,7 +2,7 @@ import React from "react";
 import { Slider } from "./Components/Slider";
 import Footer from "./Components/Footer";
 import Homecard from "./Components/Homecard";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Home from "./Pages/Home";
 import { Data } from "./Components/Data";
 import { useEffect, useState } from "react";
@@ -21,30 +21,39 @@ function App() {
     setcategory(filtered);
   };
   return (
-    
+    <Router>
     <div className="App">
       <>
       <Nav/>
       <Product/>
-
       <Slider/>
-      <div style={{display:'flex',flexWrap: "wrap"}}>
-        {category.map((item) => (
-        <Card
-          image={item.image}
-          Name={item.Name}
-          about={item.about}
-          actualPrice={item.actualPrice}
-          offerPrice={item.offerPrice}
-        />
-        ))}
-      </div>
       <Homecard/>
+      <Routes>
+        <Route path="/" element={
+          <>
+            
+          <div style={{display:'flex',flexWrap: "wrap"}}>
+            {category.map((item) => (
+            <Card
+              image={item.image}
+              Name={item.Name}
+              about={item.about}
+              actualPrice={item.actualPrice}
+              offerPrice={item.offerPrice}
+            />
+            ))}
+            </div>
+          </>
+        }
+      />
+      
+      </Routes>
       <Footer/>
       
       </>
       
     </div>
+    </Router>
   );
 }
 

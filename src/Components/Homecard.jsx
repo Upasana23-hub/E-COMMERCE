@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { FreeMode, Navigation, Pagination } from 'swiper/modules';
+import { Link } from "react-router-dom";
 const Homecard = () => {
     return(
         <>
@@ -169,6 +170,7 @@ const Homecard = () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
+            <Link to="/">
             <div className="fifth_div">
                 <div className="sli5">
 
@@ -176,6 +178,7 @@ const Homecard = () => {
                 <p className="dis_red">Up to 25% off</p>
                 <p className="under_dis">Electronics Accessories</p>
             </div>
+            </Link>
             </SwiperSlide>
         <SwiperSlide>
             <div className="sixth_div">

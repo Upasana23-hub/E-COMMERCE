@@ -2,8 +2,10 @@
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import React from 'react'
 import "./Card.css";
+import { Link } from 'react-router-dom';
 export const Card = ({offerPrice,actualPrice,image,Name,about}) => {
   return (
+    <Link to={`/ /${Name}`}>
     <div className='card'>
         <div className="card__heart">
             <FavoriteIcon/>
@@ -28,6 +30,7 @@ export const Card = ({offerPrice,actualPrice,image,Name,about}) => {
         </div>
         </div>
     </div>
+    </Link>
   )
 }
 
