@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
 import "swiper/css/scrollbar";
-export const Slider = () => {
+ const Slider = () => {
   return (
     <Swiper
     spaceBetween={30}
@@ -109,3 +109,5 @@ export const Slider = () => {
     
   )
 }
+
+export default Slider;
