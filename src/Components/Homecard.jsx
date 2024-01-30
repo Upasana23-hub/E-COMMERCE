@@ -170,7 +170,7 @@ const Homecard = () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <Link to="/">
+            <Link to="/Another:id">
             <div className="fifth_div">
                 <div className="sli5">
 
