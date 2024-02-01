@@ -9,7 +9,7 @@ import Nav from "./Components/Nav";
 import Home from "./Pages/Home";
 import Another from "./Pages/Products/Another";
 import Single from "./Pages/Products/Single";
-// import About from "./Pages/About/About";
+import About from "./Pages/About";
 function App() {
   
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/Another:id" element={<Another/>}/>
         <Route path="/Single:Name" element={<Single/>}/>
-        {/* <Route path="/About" element={<About />}/> */}
+        <Route path="/About" element={<About/>}/>
       </Routes>
       <Footer/>
     </div>
