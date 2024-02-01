@@ -6,15 +6,17 @@
 }
 .outer-div{
     height: 12vh;
-    width: 97%;
+    width: 95.5%;
     background-color: rgb(23, 9, 64);
     display: inline-flex;
-    padding-left: 0%;
+    padding-left: 1.5%;
     padding-right: 3%;
+    /* position: fixed; */
+    z-index: 2;
 }
 .name{
     height: 12vh;
-    width: 25%;
+    width: 30%;
     /* background-color: azure; */
     background-color: rgb(23, 9, 64);
     margin-left: 2.5%;
@@ -56,7 +58,7 @@
 }
 .logo{
     height: 11vh;
-    width: 44%;
+    width: 105%;
     background-color: transparent;
 }
 .heading{
