@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Nav.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'react-router-dom';
 const Nav = () => {
   // State for search input
   const [searchTerm, setSearchTerm] = useState('');
@@ -17,10 +18,11 @@ const Nav = () => {
   };
   return (
     <nav className='outer-div'>
-      <div className='name' >
+      <Link to="/"><div className='name' >
            <img src='SHOPEE.png' alt='name' className='logo'/>
           <div className='heading'>SHOPEE</div>
       </div>
+      </Link>
 
       <div className="search-bar">
         <input className='search'

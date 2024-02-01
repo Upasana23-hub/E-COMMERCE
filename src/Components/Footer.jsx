@@ -1,5 +1,6 @@
 import React from "react";
 import './Footer.css'
+import { Link } from "react-router-dom";
 const Footer = () => {
     return(
         <>
@@ -15,41 +16,41 @@ const Footer = () => {
                 <div className="footer2">
                   <h3 className="heading-footer">CATEGORIES</h3>
                   <ul>
-                    <li><a href="Home.jsx">Men</a></li>
-                    <li><a href="Home.jsx">Women</a></li>
-                    <li><a href="Home.jsx">Kids</a></li>
-                    <li><a href="Home.jsx">Footwear</a></li>
-                    <li><a href="Home.jsx">Winterwear</a></li>
-                    <li><a href="Home.jsx">Electronics</a></li>
-                    <li><a href="Home.jsx">Watches</a></li>
-                    <li><a href="Home.jsx">Bags</a></li>
+                    <li><Link to="/Men">Men</Link></li>
+                    <li><Link to="/Women">Women</Link></li>
+                    <li><Link to="/Kids">Kids</Link></li>
+                    <li><Link to="/Contact">Footwear</Link></li>
+                    <li><Link to="/Contact">Winterwear</Link></li>
+                    <li><Link to="/Contact">Electronics</Link></li>
+                    <li><Link to="/Contact">Watches</Link></li>
+                    <li><Link to="/Contact">Bags</Link></li>
                   </ul>
                 </div>
                 <div className="footer3">
                 <h3 className="heading-footer">INFORMATIONS</h3>
                   <ul>
-                    <li><a href="Home.jsx">Home</a></li>
-                    <li><a href="Home.jsx">About Us</a></li>
-                    <li><a href="Home.jsx">Contact Us</a></li>
-                    <li><a href="Home.jsx">Term and Condition</a></li>
-                    <li><a href="Home.jsx">Return and Exchange</a></li>
-                    <li><a href="Home.jsx">Shipping and Delivery</a></li>
-                    <li><a href="Home.jsx">Privacy Policy</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/About">About Us</Link></li>
+                    <li><Link to="/Contact">Contact Us</Link></li>
+                    <li><Link to="/Term">Term and Condition</Link></li>
+                    <li><Link to="/Return">Return and Exchange</Link></li>
+                    <li><Link to="/Shipping">Shipping and Delivery</Link></li>
+                    <li><Link to="/Privacy">Privacy Policy</Link></li>
                   </ul>
                 </div>
                 <div className="footer4">
                 <h3 className="heading-footer">CONTACT</h3>
                 <div className="address">
-                  <i class="fa-solid fa-location-dot"></i>
+                  <i className="fa-solid fa-location-dot"></i>
                   <p>Address: XYZ, New Delhi, India. Pin Code:110051</p>
                   </div>
                   <hr className="hr2"/>
                   <div className="phone">
-                  <i class="fa-solid fa-phone"></i>
+                  <i className="fa-solid fa-phone"></i>
                   <p>Phone: 8976297534</p>
                   </div>
                   <div className="email">
-                  <i class="fa-solid fa-envelope"></i>
+                  <i className="fa-solid fa-envelope"></i>
                   <p>Email: contact@shopee.com</p>
                   </div>
                   <div className="connect">
