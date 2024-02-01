@@ -8,6 +8,7 @@ const Another = () => {
   //   useEffect(() =>{
   //   filter("");
   // },[]);
+  // arrow function
   // const filter = (names) => {
   //   const filtered = Data.filter((item) => item.name.includes(names));
   //   console.log(filtered);
@@ -20,9 +21,10 @@ const Another = () => {
             <Card
               image={item.image}
               Name={item.Name}
-              // about={item.about}
-              // actualPrice={item.actualPrice}
-              // offerPrice={item.offerPrice}
+              about={item.about}
+              actualPrice={item.actualPrice}
+              offerPrice={item.offerPrice}
+              size={item.size}
             />
             ))}
             </div>

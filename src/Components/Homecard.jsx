@@ -134,6 +134,7 @@ const Homecard = () => {
         >
 
         <SwiperSlide>
+        <Link to="/Another:id">
             <div className="first_div">
                 <div className="sli1">
 
@@ -141,7 +142,8 @@ const Homecard = () => {
                 <p className="dis_red">Up to 78% off</p>
                 <p className="under_dis">Best Deals on Sports Shoes</p>
             </div>
-            </SwiperSlide>
+        </Link>
+        </SwiperSlide>
         <SwiperSlide>
             <div className="second_div">
                 <div className="sli2">

@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./Components/Nav";
 import Home from "./Pages/Home";
 import Another from "./Pages/Products/Another";
+import Single from "./Pages/Products/Single";
 function App() {
   
   return (
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/Another:id" element={<Another/>}/>
+        <Route path="/Single:Name" element={<Single/>}/>
       </Routes>
       <Footer/>
       
