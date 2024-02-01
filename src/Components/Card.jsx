@@ -1,12 +1,12 @@
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import React from 'react';
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import React from "react";
 import "./Card.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
-export const Card = ({ offerPrice, actualPrice, image, Name, about }) => {
+export const Card = ({ Name, image, about, offerPrice, actualPrice, size }) => {
   return (
-    <Link to={`/${Name}`}>
-      <div className='card'>
+    <Link to="/Single:Name">
+      <div className="card">
         <div className="card__heart">
           <FavoriteIcon />
         </div>
@@ -15,15 +15,17 @@ export const Card = ({ offerPrice, actualPrice, image, Name, about }) => {
         </div>
         <div className="productDet">
           <div className="card__details">
-            <p className='title'>{Name}</p>
-            <p>{about}</p>
-            <span className='span1'>₹{offerPrice}</span>
-            <span className='span2'>₹{actualPrice}</span>
-            <span className='span3'>55%</span>
+            <p className="title">{Name}</p>
+            <p className="about">{about}</p>
+            <div className="rate">
+              <p className="span1">₹{offerPrice}</p>
+              <p className="span2">₹{actualPrice}</p>
+              <p className="span3" >55%</p>
+            </div>
           </div>
           <div className="card__size">
             <p>
-              size <span> 6,7,8,9</span>
+              size <p> {size}</p>
             </p>
           </div>
         </div>
