@@ -10,18 +10,25 @@
 .about-outer{
     height: 42.5vh;
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-image: url('../pictures/1st_banner.png');
+    background-attachment: fixed;
+    background-position:center;
+    background-size:auto;
+    background-repeat: no-repeat;
 }
 .title{
     height: 30vh;
     width: 100%;
-    background-color: rgb(0, 0, 0 ,0.4);
+    background-color: rgb(0, 0, 0 ,0.7);
     text-align: center;
     padding-top: 12.5vh;
+    
 }
 .about{
     font-size: 80px;
     text-align: center;
+    color: white;
 }
 .body{
     height: 70vh;
@@ -79,7 +86,7 @@
     background-color: rgb(240, 240, 240);
 }
 .box{
-    height: 43vh;
+    height: 45vh;
     width: 96%;
     background-color: rgb(240, 240, 240);
     display: inline-flex;
@@ -162,4 +169,7 @@
 }
 .follow-us{
     font-size: larger;
+}
+.image-new{
+    box-shadow: 0px 15px 15px 5px rgba(78, 78, 78, 0.2); 
 }

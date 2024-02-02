@@ -11,6 +11,7 @@ import Return from '../pictures/return.png'
 import Customer from '../pictures/Customer.png'
 import Know from '../pictures/Know.avif'
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 const About = () => {
   const images = [img1, img2, img3, img4, img5];
@@ -21,7 +22,13 @@ const About = () => {
     }, 2000)
     
     return () => clearInterval(intervalId);
-}, [])
+}, )
+const location = useLocation();
+    useEffect(() => {
+        if (!location.hash) {
+            window.scrollTo(0, 0);
+        }
+    }, [location]);
   return (
     <>
     <div className='main-outer'>
@@ -49,19 +56,19 @@ const About = () => {
       <div className='new-promise'><p className='promise'>Our Promise</p></div>
       <div className='box'>
         <div className="box1">
-          <div className="img1"><img src={Customer} alt='Customer' height={188.7} width={282.7}/></div>
+          <div className="img1"><img src={Customer} className='image-new' alt='Customer' height={188.7} width={282.7}/></div>
           <div className="text1">
             <p className='our-promise'>Customer Satisfaction</p>
           </div>
         </div>
         <div className="box2">
-          <div className="img1"><img src={Delivery} alt='Delivery' height={188.7} width={282.7}/></div>
+          <div className="img1"><img src={Delivery} className='image-new' alt='Delivery' height={188.7} width={282.7}/></div>
           <div className="text1">
             <p className='our-promise'>Speedy Delivery</p>
           </div>
         </div>
         <div className="box3">
-          <div className="img1"><img src={Return} alt='Return' height={188.7} width={282.7}/></div>
+          <div className="img1"><img src={Return} className='image-new' alt='Return' height={188.7} width={282.7}/></div>
           <div className="text1">
             <p className='our-promise'>Easy Return</p>
           </div>
