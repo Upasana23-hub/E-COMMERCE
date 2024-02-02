@@ -5,6 +5,7 @@
 .main-outer{
     height: 360vh;
     width: 100%;
+    padding-top: 12vh;
 }
 .about-outer{
     height: 42.5vh;
