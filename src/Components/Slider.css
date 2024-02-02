@@ -6,7 +6,7 @@
     height: 60vh;
     width: 100%;
     /* background-color: black; */
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url(../pictures/back_photo.jpeg);
@@ -100,7 +100,7 @@
     height: 60vh;
     width: 100%;
     background-color: yellow;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url(../pictures/Back_photo2.jpeg);
@@ -166,7 +166,7 @@
     height: 60vh;
     width: 100%;
     background-color: yellow;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url(../pictures/back_photo3.jpeg);
@@ -261,14 +261,14 @@
     height: 60vh;
     width: 100%;
     /* background-color: black; */
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url(../pictures/back_photo4.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(6px);
+    /* backdrop-filter: blur(6px); */
 }
 
 .photo6{
@@ -323,7 +323,7 @@
 .fifth_slider{
     height: 60vh;
     width: 100%;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: black;
