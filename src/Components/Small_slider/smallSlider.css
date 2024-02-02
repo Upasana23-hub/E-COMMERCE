@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Ubuntu:wght@300&display=swap');
+
+
+.full-slider-div{
+    height: 45vh;
+    width: 96%;
+    /* background-color: navy; */
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.up_info_div{
+    height: 10%;
+    width: 100%;
+    
+    display: inline-block;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size:x-large;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.Slider_div2{
+    height: 80%;
+    width: 100%;
+    /* display: flex; */
+}
+
+.first_pic,.second_pic,.third_pic,.fourth_pic,.fifth_pic,.sixth_pic,.seventh_pic,.eightth_pic,.nineth_pic,.tenth_pic,.eleventh_pic,.twelveth_pic{
+    height: 87%;
+    width: 105%;
+    margin-top: 12%;
+    margin-left: 8%;
+    /* background-color: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mySwiper{
+    height: 100%;
+    margin-bottom:10% ;
+}
+
+.first_pic{
+    background-image: url(../../pictures/car_duster.jpg);
+}
+
+.second_pic{
+    background-image: url(../../pictures/helmet1.jpg);
+}
+
+.third_pic{
+    background-image: url(../../pictures/helmet2.jpg);
+}
+
+.fourth_pic{
+    background-image: url(../../pictures/Car_air_freshner.jpg);
+}
+
+.fifth_pic{
+    background-image: url(../../pictures/car_tyre_inflator.jpg);
+}
+
+.sixth_pic{
+    background-image: url(../../pictures/car_cover.jpg);
+}
+
+.seventh_pic{
+    background-image: url(../../pictures/helmet3.jpg);
+}
+
+.eightth_pic{
+    background-image: url(../../pictures/bike_cover.jpeg);
+}
+
+.nineth_pic{
+    background-image: url(../../pictures/car_tyre_inflator2.jpg);
+}
+
+.tenth_pic{
+    background-image: url(../../pictures/engine_oil.jpg);
+}
+
+.eleventh_pic{
+    background-image: url(../../pictures/helmet4.jpg);
+}
+
+.twelveth_pic{
+    background-image: url(../../pictures/car_wash_shampoo.jpg);
+}
