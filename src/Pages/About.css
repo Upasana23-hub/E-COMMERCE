@@ -79,11 +79,11 @@
 }
 .box{
     height: 43vh;
-    width: 95%;
+    width: 96%;
     background-color: rgb(240, 240, 240);
     display: inline-flex;
     padding-top: 5vh;
-    padding-left: 5%;
+    padding-left: 4%;
     box-shadow: 0px 15px 15px -5px rgba(78, 78, 78, 0.2); 
 }
 .box1{
@@ -133,7 +133,7 @@
     width: 45%;
     margin-left: 13%;
     /* background-color: rgb(250, 210, 149); */
-    margin-top: 5vh;
+    margin-top: 6vh;
     line-height: 5vh;
     text-align: justify;
 }
