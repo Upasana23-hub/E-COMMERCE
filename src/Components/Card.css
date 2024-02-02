@@ -24,15 +24,27 @@
 .card__details>p{
     font-size: 14px;
 }
-.card__details>.span1{
-    font-weight: bold;
+.about{
+    color: rgb(91, 88, 85);
 }
-.card__details>.span2{
+.rate{
+    display:flex;
+    justify-content: space-between;
+    /* color: red; */
+    padding-right: 5.2rem;
+    
+    
+}
+.span1{
+    font-weight: bold;
+    color: black;
+}
+.span2{
     color: gray;
     padding-left: 7px;
     text-decoration: line-through;
 }
-.card__details>.span3{
+.span3{
     color: rgb(2, 98, 2);
     padding-left: 7px;
     font-size: 14px;

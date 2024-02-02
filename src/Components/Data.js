@@ -374,6 +374,7 @@ export const Data = [
       name: "pant",
       Name: "Trends",
       about: "jo jo creation",
+      size: "24,28,32,34,36",
       image: [
         "http://udaipurbazar.com/images/thumbs/0000988_denim-knot-pant-high-waist-pants-online-for-girls_510.jpeg",
       ],
@@ -383,6 +384,9 @@ export const Data = [
       actualPrice: "999",
       rating: 3,
       name: "shirt",
+      Name: "Roadster",
+      about: "Men Regular Fit Checkered",
+      size: "S,M,L,XL,XXL",
       image: [
         "https://5.imimg.com/data5/UC/TY/MY-9601095/100-25-cotton-fancy-casual-shirt-for-men-500x500.jpg",
       ],
@@ -392,6 +396,9 @@ export const Data = [
       actualPrice: "9,989",
       rating: 4,
       name: "shirt",
+      Name: "BLUE MARTIN",
+      about: "Men Regular Fit solid casual",
+      size: "S, M, L, XL, XXL",
       image: [
         "https://cdn.andamen.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/1/01_29_20.jpg",
       ],
@@ -401,6 +408,9 @@ export const Data = [
       actualPrice: "10,999",
       rating: 4,
       name: "shirt",
+      Name: "Lunice",
+      about: "Men Regular Fit Self Design",
+      size: "S, L, XL, XXL",
       image: ["https://cdn.andamen.com/media/catalog/product/0/1/01_9_43.jpg"],
     },
     {
@@ -408,6 +418,9 @@ export const Data = [
       actualPrice: "10,799",
       rating: 3,
       name: "shirt",
+      Name: "Dennis Lingo",
+      about: "Men Slim Fit Solid Casual ",
+      size: "S, L, XL, XXL",
       image: [
         "https://cdn.shopclues.com/images1/thumbnails/98477/320/320/144857292-98477886-1580365831.jpg",
       ],
@@ -417,8 +430,11 @@ export const Data = [
       actualPrice: "9,899",
       rating: 2,
       name: "shirt",
+      Name: "BLUE MARTIN ",
+      about: "Men Regular Fit Checkered ",
+      size: "S, M, L, XL, XXL",
       image: [
-        "https://cdn.shopclues.com/images1/thumbnails/98477/320/320/144857292-98477886-1580365831.jpg",
+        "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/h/w/r/m-whitecheck-browncheck-youth-first-original-imaghy7hanwrzjzn.jpeg?q=70&crop=false",
       ],
     },
     {
@@ -426,6 +442,9 @@ export const Data = [
       actualPrice: "6,999",
       rating: 1,
       name: "shirt",
+      Name: "METRONAUT ",
+      about: "Men Regular Fit Solid ",
+      size: "S, M, L, XL, XXL",
       image: [
         "https://m.media-amazon.com/images/I/31EXeuRw1sL._AC_UL480_FMwebp_QL65_.jpg",
       ],
@@ -435,14 +454,20 @@ export const Data = [
       actualPrice: "8,399",
       rating: 4,
       name: "shirt",
+      Name: "youth first",
+      about: "Men NA Fit Checkered Button ",
+      size: "S, M, L, XL, XXL",
       image: ["https://images-na.ssl-images-amazon.com/images/I/41c9sqbff8L.jpg"],
     },
   
     {
-      offerPrice: 9,
+      offerPrice: 799,
       actualPrice: "999",
       rating: 1,
       name: "sandal",
+      Name: "Sparx",
+      about: "Men Navy Sandal",
+      size: "6, 7, 8, 9",
       image: [
         "https://contents.mediadecathlon.com/p1555674/637877ca0b0ff380e6113ddb73d40a0b/p1555674.jpg?f=650x650&format=auto",
       ],
@@ -452,6 +477,9 @@ export const Data = [
       actualPrice: "9,869",
       rating: 5,
       name: "sandal",
+      Name: "CAMPUS",
+      about: "Men Tan Sandal",
+      size: "6, 7, 8, 9",
       image: [
         "https://images-na.ssl-images-amazon.com/images/I/71rSsxZ4-rL._UL1500_.jpg",
       ],

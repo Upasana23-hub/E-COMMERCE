@@ -268,7 +268,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(6px);
+    /* backdrop-filter: blur(6px); */
 }
 
 .photo6{
