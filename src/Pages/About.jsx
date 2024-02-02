@@ -18,7 +18,7 @@ const About = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
         setCurrentImage(images[Math.floor(Math.random() * images.length)]);
-    }, 5000)
+    }, 2000)
     
     return () => clearInterval(intervalId);
 }, [])
