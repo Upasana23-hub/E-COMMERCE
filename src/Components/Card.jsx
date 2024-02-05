@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Card = ({ Name, image, about, offerPrice, actualPrice, size }) => {
   return (
-    <Link to="/Single:Name">
+    <Link to="/Single:name">
       <div className="card">
         <div className="card__heart">
           <FavoriteIcon />
@@ -15,8 +15,8 @@ export const Card = ({ Name, image, about, offerPrice, actualPrice, size }) => {
         </div>
         <div className="productDet">
           <div className="card__details">
-            <p className="title">{Name}</p>
-            <p className="about">{about}</p>
+            <p className="para">{Name}</p>
+            <p className="desc">{about}</p>
             <div className="rate">
               <p className="span1">₹{offerPrice}</p>
               <p className="span2">₹{actualPrice}</p>
@@ -25,7 +25,7 @@ export const Card = ({ Name, image, about, offerPrice, actualPrice, size }) => {
           </div>
           <div className="card__size">
             <p>
-              size <p> {size}</p>
+              size <p className="sizing"> {size}</p>
             </p>
           </div>
         </div>
