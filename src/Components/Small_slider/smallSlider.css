@@ -5,7 +5,7 @@
     height: 45vh;
     width: 96%;
     /* background-color: navy; */
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 2%;
     margin-right: 10%;
     margin-bottom: 5%;
@@ -90,4 +90,150 @@
 
 .twelveth_pic{
     background-image: url(../../pictures/car_wash_shampoo.jpg);
+}
+
+.outer_card_div{
+    height: 110vh;
+    width: 96%;
+    
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    display: flex;
+    
+}
+
+.inner_card_div1{
+    height: 100%;
+    width: 50%;   
+}
+
+.inner_card_div2{
+    height: 100%;
+    width: 50%;
+    background-image: url(../../pictures/S24.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.up_inner_card_div1{
+    height: 49%;
+    width: 100%;   
+    display: flex;
+}
+
+.dwn_inner_card_div1{
+    height: 49%;
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.card_1,.card_2,.card_3,.card_4{
+    height: 100%;
+    width: 46%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card_2,.card_4{
+    margin-left: 2%;
+}
+
+.pi{
+    
+    height: 75%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 12.5%;
+    
+}
+
+.pii{
+   
+    height: 75%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4.2%;
+    
+}
+.ins{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 4%;
+}
+
+.pi1,.pi2,.pi3,.pi4,.pi5,.pi6,.pi7,.pi8,.pi9,.pi10,.pi11,.pi12,.pi13,.pi14,.pi15,.pi16{
+    height: 85%;
+    width: 100%;
+    background-color: blueviolet;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pi1{
+    background-image: url(../../pictures/bedsheet.jpg);
+}
+
+.pi2{
+    background-image: url(../../pictures/figurines.jpg);
+}
+
+.pi3{
+    background-image: url(../../pictures/almirah.jpeg);
+}
+
+.pi4{
+    background-image: url(../../pictures/light.jpeg);
+}
+
+.pi5{
+    background-image: url(../../pictures/men_cloth.jpg);
+}
+
+.pi6{
+    background-image: url(../../pictures/men_footwear.webp);
+}
+
+.pi7{
+    background-image: url(../../pictures/men_watch.jpeg);
+}
+
+.pi8{
+    background-image: url(../../pictures/men_wallet.jpeg);
+}
+
+.pi13{
+    background-image: url(../../pictures/32_Tv.jpg);
+}
+
+.pi14{
+    background-image: url(../../pictures/43_tv.jpg);
+}
+
+.pi15{
+    background-image: url(../../pictures/55_tv.jpg);
+}
+
+.pi16{
+    background-image: url(../../pictures/65_Tv.jpg);
+}
+
+.pi9{
+    background-image: url(../../pictures/women_cloth.jpeg);
+}
+
+.pi11{
+    background-image: url(../../pictures/women_watch.jpg);
+}
+
+.pi10{
+    background-image: url(../../pictures/women_handbag.jpeg);
+}
+
+.pi12{
+    background-image: url(../../pictures/women_jwellery.jpeg);
 }
