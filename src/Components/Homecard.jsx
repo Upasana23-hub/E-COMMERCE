@@ -8,7 +8,7 @@ import { FreeMode, Navigation, Pagination } from 'swiper/modules';
 import { Link } from "react-router-dom";
 const Homecard = () => {
     return(
-        <>
+        <Link to="/Another:id">
         <div className="card_outer">
             <div className="first_card">
                 <div className="instr">
@@ -172,7 +172,7 @@ const Homecard = () => {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <Link to="/Another:id">
+            {/* <Link to="/Another:id"> */}
             <div className="fifth_div">
                 <div className="sli5">
 
@@ -180,7 +180,7 @@ const Homecard = () => {
                 <p className="dis_red">Up to 25% off</p>
                 <p className="under_dis">Electronics Accessories</p>
             </div>
-            </Link>
+            {/* </Link> */}
             </SwiperSlide>
         <SwiperSlide>
             <div className="sixth_div">
@@ -249,7 +249,7 @@ const Homecard = () => {
       </Swiper>
         </div>
         
-        </>
+        </Link>
     )
 }
 export default Homecard;

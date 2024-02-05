@@ -4,8 +4,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
 import "swiper/css/scrollbar";
+import { Link} from 'react-router-dom';
  const Slider = () => {
   return (
+    <Link to="/Another:id">
+
     <Swiper
     spaceBetween={30}
     centeredSlides={true}
@@ -106,6 +109,7 @@ import "swiper/css/scrollbar";
       </div>
       </SwiperSlide>
     </Swiper>
+    </Link>
     
   )
 }

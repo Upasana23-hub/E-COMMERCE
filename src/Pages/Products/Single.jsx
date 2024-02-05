@@ -1,9 +1,9 @@
 import React from 'react'
-
+import  './Single.css'
 const Single = () => {
   return (
-    <div>
-      <h1>single page</h1>
+    <div className='single-outer'>
+      <h1>Coming soon ....</h1>
     </div>
   )
 }

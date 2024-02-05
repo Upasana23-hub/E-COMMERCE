@@ -11,6 +11,8 @@ import Another from "./Pages/Products/Another";
 import Single from "./Pages/Products/Single";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Profile from "./Pages/Profile";
+import Privacy from "./Pages/Privacy"
 function App() {
   
   return (
@@ -21,9 +23,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/Another:id" element={<Another/>}/>
-        <Route path="/Single:Name" element={<Single/>}/>
+        <Route path="/Single:name" element={<Single/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/Profile" element={<Profile/>}/>
+        <Route path="/Privacy" element={<Privacy/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -1,7 +1,9 @@
 import React from 'react'
-// import { useEffect, useState } from "react";
+import './Another.css';
+import { useEffect } from "react";
 import { Data } from "../../Components/Data";
 import {Card} from "../../Components/Card";
+import { useLocation } from 'react-router-dom';
 const Another = () => {
 
   //   const [category, setcategory] = useState([]);
@@ -14,9 +16,16 @@ const Another = () => {
   //   console.log(filtered);
   //   setcategory(filtered);
   // };
+
+  const location = useLocation();
+    useEffect(() => {
+        if (!location.hash) {
+            window.scrollTo(0, 0);
+        }
+    }, [location]);
   return (
     <>
-      <div style={{display:'flex',flexWrap: "wrap"}}>
+      <div style={{display:'flex',flexWrap: "wrap"}} className='card-out'>
             {Data.map((item) => (
             <Card
               image={item.image}
