@@ -6,6 +6,7 @@ export const Data = [
       name: "shoe",
       Name: "adidas ",
       about: "running shoe",
+      size: "6, 7, 8, 9",
       image: [
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/192781/01/sv01/fnd/PNA/fmt/png/Uproar-Charlotte-ASG-Fade-Basketball-Shoes",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr0o26TvhoSTuIInD4n2xzVAqkTgG29bsWTs-Cmav5yxJUt785PM4P98uCFA&usqp=CAc",
@@ -19,6 +20,7 @@ export const Data = [
       name: "shoe",
       Name: "adidas ",
       about: "walking shoe",
+      size: "6, 7, 8, 9",
       image: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr0o26TvhoSTuIInD4n2xzVAqkTgG29bsWTs-Cmav5yxJUt785PM4P98uCFA&usqp=CAc",
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/192781/01/sv01/fnd/PNA/fmt/png/Uproar-Charlotte-ASG-Fade-Basketball-Shoes",
@@ -32,6 +34,7 @@ export const Data = [
       name: "shoe",
       Name: "Bruton ",
       about: "Trendy running shoes",
+      size: "6, 7, 8, 9",
       image: [
         "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/e/z/7/6-cg-34-6-campus-mod-blu-blu-original-imagn9zh43fh78ph.jpeg?q=70&crop=false",
        
@@ -44,6 +47,7 @@ export const Data = [
       name: "shoe",
       Name: "aadi ",
       about: "Lightweight,comfort,summer shoe",
+      size: "6, 7, 8, 9",
       image: [
         "https://contents.mediadecathlon.com/p1419921/72b461620e3e5ec61db942355362dd66/p1419921.jpg?f=1000x1000&format=auto",
       ],
@@ -55,6 +59,7 @@ export const Data = [
       name: "shoe",
       Name: "sprenge ",
       about: "walking shoes",
+      size: "6, 7, 8, 9",
       image: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsb24B4w1EApz5OJr0VVcqdiBs6WfFJJc1YMmceHYudxBgA6GOJxKE_zg9FjPWzO3kzPk2DXE&usqp=CAc",
       ],
@@ -66,6 +71,7 @@ export const Data = [
       name: "shoe",
       Name: "CAMPUS ",
       about: "A-Gear from House of CAMPUS",
+      size: "6, 7, 8, 9",
       image: [
         "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQqUnHGFIxdluacdc6VLe93DodNfawn_2jHMb22uedruJ_jDEApg4_JvCPntwpB1z-myDsdl9JSSWIuG73tk7VBtFWv4rOwMCkC5dJmyGPe5Gmh7fm6DcfJ0g&usqp=CAE",
       ],
@@ -77,6 +83,7 @@ export const Data = [
       name: "shoe",
       Name: "RED TAPE ",
       about: "Casual sneaker shoes",
+      size: "6, 7, 8, 9",
       image: [
         "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQmJYStYtU8tuhWAHTkl7KQuS7XkmA0nub5JtRht_WwDcehgYYajyBaGVOxzG9Kq1TjRlwR2Rml8xyizazIDi-mkK_SI2FGX-BHDz87SRzYMOQx15p9RYUZ&usqp=CAE",
       ],
@@ -88,6 +95,7 @@ export const Data = [
       name: "shoe",
       Name: "Deals4you ",
       about: "Sneakers For Women",
+      size: "6, 7, 8, 9",
       image: [
         "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR56TWmUIkw6tyPiOZKqn8X2WLAxpd6G6x2Z-Zz42jEayoLCJPRvfvCRimf79M6xQE9DI25tSRzcI-fdlGvz5n-1m90XFnOfI7SmARl0mH1JsFvoERLwMS8fUo&usqp=CAE",
       ],
@@ -190,6 +198,7 @@ export const Data = [
       name: "skirt",
       Name: "Deklook ",
       about: "Big Saving Deal",
+      size: "24,28,32,34,36",
       image: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKbldj32LBhoozOmGaA-z0cywBwiE_mAzBvtCWC_Vf542bq2Vcb0G5VLL5g9xMDB4gFzecvORU&usqp=CAc",
       ],
@@ -201,6 +210,7 @@ export const Data = [
       name: "skirt",
       Name: "TRENDS",
       about: "TAVISHA FASHION",
+      size: "24,28,32,34,36",
       image: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSm153Z0TcmLUdCx7V0gxwe-lA_G00FoKCYtcLTVsJ3KJ9nwkZJU5T_-T9M2lP7i3WuM6i4UlY&usqp=CAc",
       ],
@@ -210,7 +220,7 @@ export const Data = [
       actualPrice: "7999",
       rating: 2,
       name: "skirt",
-      
+      size: "S, M, L, XL, XXL",
       about: "ROYAL TAYLOR",
       image: [
         "https://rukminim2.flixcart.com/image/1080/1080/xif0q/skirt/y/5/k/m-1-shskr30195-shae-by-sassafras-original-imaggjzk2hqj69hz.jpeg?q=70&crop=false",
@@ -222,6 +232,7 @@ export const Data = [
       rating: 4,
       name: "skirt",
       about: "Paralians",
+      size: "S, M, L, XL, XXL",
       image: [
         "https://www.bodenimages.com/productimages/productlarge/19wxms_t0312_bpk_d06.jpg",
       ],
@@ -232,6 +243,7 @@ export const Data = [
       rating: 3,
       name: "skirt",
       about: "ROYAL TAYLOR",
+      size: "24,28,32,34,36",
       image: [
         "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4914118/2018/6/7/5f0d25c6-0a26-4dec-815f-02a37d6cf1a41528375698888-HERENOW-Women-Skirts-4431528375698828-2.jpg",
       ],
@@ -243,6 +255,7 @@ export const Data = [
       name: "skirt",
       Name: "Trendy",
       about: "jo jo creation",
+      size: "24,28,32,34,36",
       image: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPcxIhPZaX65KQlCPS7JdtmhqrwQMMSh3jRJEZ4dkhyzyi1-f0OoAAtgEoeNaBIM6G_2XA5g4&usqp=CAc",
       ],
@@ -254,6 +267,7 @@ export const Data = [
       name: "skirt",
       Name: "Trendy",
       about: "ZWERLON",
+      size: "S, M, L, XL, XXL",
       image: [
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSaNQ-MwfRTFMu5yaWr5t7_zC8d9QtUXsOz9jy1UcJIymNNHMl9hSsOO_gBc_QxZ8pzPs01ocsg&usqp=CAc",
       ],
@@ -265,6 +279,7 @@ export const Data = [
       name: "skirt",
       Name: "Himcare",
       about: "Balad creation",
+      size: "S, M, L, XL, XXL",
       image: [
         "https://rukminim1.flixcart.com/image/800/960/k7285u80/skirt/x/p/n/free-bindi-purple-skirt-hukam-creation-original-imafpdauh3jkuztc.jpeg?q=50",
       ],
@@ -276,6 +291,7 @@ export const Data = [
       name: "skirt",
       Name: "Deklook",
       about: "paralians",
+      size: "S, M, L, XL, XXL",
       image: [
         "https://rukminim1.flixcart.com/image/800/960/kar44280/skirt/m/s/b/free-ucskt05maroon-unique-choice-original-imafs9hejs7fpbah.jpeg?q=50",
       ],
@@ -287,6 +303,7 @@ export const Data = [
       name: "skirt",
       Name: "Trendy",
       about: "Dream Beauty Fashion",
+      size: "24,28,32,34,36",
       image: [
         "https://www.bodenimages.com/productimages/productlarge/20wsum_t0496_pnk_w01.jpg",
       ],
@@ -299,6 +316,7 @@ export const Data = [
       name: "pant",
       Name: "Trendy",
       about: "Truck Suit",
+      size: "24,28,32,34,36",
       image: [
         "https://pnh-preprod.oss-ap-south-1.aliyuncs.com/20200305/3_1583409445963.2_1583409445963.jpeg?x-oss-process=style/thumb",
       ],
@@ -310,6 +328,7 @@ export const Data = [
       name: "pant",
       Name: "Lzard",
       about: "Men Slim Mid Rise jeans",
+      size: "24,28,32,34,36",
       image: [
         "https://rukminim2.flixcart.com/image/832/832/l2f20sw0/jean/f/q/a/38-khjn000295-ketch-original-imagdrcftrmmhqsj.jpeg?q=70&crop=false",
       ],
@@ -321,6 +340,7 @@ export const Data = [
       name: "pant",
       Name: "Trends",
       about: "Creatywitty",
+      size: "24,28,32,34,36",
       image: [
         "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/w/g/a/36-647-pasad-genuine-original-imag9tg8c8x4gt7x-bb.jpeg?q=70",
       ],
@@ -332,6 +352,7 @@ export const Data = [
       name: "pant",
       Name: "V_MART",
       about: "sarara garara",
+      size: "24,28,32,34,36",
       image: [
         "https://rukminim2.flixcart.com/image/612/612/xif0q/jean/u/h/i/28-denim-moti-palazzo-clarify-original-imagqmpysvxdka88.jpeg?q=70",
       ],
@@ -343,6 +364,7 @@ export const Data = [
       name: "pant",
       Name: "Trendy",
       about: "slim jeans",
+      size: "24,28,32,34,36",
       image: [
         "https://rukminim1.flixcart.com/image/800/960/jk1grrk0/jean/z/7/h/28-jeans100-star-girl-s-original-imaf6ue99ffhv2sd.jpeg?q=50",
       ],
@@ -354,6 +376,7 @@ export const Data = [
       name: "pant",
       Name: "Pantaloon",
       about: "Louis philippe Jeans",
+      size: "24,28,32,34,36",
       image: ["https://5.imimg.com/data5/AG/TB/MY-10139824/15-500x500.jpg"],
     },
     {
@@ -363,6 +386,7 @@ export const Data = [
       name: "pant",
       Name: "K.S",
       about: "Studio Nexx",
+      size: "24,28,32,34,36",
       image: [
         "https://redbridgejeans.de/media/image/product/65680/lg/m4249_red-bridge-mens-jeans-pants-slim-fit-denim-stonewashed-arena-m4249_16~4.jpg",
       ],
@@ -489,6 +513,9 @@ export const Data = [
       actualPrice: "1,699",
       rating: 4,
       name: "sandal",
+      Name: "heighten",
+      about: "Women Yellow Flats Sandal",
+      size: "6, 7, 8, 9",
       image: [
         "https://images-na.ssl-images-amazon.com/images/I/61nSvArLSWL._UL1280_.jpg",
       ],
@@ -498,6 +525,9 @@ export const Data = [
       actualPrice: "9,699",
       rating: 5,
       name: "sandal",
+      Name: "Shoestail",
+      about: "Women Green Flats Sandal",
+      size: "6, 7, 8, 9",
       image: [
         "https://images-na.ssl-images-amazon.com/images/I/71axA8Ha2EL._UL1500_.jpg",
       ],
@@ -507,6 +537,9 @@ export const Data = [
       actualPrice: "11,239",
       rating: 4,
       name: "sandal",
+      Name: "Shoestail",
+      about: "man Keto",
+      size: "6, 7, 8, 9",
       image: ["https://images-na.ssl-images-amazon.com/images/I/41F6eliN3CL.jpg"],
     },
     {
@@ -514,6 +547,9 @@ export const Data = [
       actualPrice: "9,399",
       rating: 3,
       name: "sandal",
+      Name: "SHOETOPIA",
+      about: "Women Red Heels Sandal",
+      size: "6, 7, 8, 9",
       image: [
         "https://images-na.ssl-images-amazon.com/images/I/61XhwITIfmL._UL1500_.jpg",
       ],
@@ -523,6 +559,9 @@ export const Data = [
       actualPrice: "9,199",
       rating: 1,
       name: "sandal",
+      Name: "Picktoes",
+      about: "Women Red Belt Heel Sandal",
+      size: "6, 7, 8, 9",
       image: ["https://images-na.ssl-images-amazon.com/images/I/41PKHNlxj7L.jpg"],
     },
     {
@@ -530,6 +569,9 @@ export const Data = [
       actualPrice: "10,999",
       rating: 4,
       name: "sandal",
+      Name: "KARADDI",
+      about: "Women Ortho-Ease Anti-Sweat ",
+      size: "6, 7, 8, 9",
       image: [
         "https://www.samedelman.com/blob/product-images/99900/ec/02/32738/ec0232738_pair_large.jpg",
       ],
@@ -539,6 +581,9 @@ export const Data = [
       actualPrice: "959",
       rating: 2,
       name: "sandal",
+      Name: "LEE FEET",
+      about: "Women Black Wedges Sandal ",
+      size: "6, 7, 8, 9",
       image: [
         "https://i8.amplience.net/i/office/2840700000_md1.jpg?$newhighres$",
       ],
@@ -548,6 +593,9 @@ export const Data = [
         actualPrice: "959",
         rating: 3,
         name: "hoodie",
+        Name: "We Perfect",
+      about: "Men Full Sleeve Solid Hooded  ",
+      size: "S, M, L, XL, XXL",
         image: [
           "https://rukminim2.flixcart.com/image/832/832/xif0q/sweatshirt/4/k/j/xxl-we-3240-hoodies-we-perfect-original-imaggzdrqrbpnzge.jpeg?q=70&crop=false",
         ],
@@ -557,6 +605,9 @@ export const Data = [
         actualPrice: "959",
         rating: 4,
         name: "hoodie",
+        Name: "Smartees",
+      about: "Men Full Sleeve Printed Hooded ",
+      size: "S, M, L, XL, XXL",
         image: [
           "https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/c/u/a/l-ss-1383-smartees-original-imagtjbkhusgujhx.jpeg?q=70",
         ],
@@ -566,6 +617,9 @@ export const Data = [
         actualPrice: "959",
         rating: 2,
         name: "hoodie",
+        Name: "JUNEBERRY",
+      about: "woMen Full Sleeve Solid Hooded ",
+      size: "S, M, L, XL, XXL",
         image: [
           "https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/u/x/n/s-wm17-ss01-tan-alan-jones-original-imaghhyjtv3hpywq.jpeg?q=70",
         ],
@@ -575,6 +629,9 @@ export const Data = [
         actualPrice: "2459",
         rating: 2,
         name: "hoodie",
+        Name: "Roadster",
+      about: "woMen Full Sleeve ",
+      size: "S, M, L, XL, XXL",
         image: [
           "https://rukminim2.flixcart.com/image/612/612/kirr24w0-0/sweatshirt/u/m/n/xl-marchmelo-hoodie-w-divra-clothing-original-imafyhpsxjn4mjkr.jpeg?q=70",
         ],
@@ -584,6 +641,9 @@ export const Data = [
         actualPrice: "1099",
         rating: 2,
         name: "hoodie",
+        Name: "NIMOZA",
+      about: "woMen NA Fit Checkered  ",
+      size: "S, M, L, XL, XXL",
         image: [
           "https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/1/t/c/s-swt-prfctimprfct1-kashian-original-imagsqjqner8rrwx.jpeg?q=70",
         ],

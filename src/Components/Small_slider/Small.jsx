@@ -6,9 +6,10 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { FreeMode, Navigation, Pagination } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 export const Small = () => {
   return (
-    <>
+    <Link to="/Another:id">
     <div className='full-slider-div'>
     <div className='up_info_div'>
         Up to 60% off | Car & bike accessories & more
@@ -84,6 +85,6 @@ export const Small = () => {
       </Swiper>
     </div>
     </div>
-    </>
+    </Link>
   )
 }
