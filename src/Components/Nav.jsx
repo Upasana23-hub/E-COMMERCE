@@ -31,28 +31,36 @@ const Nav = () => {
           value={searchTerm}
           onChange={handleSearchChange}
         />
+        
         <button className='search-button'>
-        <i class="fa-solid fa-magnifying-glass" style={{color: "#ffffff",}} ></i>
+        <i className="fa-solid fa-magnifying-glass" style={{color: "#ffffff",}} ></i>
         </button>
+        
       </div>
 
+    <Link to="/Profile">
       <div className="dropdown">
         <div className='dropdown-list' >
-        <i class="fa-solid fa-user"></i>
+        <i className="fa-solid fa-user"></i>
         &nbsp;
             My Account
         </div>
       </div>
+      </Link>
+      <Link to="/Another:id">
       <div className='wishlist'>
-      <i className="fa-solid fa-heart"></i>
+      <i className="fa-solid fa-heart" ></i>
       &nbsp;
       <p>Wishlist</p>
       </div>
+      </Link>
+      <Link to="/Another:id">
       <div className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
       &nbsp;
       <p>Cart</p>
       </div>
+      </Link>
       
     </nav>
   );

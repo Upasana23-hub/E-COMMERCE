@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0 ;
     padding: 0;
@@ -28,13 +27,13 @@
 }
 .search-bar{
     height: 12vh;
-    width: 60%;
+    width: 50%;
     background-color: rgb(23, 9, 64);
     margin-left: 7%;
 }
 .search{
     height: 8vh;
-    width: 87%;
+    width: 90%;
     background-color: azure;
     margin-left: 1%;
     /* margin-top: vh; */
@@ -50,7 +49,7 @@
     border-bottom-right-radius: 5px;
     font-size: larger;
     border-color: transparent;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 .search-button:hover{
     border-color: rgb(121, 115, 139);
@@ -59,7 +58,7 @@
 .logo{
     height: 11vh;
     width: 105%;
-    background-color: transparent;
+    /* background-color:rgb(121, 115, 139); */
 }
 .heading{
     height: 6vh;
@@ -73,14 +72,15 @@
 }
 .dropdown{
     height: 7vh;
-    width: 14.9%;
+    width: 100%;
     border-radius: 5px;
-    margin-left: 3%;
+    margin-left: 22%;
+    background-color: rgb(23, 9, 64);
 }
 .dropdown-list{
     height: 8vh;
     width: 100%;
-    margin-top: 1.4vh;
+    margin-top: 1.45vh;
     border-radius: 5px;
     font-size: larger;
     background-color:rgb(23, 9, 64);
@@ -95,13 +95,13 @@
 }
 .wishlist{
     height: 8vh;
-    width: 12%;
+    width: 100%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
-    margin-top: 1vh;
+    margin-top: 0.8vh;
     border-radius: 5px;
-    margin-left: 2%;
+    margin-left: 62%;
     font-size: larger;
     display: inline-flex;
     padding-top: 3vh;
@@ -116,13 +116,13 @@
 }
 .cart-button{
     height: 7vh;
-    width: 11%;
+    width: 100%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
-    margin-top: 1vh;
+    margin-top: 0.8vh;
     border-radius: 5px;
-    margin-left: 1.8%;
+    margin-left: 130%;
     font-size: larger;
     display: inline-flex;
     padding-top: 3vh;
@@ -138,4 +138,10 @@
     border-color: rgb(121, 115, 139);
     cursor: pointer;
     color: white;
+}
+.wishlist i{
+    margin-top: 0.5vh;
+}
+.cart-button i{
+    margin-top: 0.5vh;
 }
