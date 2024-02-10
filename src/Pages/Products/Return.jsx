@@ -1,6 +1,14 @@
 import React from 'react'
-import './Return.css'
+import './return.css'
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 const Return = () => {
+  const location = useLocation();
+    useEffect(() => {
+        if (!location.hash) {
+            window.scrollTo(0, 0);
+        }
+    }, [location]);
   return (
     <>
     <div className='return_full_page'>
