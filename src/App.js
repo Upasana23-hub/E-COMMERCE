@@ -13,6 +13,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Profile from "./Pages/Profile";
 import Privacy from "./Pages/Privacy"
+import Return from "./Pages/Products/return"
 function App() {
   
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Profile" element={<Profile/>}/>
         <Route path="/Privacy" element={<Privacy/>}/>
+        <Route path="/Return" element={<Return/>}/>
       </Routes>
       <Footer/>
     </div>
