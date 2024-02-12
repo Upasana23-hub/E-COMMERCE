@@ -118,7 +118,7 @@ Bengaluru District,
 <br/>
 Karnataka, India, 560103.
 <br/>
-Email: <Link>privacy.grievance@shopee.com</Link>
+Email: <Link className="privacy-link">privacy.grievance@shopee.com</Link>
 <br/>
 Customer Support
 <br/>
