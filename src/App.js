@@ -14,6 +14,7 @@ import Contact from "./Pages/Contact";
 import Profile from "./Pages/Profile";
 import Privacy from "./Pages/Privacy"
 import Return from "./Pages/Products/return"
+import Terms from "./Pages/terms"
 function App() {
   
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/Profile" element={<Profile/>}/>
         <Route path="/Privacy" element={<Privacy/>}/>
         <Route path="/Return" element={<Return/>}/>
+        <Route path="/terms" element={<Terms/>}/>
       </Routes>
       <Footer/>
     </div>
