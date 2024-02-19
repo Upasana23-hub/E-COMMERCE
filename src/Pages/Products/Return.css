@@ -1,24 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-.privacy-outer{
-    height: 825vh;
+
+.return_full_page{
+    height: 1050vh;
     width: 100%;
     background-color: rgb(231, 231, 231);
     padding-top: 12vh;
 }
-.privacy-inner{
-    height: 825vh;
+
+.return_inner{
+    height: 1050vh;
     width: 70%;
     margin-left: 15%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 17px 2px rgba(105, 105, 105, 0.2); 
     padding-top: 8vh;
 }
-.privacy-inner h1{
+
+.return_heading{
     text-align: center;
+    margin-top: 2vh;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 28px;
 }
-.privacy-inner-text{
+
+.return-inner-text{
     height: 825vh;
     width: 96%;
     margin-top: 5vh;
@@ -28,6 +33,7 @@
     padding-left: 2%;
     padding-right: 2%;
 }
-.privacy-link{
-    color: rgb(41, 0, 224);
+
+b{
+    font-size: 15px;
 }
