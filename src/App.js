@@ -13,8 +13,9 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Profile from "./Pages/Profile";
 import Privacy from "./Pages/Privacy"
-import Return from "./Pages/Products/return"
+import Return from "./Pages/Products/return";
 import Terms from "./Pages/terms"
+import Shipping from "./Pages/Shipping";
 function App() {
   
   return (
@@ -30,8 +31,9 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Profile" element={<Profile/>}/>
         <Route path="/Privacy" element={<Privacy/>}/>
-        <Route path="/Return" element={<Return/>}/>
+        <Route path="/return" element={<Return/>}/>
         <Route path="/terms" element={<Terms/>}/>
+        <Route path="/Shipping" element={<Shipping/>}/>
       </Routes>
       <Footer/>
     </div>
