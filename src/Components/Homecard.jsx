@@ -16,12 +16,14 @@ const Homecard = () => {
                 </div>
                 <div className="pic">
                     <div className="up_pics">
+                        <Link to="/Another?search=air+conditioner">
                         <div className="pic1">
                             <div className="p1">
 
                             </div>
                             <p className="style">Air Conditioner</p>
                         </div>
+                        </Link>
                         <div className="pic2">
                             <div className="p2">
 
@@ -154,6 +156,7 @@ const Homecard = () => {
             </div>
             </SwiperSlide>
         <SwiperSlide>
+        <Link to="/Another?search=shoe">
             <div className="third_div">
                 <div className="sli3">
 
@@ -161,6 +164,7 @@ const Homecard = () => {
                 <p className="dis_red">Up to 50% off</p>
                 <p className="under_dis">Branded Shoes</p>
             </div>
+            </Link>
             </SwiperSlide>
         <SwiperSlide>
             <div className="fourth_div">

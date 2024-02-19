@@ -18,6 +18,8 @@ const Another = () => {
   // };
 
   const location = useLocation();
+  
+  console.log(location.search)
     useEffect(() => {
         if (!location.hash) {
             window.scrollTo(0, 0);
