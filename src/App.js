@@ -13,7 +13,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Profile from "./Pages/Profile";
 import Privacy from "./Pages/Privacy"
-import Return from "./Pages/Products/return"
+import Return from "./Pages/Products/Return";
 import Terms from "./Pages/terms"
 function App() {
   
