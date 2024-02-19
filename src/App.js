@@ -13,7 +13,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Profile from "./Pages/Profile";
 import Privacy from "./Pages/Privacy"
-import Return from "./Pages/Products/return"
+import Return from "./Pages/Products/Return";
 import Terms from "./Pages/terms"
 function App() {
   
@@ -24,7 +24,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/Another:id" element={<Another/>}/>
+        <Route path="/Another" element={<Another/>}/>
         <Route path="/Single:name" element={<Single/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
