@@ -22,19 +22,16 @@ import { Link} from 'react-router-dom';
     className="mySwiper"
     >
       <SwiperSlide>
-      <div className='fourth_slider'>
-        <div className='photo6'>
-            <div className='photo7'>
-
-            </div>
+      <div className='fifth_slider'>
+        <div className='photo8'>
         </div>
-        <div className='information3'>
-            <h1 className='Inf40'>WINTER FEST</h1>
-            <h2 className='Inf41'><i>40-70% OFF</i></h2>
-                <h4 className='Inf42'>HOTTEST WINTER STYLES!</h4>
+        <div className='information4'>
+            <h1 className='Inf50'><i>GET FIT IN STYLE.</i></h1>
+            <h2 className='Inf51'>2024 COLLECTION</h2>
+                <h6 className='Inf52'>UP TO 30% OFF*</h6>
+                <button><span></span>BUY NOW</button>
         </div>
       </div>
-        
       </SwiperSlide>
       <SwiperSlide>
         <div className='second_slider'>
@@ -97,14 +94,16 @@ import { Link} from 'react-router-dom';
       </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className='fifth_slider'>
-        <div className='photo8'>
+      <div className='fourth_slider'>
+        <div className='photo6'>
+            <div className='photo7'>
+
+            </div>
         </div>
-        <div className='information4'>
-            <h1 className='Inf50'><i>GET FIT IN STYLE.</i></h1>
-            <h2 className='Inf51'>2024 COLLECTION</h2>
-                <h6 className='Inf52'>UP TO 30% OFF*</h6>
-                <button><span></span>BUY NOW</button>
+        <div className='information3'>
+            <h1 className='Inf40'>WINTER FEST</h1>
+            <h2 className='Inf41'><i>40-70% OFF</i></h2>
+                <h4 className='Inf42'>HOTTEST WINTER STYLES!</h4>
         </div>
       </div>
       </SwiperSlide>

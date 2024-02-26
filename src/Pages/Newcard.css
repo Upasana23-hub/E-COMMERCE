@@ -1,0 +1,106 @@
+.outer_Newcard{
+    /* background-color: black; */
+    height: 55vh;
+    width: 96%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.first_box,.second_box,.third_box,.fourth_box{
+    height: 100%;
+    width: 30%;
+    /* background-color: aqua; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.second_box,.third_box,.fourth_box{
+    margin-left: 2%;
+}
+
+.box01,.box02,.box03,.box04{
+    height: 75%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+    /* background-color: burlywood; */
+}
+
+.box01_1,.box01_2,.box01_3,.box01_4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    height: 90%;
+    width: 47.5%;
+    /* background-color: blue; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box01_2,.box01_4,.img6,.img8,.img10,.img12{
+    margin-left: 5%;
+}
+
+.img1_1,.img2,.img3,.img4{
+    height: 85%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.img1_1{
+    background-image: url(../pictures/men_clothing.jpg);
+}
+
+.img2{
+    background-image: url(../pictures/backpacks.jpg);
+}
+
+.img3{
+    background-image: url(../pictures/footwear.jpg);
+}
+
+.img4{
+    background-image: url(../pictures/view_all.jpeg);
+}
+
+.img5{
+    background-image: url(../pictures/cookware1.jpg);
+}
+
+.img6{
+    background-image: url(../pictures/cookware2.jpg);
+}
+
+.img7{
+    background-image: url(../pictures/dinnerset.jpg);
+}
+
+.img8{
+    background-image: url(../pictures/jwellery.jpg);
+}
+
+.img9{
+    background-image: url(../pictures/women_ghagra.jpeg);
+}
+
+.img10{
+    background-image: url(../pictures/women_ghagra2.jpeg);
+}
+
+.img11{
+    background-image: url(../pictures/earrings.jpg);
+}
+
+.img12{
+    background-image: url(../pictures/churidar.jpeg);
+}
+
+.box03{
+    background-image: url(../pictures/gym_room.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
