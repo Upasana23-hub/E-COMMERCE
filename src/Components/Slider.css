@@ -13,6 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #150303;
 }
 .information{
     height: 100%;
@@ -107,6 +108,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #150303;
 }
 
 .information1{
@@ -174,6 +176,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
+    color: #150303;
 }
 
 .photo4{
@@ -260,16 +263,14 @@
 .fourth_slider{
     height: 60vh;
     width: 100%;
-    /* background-color: black; */
-    /* margin-top: 5%; */
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: url(../pictures/back_photo4.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* backdrop-filter: blur(6px); */
 }
+    
 
 .photo6{
     height: 100%;
