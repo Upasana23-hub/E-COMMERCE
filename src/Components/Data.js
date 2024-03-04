@@ -1,5 +1,6 @@
 export const Data = [
-    {
+    { 
+      id:1,
       offerPrice: 8999,
       actualPrice: "13,999",
       rating: 4,
@@ -14,6 +15,7 @@ export const Data = [
       ],
     },
     {
+      id:2,
       offerPrice: 8799,
       actualPrice: "10,999",
       rating: 5,
@@ -28,6 +30,7 @@ export const Data = [
       ],
     },
     {
+      id:3,
       offerPrice: 899,
       actualPrice: "1,959",
       rating: 4,
@@ -41,6 +44,7 @@ export const Data = [
       ],
     },
     {
+      id:5,
       offerPrice: 7999,
       actualPrice: "16,999",
       rating: 4,
@@ -53,6 +57,7 @@ export const Data = [
       ],
     },
     {
+      id:6,
       offerPrice: 6999,
       actualPrice: "11,999",
       rating: 5,
@@ -65,6 +70,7 @@ export const Data = [
       ],
     },
     {
+      id:7,
       offerPrice: 6999,
       actualPrice: "14,999",
       rating: 4,
@@ -77,6 +83,7 @@ export const Data = [
       ],
     },
     {
+      id:8,
       offerPrice: 8999,
       actualPrice: "12,999",
       rating: 3,
@@ -89,6 +96,7 @@ export const Data = [
       ],
     },
     {
+      id:9,
       offerPrice: 999,
       actualPrice: "1,999",
       rating: 5,
@@ -101,6 +109,7 @@ export const Data = [
       ],
     },
     {
+      id:10,
       offerPrice: "66,999",
       actualPrice: "79,900",
       rating: 4,
@@ -109,6 +118,7 @@ export const Data = [
       image: ["https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70&crop=false"],
     },
     {
+      id:11,
       offerPrice: "11,990",
       actualPrice: "17,699",
       rating: 3,
@@ -119,6 +129,7 @@ export const Data = [
       ],
     },
     {
+      id:12,
       offerPrice: "13,599",
       actualPrice: "15,299",
       rating: 2,
@@ -129,6 +140,7 @@ export const Data = [
       ],
     },
     {
+      id:13,
       offerPrice: "39,999",
       actualPrice: "49,950",
       rating: 4,
@@ -139,6 +151,7 @@ export const Data = [
       ],
     },
     {
+      id:14,
       offerPrice: "58,999",
       actualPrice: "69,999",
       rating: 3,
@@ -149,6 +162,7 @@ export const Data = [
       ],
     },
     {
+      id:15,
       offerPrice: "12,555",
       actualPrice: "14,599",
       rating: 4,
@@ -159,6 +173,7 @@ export const Data = [
       ],
     },
     {
+      id:16,
       offerPrice: "14,899",
       actualPrice: "19,999",
       rating: 1,
@@ -170,6 +185,7 @@ export const Data = [
       ],
     },
     {
+      id:17,
       offerPrice: "12,999",
       actualPrice: "15,599",
       rating: 3,
@@ -181,6 +197,7 @@ export const Data = [
       ],
     },
     {
+      id:18,
       offerPrice: "16,999",
       actualPrice: "20,999",
       rating: 4,
@@ -192,6 +209,7 @@ export const Data = [
       ],
     },
     {
+      id:19,
       offerPrice: 6999,
       actualPrice: "9,999",
       rating: 3,
@@ -204,6 +222,7 @@ export const Data = [
       ],
     },
     {
+      id:20,
       offerPrice: 8999,
       actualPrice: "13,999",
       rating: 4,
@@ -216,6 +235,7 @@ export const Data = [
       ],
     },
     {
+      id:21,
       offerPrice: 4999,
       actualPrice: "7999",
       rating: 2,
@@ -227,6 +247,7 @@ export const Data = [
       ],
     },
     {
+      id:22,
       offerPrice: 6999,
       actualPrice: "9,999",
       rating: 4,
@@ -238,6 +259,7 @@ export const Data = [
       ],
     },
     {
+      id:23,
       offerPrice: 2999,
       actualPrice: "8,999",
       rating: 3,
@@ -249,6 +271,7 @@ export const Data = [
       ],
     },
     {
+      id:24,
       offerPrice: 4599,
       actualPrice: "7,999",
       rating: 4,
@@ -261,6 +284,7 @@ export const Data = [
       ],
     },
     {
+      id:25,
       offerPrice: 99,
       actualPrice: "999",
       rating: 3,
@@ -273,6 +297,7 @@ export const Data = [
       ],
     },
     {
+      id:26,
       offerPrice: 5999,
       actualPrice: "10,999",
       rating: 5,
@@ -285,6 +310,7 @@ export const Data = [
       ],
     },
     {
+      id:27,
       offerPrice: 7999,
       actualPrice: "14,999",
       rating: 3,
@@ -297,6 +323,7 @@ export const Data = [
       ],
     },
     {
+      id:28,
       offerPrice: 599,
       actualPrice: "999",
       rating: 4,
@@ -310,6 +337,7 @@ export const Data = [
     },
   
     {
+      id:29,
       offerPrice: 999,
       actualPrice: "8,999",
       rating: 4,
@@ -322,6 +350,7 @@ export const Data = [
       ],
     },
     {
+      id:30,
       offerPrice: 7899,
       actualPrice: "12,999",
       rating: 3,
@@ -334,6 +363,7 @@ export const Data = [
       ],
     },
     {
+      id:31,
       offerPrice: 4999,
       actualPrice: "11,999",
       rating: 4,
@@ -346,6 +376,7 @@ export const Data = [
       ],
     },
     {
+      id:32,
       offerPrice: 7999,
       actualPrice: "15,999",
       rating: 2,
@@ -358,6 +389,7 @@ export const Data = [
       ],
     },
     {
+      id:33,
       offerPrice: 7899,
       actualPrice: "13,999",
       rating: 4,
@@ -370,6 +402,7 @@ export const Data = [
       ],
     },
     {
+      id:34,
       offerPrice: 699,
       actualPrice: "1,999",
       rating: 1,
@@ -380,6 +413,7 @@ export const Data = [
       image: ["https://5.imimg.com/data5/AG/TB/MY-10139824/15-500x500.jpg"],
     },
     {
+      id:35,
       offerPrice: 6999,
       actualPrice: "12,999",
       rating: 4,
@@ -392,6 +426,7 @@ export const Data = [
       ],
     },
     {
+      id:36,
       offerPrice: 5999,
       actualPrice: "9,999",
       rating: 3,
@@ -404,6 +439,7 @@ export const Data = [
       ],
     },
     {
+      id:37,
       offerPrice: 599,
       actualPrice: "999",
       rating: 3,
@@ -416,6 +452,7 @@ export const Data = [
       ],
     },
     {
+      id:38,
       offerPrice: 7999,
       actualPrice: "9,989",
       rating: 4,
@@ -428,6 +465,7 @@ export const Data = [
       ],
     },
     {
+      id:39,
       offerPrice: 6999,
       actualPrice: "10,999",
       rating: 4,
@@ -438,6 +476,7 @@ export const Data = [
       image: ["https://cdn.andamen.com/media/catalog/product/0/1/01_9_43.jpg"],
     },
     {
+      id:40,
       offerPrice: 6999,
       actualPrice: "10,799",
       rating: 3,
@@ -450,6 +489,7 @@ export const Data = [
       ],
     },
     {
+      id:41,
       offerPrice: 8999,
       actualPrice: "9,899",
       rating: 2,
@@ -462,6 +502,7 @@ export const Data = [
       ],
     },
     {
+      id:42,
       offerPrice: 5989,
       actualPrice: "6,999",
       rating: 1,
@@ -474,6 +515,7 @@ export const Data = [
       ],
     },
     {
+      id:43,
       offerPrice: 7599,
       actualPrice: "8,399",
       rating: 4,
@@ -485,6 +527,7 @@ export const Data = [
     },
   
     {
+      id:44,
       offerPrice: 799,
       actualPrice: "999",
       rating: 1,
@@ -497,6 +540,7 @@ export const Data = [
       ],
     },
     {
+      id:45,
       offerPrice: 7895,
       actualPrice: "9,869",
       rating: 5,
@@ -509,6 +553,7 @@ export const Data = [
       ],
     },
     {
+      id:46,
       offerPrice: 978,
       actualPrice: "1,699",
       rating: 4,
@@ -521,6 +566,7 @@ export const Data = [
       ],
     },
     {
+      id:47,
       offerPrice: 8985,
       actualPrice: "9,699",
       rating: 5,
@@ -533,6 +579,7 @@ export const Data = [
       ],
     },
     {
+      id:48,
       offerPrice: 999,
       actualPrice: "11,239",
       rating: 4,
@@ -543,6 +590,7 @@ export const Data = [
       image: ["https://images-na.ssl-images-amazon.com/images/I/41F6eliN3CL.jpg"],
     },
     {
+      id:49,
       offerPrice: 653,
       actualPrice: "9,399",
       rating: 3,
@@ -555,6 +603,7 @@ export const Data = [
       ],
     },
     {
+      id:50,
       offerPrice: 896,
       actualPrice: "9,199",
       rating: 1,
@@ -565,6 +614,7 @@ export const Data = [
       image: ["https://images-na.ssl-images-amazon.com/images/I/41PKHNlxj7L.jpg"],
     },
     {
+      id:51,
       offerPrice: 8999,
       actualPrice: "10,999",
       rating: 4,
@@ -577,6 +627,7 @@ export const Data = [
       ],
     },
     {
+      id:52,
       offerPrice: 940,
       actualPrice: "959",
       rating: 2,
@@ -589,6 +640,7 @@ export const Data = [
       ],
     },
     {
+      id:53,
         offerPrice: 699,
         actualPrice: "959",
         rating: 3,
@@ -601,6 +653,7 @@ export const Data = [
         ],
       },
       {
+        id:54,
         offerPrice: 940,
         actualPrice: "959",
         rating: 4,
@@ -613,6 +666,7 @@ export const Data = [
         ],
       },
       {
+        id:55,
         offerPrice: 940,
         actualPrice: "959",
         rating: 2,
@@ -625,6 +679,7 @@ export const Data = [
         ],
       },
       {
+        id:56,
         offerPrice: 549,
         actualPrice: "2459",
         rating: 2,
@@ -637,6 +692,7 @@ export const Data = [
         ],
       },
       {
+        id:57,
         offerPrice: 940,
         actualPrice: "1099",
         rating: 2,

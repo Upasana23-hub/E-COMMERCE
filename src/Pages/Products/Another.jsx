@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Data } from "../../Components/Data";
 import {Card} from "../../Components/Card";
 import { useLocation } from 'react-router-dom';
+import { Link } from "react-router-dom";
 const Another = () => {
 
   //   const [category, setcategory] = useState([]);
@@ -29,7 +30,8 @@ const Another = () => {
     <>
       <div style={{display:'flex',flexWrap: "wrap"}} className='card-out'>
             {Data.map((item) => (
-            <Card
+            <Link to={`/Single/${item.id}`}>
+              <Card
               image={item.image}
               Name={item.Name}
               about={item.about}
@@ -37,6 +39,8 @@ const Another = () => {
               offerPrice={item.offerPrice}
               size={item.size}
             />
+            </Link>
+            
             ))}
             </div>
     </>
