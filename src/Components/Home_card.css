@@ -8,6 +8,7 @@
     width: 100%;
     margin-top: 5%;
     display: flex;
+    color: black;
 }
 
 .first_card{
@@ -234,6 +235,7 @@ p{
     margin-left: 2%;
     margin-right: 10%;
     /* display: flex; */
+    color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -364,6 +366,7 @@ p{
     font-size: 13px;
     font-weight:bolder;
     margin-left: 2%;
+    color: black;
 }
 
 .seventh_div{
