@@ -38,6 +38,7 @@ const Another = () => {
               actualPrice={item.actualPrice}
               offerPrice={item.offerPrice}
               size={item.size}
+              off={item.off}
             />
             </Link>
             

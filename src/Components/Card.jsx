@@ -3,7 +3,7 @@ import React from "react";
 import "./Card.css";
 // import { Link } from "react-router-dom";
 
-export const Card = ({ Name, image, about, offerPrice, actualPrice, size }) => {
+export const Card = ({ Name, image, about, offerPrice, actualPrice, size,off }) => {
   return (
     // <Link to={`single/${.id}`}>
       <div className="card">
@@ -20,7 +20,7 @@ export const Card = ({ Name, image, about, offerPrice, actualPrice, size }) => {
             <div className="rate">
               <p className="span1">₹{offerPrice}</p>
               <p className="span2">₹{actualPrice}</p>
-              <p className="span3" >55%</p>
+              <p className="span3" >{off}</p>
             </div>
           </div>
           <div className="card__size">
