@@ -588,6 +588,7 @@ export const Data = [
       actualPrice: "9,869",
       rating: 5,
       name: "sandal",
+      
       Name: "CAMPUS",
       about: "Men Tan Sandal",
       size: "6, 7, 8, 9",

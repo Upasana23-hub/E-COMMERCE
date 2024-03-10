@@ -8,7 +8,7 @@ import { FreeMode, Navigation, Pagination } from 'swiper/modules';
 import { Link } from "react-router-dom";
 const Homecard = () => {
     return(
-        <Link to="/Another:id">
+        <>
         <div className="card_outer">
             <div className="first_card">
                 <div className="instr">
@@ -17,12 +17,12 @@ const Homecard = () => {
                 <div className="pic">
                     <div className="up_pics">
                         <Link to="/Another?search=air+conditioner">
-                        <div className="pic1">
-                            <div className="p1">
+                            <div className="pic1">
+                                <div className="p1">
 
+                                </div>
+                                <p className="style">Air Conditioner</p>
                             </div>
-                            <p className="style">Air Conditioner</p>
-                        </div>
                         </Link>
                         <div className="pic2">
                             <div className="p2">
@@ -117,9 +117,11 @@ const Homecard = () => {
                     </div>
                 </div>
             </div>
-            <div className="fourth_card">
-            
-            </div>
+            <Link  className ="fourth_card" to="/Another?search=mobile">
+            {/* <div className="">
+                
+            </div> */}
+            </Link>
         </div>
 
         <div className="slider_outer">
@@ -136,7 +138,7 @@ const Homecard = () => {
         >
 
         <SwiperSlide>
-        <Link to="/Another:id">
+        <Link to="/Another?search=shoe">
             <div className="first_div">
                 <div className="sli1">
 
@@ -167,13 +169,15 @@ const Homecard = () => {
             </Link>
             </SwiperSlide>
         <SwiperSlide>
-            <div className="fourth_div">
-                <div className="sli4">
+            <Link to="/Another?search=Men">
+                <div className="fourth_div">
+                    <div className="sli4">
 
+                    </div>
+                    <p className="dis_red">Up to 90% off</p>
+                    <p className="under_dis">Amazing best deals on tshirts</p>
                 </div>
-                <p className="dis_red">Up to 90% off</p>
-                <p className="under_dis">Amazing best deals on tshirts</p>
-            </div>
+            </Link>
         </SwiperSlide>
         <SwiperSlide>
             {/* <Link to="/Another:id"> */}
@@ -205,6 +209,7 @@ const Homecard = () => {
             </div>
             </SwiperSlide>
         <SwiperSlide>
+        <Link to="/Another?search=shoe">
             <div className="eightth_div">
                 <div className="sli8">
 
@@ -212,6 +217,7 @@ const Homecard = () => {
                 <p className="dis_red">Up to 68% off</p>
                 <p className="under_dis">Formal Shoes</p>
             </div>
+            </Link>
             </SwiperSlide>
         <SwiperSlide>
             <div className="nineth_div">
@@ -252,8 +258,8 @@ const Homecard = () => {
 
       </Swiper>
         </div>
+        </>
         
-        </Link>
     )
 }
 export default Homecard;
