@@ -48,7 +48,7 @@ const Nav = () => {
       <p>Wishlist</p>
       </div>
       </Link>
-      <Link to="/Another:id">
+      <Link to="/Cart">
       <div className='cart-button'>
       <i className="fa-solid fa-cart-shopping"></i>
       &nbsp;
