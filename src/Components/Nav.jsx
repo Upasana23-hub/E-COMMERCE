@@ -6,12 +6,6 @@ const Nav = () => {
   // State for search input
   const [searchTerm, setSearchTerm] = useState('');
 
-  // State for dropdown selection
-  // const [selectedOption, setSelectedOption] = useState('');
-
-  // Options for the dropdown
-  // const dropdownOptions = ['Profile', 'Orders', 'Customer Service'];
- 
 
   const handleSearchChange = (event) => {
     setSearchTerm(event.target.value);
@@ -38,7 +32,7 @@ const Nav = () => {
         
       </div>
 
-    <Link to="/Profile">
+    <Link to="/signin">
       <div className="dropdown">
         <div className='dropdown-list' >
         <i className="fa-solid fa-user"></i>
