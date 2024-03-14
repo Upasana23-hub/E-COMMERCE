@@ -11,11 +11,13 @@ import Another from "./Pages/Products/Another";
 import Single from "./Pages/Products/Single";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Profile from "./Pages/Profile";
+import SignIn from "./Pages/SignIn";
+import SignUp from "./Pages/SignUp";
 import Privacy from "./Pages/Privacy"
 import Return from "./Pages/Products/Return";
 import Terms from "./Pages/terms"
 import Shipping from "./Pages/Shipping";
+
 import Cart from "./Components/Cart/Cart";
 function App() {
   
@@ -30,7 +32,8 @@ function App() {
         <Route path="/Single/:id" element={<Single/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
-        <Route path="/Profile" element={<Profile/>}/>
+        <Route path="/signin" element={<SignIn/>}/>
+        <Route path="/signup" element={<SignUp/>}/>
         <Route path="/Privacy" element={<Privacy/>}/>
         <Route path="/return" element={<Return/>}/>
         <Route path="/terms" element={<Terms/>}/>
