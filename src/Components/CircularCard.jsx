@@ -8,60 +8,71 @@ import bag from "../pictures/bag.avif"
 import shoe from "../pictures/shoe.jpg"
 import watch from "../pictures/watch.jpg"
 import mobile from "../pictures/mobile.jpg"
+
 const CircularCard = () => {
-  const data=[
-  {
-    id:1,
-    name:"Men",
-    image:men
-  },
-  {
-    id:2,
-    name:"Women",
-    image:women
-  },
-  {
-    id:3,
-    name:"Kids",
-    image:kids
-  },
-  {
-    id:4,
-    name:"Footwear",
-    image:shoe
-  },
-  {
-    id:5,
-    name:"Electronics",
-    image:mobile
-  },
-  {
-    id:6,
-    name:"Bags",
-    image:bag
-  },
-  {
-    id:7,
-    name:"Winterwear",
-    image:winterwear
-  },
-  {
-    id:8,
-    name:"Watch",
-    image:watch
-  }
-]
+  const data = [
+    {
+      id: 1,
+      name: "Men",
+      image: men,
+      link: "/Another?search=shirt" 
+    },
+    {
+      id: 2,
+      name: "Women",
+      image: women,
+      link: "/Another?search=Women_cloth" 
+    },
+    {
+      id: 3,
+      name: "Kids",
+      image: kids,
+      link: "/Another?search=teddy_dress"
+    },
+    {
+      id: 4,
+      name: "Footwear",
+      image: shoe,
+      link: "/Another?search=shoe"
+    },
+    {
+      id: 5,
+      name: "Mobile",
+      image: mobile,
+      link: "/Another?search=mobile"
+    },
+    {
+      id: 6,
+      name: "Bags",
+      image: bag,
+      link: "/Another?search=bag"
+    },
+    {
+      id: 7,
+      name: "Winterwear",
+      image: winterwear,
+      link: "/Another?search=winter"
+    },
+    {
+      id: 8,
+      name: "Watch",
+      image: watch,
+      link: "/Another?search=watch"
+    }
+  ];
+
   return (
     <>
-    {data.map((item) => (
+      {data.map((item) => (
         <div className="outer1" key={item.id}>
-        <div className="inner-image-div">
-          <img src={item.image} alt='pic' className='img'/>
+          
+          <a href={item.link} className="inner-image-div">
+            <img src={item.image} alt='pic' className='img'/>
+          </a>
+          <div className="inner-text-div">
+            <p>{item.name}</p>
+          </div>
         </div>
-        <div className="inner-text-div">
-          <p>{item.name}</p>
-        </div>
-      </div>
       ))}
     </>
   );

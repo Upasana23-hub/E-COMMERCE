@@ -1,5 +1,7 @@
 import React from 'react'
 import './Newcard.css'
+import { Link } from "react-router-dom";
+
 const Newcard = () => {
   return (
     <>
@@ -9,6 +11,7 @@ const Newcard = () => {
                     <h3>Up to ₹499 | Pocket-friendly fashion</h3>
             </div>
             <div className='box01'>
+            <Link to="/Another?search=both">
                 <div className='up_pics'>
                         <div className="box01_1">
                             <div className="img1_1">
@@ -37,38 +40,28 @@ const Newcard = () => {
                             <p className="style">View all</p>
                         </div>
                 </div>
+                </Link>
             </div>
         </div>
         <div className='second_box'>
             <div className="instr">
-                    <h3>Up to 50% off | New arrivals | Curated from stores near you</h3>
+                    <h3>Up to 50% off | Baby Fashion & Teddy Dresses</h3>
             </div>
+            <Link to="/Another?search=teddy_dress">
             <div className='box02'>
-                <div className='up_pics'>
-                        <div className="img5">
-                            
-                        </div>
-                        <div className="img6">
-                            
-                        </div>
-                </div>
-                <div className='dwn_pics'>
-                        <div className="img7">
-                            
-                        </div>
-                        <div className="img8">
-                            
-                        </div>
-                </div>
+
             </div>
+            </Link>
         </div>
         <div className='third_box'>
             <div className="instr">
-                    <h3>Starting ₹99 | Start your fitness journey</h3>
+                    <h3>Starting ₹799 | Men & Women Stylish Pants</h3>
             </div>
+            <Link to="/Another?search=pant">
             <div className="box03">
 
             </div>
+            </Link>
         </div>
         <div className='fourth_box'>
             <div className="instr">
@@ -76,20 +69,20 @@ const Newcard = () => {
             </div>
                 <div className="box04">
                     <div className='up_pics'>
-                            <div className="img9">
-                                
-                            </div>
-                            <div className="img10">
-                                
-                            </div>
+                    <Link to="/Another?search=Women_cloth" className="img9">
+                            
+                            </Link>
+                            <Link to="/Another?search=skirt" className="img10">
+
+                            </Link>
                     </div>
                     <div className='dwn_pics'>
-                            <div className="img11">
-                                
-                            </div>
-                            <div className="img12">
-                                
-                            </div>
+                            <Link to="/Another?search=jwellery" className="img11">
+                            
+                            </Link>
+                            <Link to="/Another?search=Women_cloth" className="img12">
+                            
+                            </Link>
                     </div>
                 </div>
         </div>

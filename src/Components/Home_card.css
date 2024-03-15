@@ -11,6 +11,10 @@
     color: black;
 }
 
+.style{
+    color: black;
+}
+
 .first_card{
     height: 100%;
     width: 23%;
@@ -293,64 +297,34 @@ p{
     /* background-color: aqua; */
 }
 
-.sli1{
+.sli1,.sli2,.sli3,.sli4,.sli5,.sli6,.sli7,.sli8,.sli9,.sli10,.sli11,.sli12{
     height: 80%;
     width: 100%;
     background-color: blueviolet;
-    background-image: url(../pictures/sports_shoe.jpeg);
+    background-image: url(../pictures/formal_shoes.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .sli2{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
-    background-image: url(../pictures/men_bag.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../pictures/frying_pan.jpg);
 }
 
 .sli3{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
     background-image: url(../pictures/bacca_bucci.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .sli4{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
     background-image: url(../pictures/tshirts.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .sli5{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
-    background-image: url(../pictures/gijer.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../pictures/tffin_box.jpg);
 }
 
 .sli6{
-    height: 80%;
-    width: 100%;
-    /* background-color: blueviolet; */
     background-image: url(../pictures/umbrella.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .dis_red{
@@ -424,63 +398,27 @@ p{
 }
 
 .sli7{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
     background-image: url(../pictures/ladies_kurti.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .sli8{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
-    background-image: url(../pictures/formal_shoes.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../pictures/sports_shoe.jpeg);
 }
 
 .sli9{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
-    background-image: url(../pictures/tffin_box.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../pictures/gijer.jpg);
 }
 
 .sli10{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
-    background-image: url(../pictures/frying_pan.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../pictures/men_bag.jpeg);
 }
 
 .sli11{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
     background-image: url(../pictures/make_up.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .sli12{
-    height: 80%;
-    width: 100%;
-    background-color: blueviolet;
     background-image: url(../pictures/ladders.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .info_div{
