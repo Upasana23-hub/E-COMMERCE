@@ -10,20 +10,20 @@ const Homecard = () => {
     return(
         <>
         <div className="card_outer">
+        
             <div className="first_card">
                 <div className="instr">
                     <h3>Applications for your home | Up to 50% off</h3>
                 </div>
+                <Link to="/Another?search=electronics">
                 <div className="pic">
                     <div className="up_pics">
-                        <Link to="/Another?search=air+conditioner">
                             <div className="pic1">
                                 <div className="p1">
 
                                 </div>
                                 <p className="style">Air Conditioner</p>
                             </div>
-                        </Link>
                         <div className="pic2">
                             <div className="p2">
 
@@ -46,11 +46,13 @@ const Homecard = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
             </div>
             <div className="second_card">
-            <div className="instr">
+                <div className="instr">
                     <h3>Baby essentials & toys | Barnds & more</h3>
                 </div>
+                <Link to="/Another?search=baby">
             <div className="pic">
                     <div className="up_pics">
                         <div className="pic1">
@@ -81,11 +83,13 @@ const Homecard = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
             </div>
             <div className="third_card">
             <div className="instr">
                     <h3>Starting ₹99 | All your home improvement needs</h3>
                 </div>
+            <Link to="/Another?search=home_acces">
             <div className="pic">
                     <div className="up_pics">
                         <div className="pic1">
@@ -116,11 +120,10 @@ const Homecard = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
             </div>
             <Link  className ="fourth_card" to="/Another?search=mobile">
-            {/* <div className="">
-                
-            </div> */}
+
             </Link>
         </div>
 
@@ -139,23 +142,25 @@ const Homecard = () => {
 
         <SwiperSlide>
         <Link to="/Another?search=shoe">
-            <div className="first_div">
+        <div className="first_div">
                 <div className="sli1">
 
                 </div>
-                <p className="dis_red">Up to 78% off</p>
-                <p className="under_dis">Best Deals on Sports Shoes</p>
+                <p className="dis_red">Up to 68% off</p>
+                <p className="under_dis">Formal Shoes</p>
             </div>
         </Link>
         </SwiperSlide>
         <SwiperSlide>
-            <div className="second_div">
+        <Link to="/Another?search=perfumes">
+        <div className="second_div">
                 <div className="sli2">
 
                 </div>
-                <p className="dis_red">Up to 68% off</p>
-                <p className="under_dis">Full leather Bags</p>
+                <p className="dis_red">Up to 70% off</p>
+                <p className="under_dis">Amazing Deals on Perfumes</p>
             </div>
+        </Link>
             </SwiperSlide>
         <SwiperSlide>
         <Link to="/Another?search=shoe">
@@ -169,44 +174,48 @@ const Homecard = () => {
             </Link>
             </SwiperSlide>
         <SwiperSlide>
-            <Link to="/Another?search=Men">
+            <Link to="/Another?search=shirt">
                 <div className="fourth_div">
                     <div className="sli4">
 
                     </div>
                     <p className="dis_red">Up to 90% off</p>
-                    <p className="under_dis">Amazing best deals on tshirts</p>
+                    <p className="under_dis">Amazing best deals on tshirts & shirts</p>
                 </div>
             </Link>
         </SwiperSlide>
         <SwiperSlide>
-            {/* <Link to="/Another:id"> */}
+        <Link to="/Another?search=decorate">
             <div className="fifth_div">
                 <div className="sli5">
 
                 </div>
-                <p className="dis_red">Up to 25% off</p>
-                <p className="under_dis">Electronics Accessories</p>
+                <p className="dis_red">Up to 50% off</p>
+                <p className="under_dis">Best Deal on Home Decoration</p>
             </div>
-            {/* </Link> */}
+        </Link>
             </SwiperSlide>
         <SwiperSlide>
+        <Link to="/Another?search=skirt">
             <div className="sixth_div">
                 <div className="sli6">
 
                 </div>
-                <p className="dis_red">Starting from ₹99</p>
-                <p className="under_dis">Best offers on travel accessories</p>
+                <p className="dis_red">Starting from ₹299</p>
+                <p className="under_dis">Best offers on Skirts</p>
             </div>
+        </Link>
         </SwiperSlide>
         <SwiperSlide>
+            <Link to="/Another?search=women_cloth">
             <div className="seventh_div">
                 <div className="sli7">
 
                 </div>
                 <p className="dis_red">Starting from ₹199</p>
-                <p className="under_dis">Latest Kurties</p>
+                <p className="under_dis">Latest Kurties & sarees</p>
             </div>
+            </Link>
             </SwiperSlide>
         <SwiperSlide>
         <Link to="/Another?search=shoe">
@@ -214,46 +223,54 @@ const Homecard = () => {
                 <div className="sli8">
 
                 </div>
-                <p className="dis_red">Up to 68% off</p>
-                <p className="under_dis">Formal Shoes</p>
+                <p className="dis_red">Up to 78% off</p>
+                <p className="under_dis">Best Deals on Sports Shoes</p>
             </div>
             </Link>
             </SwiperSlide>
         <SwiperSlide>
+        <Link to="/Another?search=electronics">
             <div className="nineth_div">
                 <div className="sli9">
 
                 </div>
-                <p className="dis_red">Up to 50% off</p>
-                <p className="under_dis">Best Deal on Tiffin Boxes</p>
+                <p className="dis_red">Up to 25% off</p>
+                <p className="under_dis">Electronics Accessories</p>
             </div>
+            </Link>
             </SwiperSlide>
         <SwiperSlide>
+        <Link to="/Another?search=bag">
             <div className="tenth_div">
                 <div className="sli10">
 
                 </div>
-                <p className="dis_red">Up to 90% off</p>
-                <p className="under_dis">Amazing Deals on Accessories</p>
+                <p className="dis_red">Up to 68% off</p>
+                <p className="under_dis">Full leather Bags</p>
             </div>
+            </Link>
             </SwiperSlide>
             <SwiperSlide>
+            <Link to="/Another?search=mobile">
             <div className="eleventh_div">
                 <div className="sli11">
 
                 </div>
-                <p className="dis_red">Up to 25% off</p>
-                <p className="under_dis">Best Deals on Beauty Products</p>
+                <p className="dis_red">Up to 45% off</p>
+                <p className="under_dis">Best Deals on Latest Phones</p>
             </div>
+            </Link>
             </SwiperSlide>
             <SwiperSlide>
+            <Link to="/Another?search=pant">
             <div className="twelveth_div">
                 <div className="sli12">
 
                 </div>
-                <p className="dis_red">Starting from ₹799</p>
-                <p className="under_dis">Ladders and home products</p>
+                <p className="dis_red">Up to 50% off</p>
+                <p className="under_dis">Biggest Deals on Pants</p>
             </div>
+            </Link>
             </SwiperSlide>
 
       </Swiper>
