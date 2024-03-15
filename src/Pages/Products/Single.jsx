@@ -9,10 +9,11 @@ import StarBorderPurple500Icon from '@mui/icons-material/StarBorderPurple500';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import {LocalOffer as Badge} from '@mui/icons-material';
 import { useLocation } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect} from 'react';
+import {useState} from 'react';
 import { Table,TableBody,TableRow,TableCell } from '@mui/material';
 import PinDropIcon from '@mui/icons-material/PinDrop';
-
+import Cartitems from '../../Components/Cartitems/Cartitems';
 
 
 const Single = () => {
@@ -22,16 +23,47 @@ const Single = () => {
             window.scrollTo(0, 0);
         }
     }, [location]);
+  
+  // Create Empty cart
+  const getDefaultCart = ()=>{
+    let cart = {};
+    for(let index =0; index < Data.length +1;index++){
+      cart[index] = 0;
+    }
+    return cart;
+  }
+
+  const[cartItems,setcartItems] = useState(getDefaultCart());
+
   const { id } = useParams();
   const date = new Date(new Date().getTime()+(5*24*60*60*1000))
 
+  
+
+  // add to cart
+  const addtocart = (itemid) =>{
+    setcartItems((prev)=>({...prev,[itemid]:prev[itemid]+1}))
+    // console.log(cartItems);
+  }
+
+  //remove from cart
+
+  const removefromcart = (itemid) =>{
+    setcartItems((prev)=>({...prev,[itemid]:prev[itemid]-1}))
+  }
+
   // Find the item in Data array based on id
   const selectedItem = Data.find(item => item.id === parseInt(id));
+  // console.log(cartitems);
 
   // If selectedItem is not found, handle it 
   if (!selectedItem) {
     return <div>Item not found!</div>;
   }
+
+  
+  
+
   return (
     <div className='single-outer'>
       <div className='single-inner'>
@@ -44,7 +76,7 @@ const Single = () => {
             <img src={selectedItem.image} className='sing-img' alt='' />  
           </div>
           <div className='butto-div'>
-            <button className='si-butt-1' ><ShoppingCartIcon/>Add to cart</button>
+            <button onClick={()=>{addtocart(selectedItem.id)}} className='si-butt-1' ><ShoppingCartIcon/>Add to cart</button>
             <button className='si-butt-2'><FlashOnIcon/>Buy Now</button>
           </div>
         </div>
@@ -92,6 +124,7 @@ const Single = () => {
           </Table>
         </div>
       </div>
+      <Cartitems cartItems={cartItems} removefromcart={removefromcart}  />
     </div>
   );
 };
