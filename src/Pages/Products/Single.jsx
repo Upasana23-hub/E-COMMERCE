@@ -41,7 +41,7 @@ const Single = () => {
     console.log("Test: ", cartItemArray);
     if (!cartItemArray) {
       localStorage.setItem("items", JSON.stringify([itemid]));
-    } else if (cartItemArray.length && !cartItemArray.includes(itemid)) {
+    } else if (cartItemArray.length) {
       localStorage.setItem("items", JSON.stringify([...cartItemArray, itemid]));
     }
     // localStorage.setItem("items", [itemid]);

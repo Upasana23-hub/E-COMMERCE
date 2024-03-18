@@ -51,7 +51,13 @@ const Cartitems = (cartItems, removefromcart) => {
             <div>
               {e.offerPrice}
               <div className="cartitems-format">
-                <img src={e.image} alt="" className="carticon-product-icon" />
+                <img
+                  src={e.image}
+                  alt=""
+                  className="carticon-product-icon"
+                  height={200}
+                  width={200}
+                />
                 <p>{e.Name}</p>
                 <p> ₹{e.offerPrice}</p>
                 <button className="cartitems-quantity">{e.id}</button>
@@ -62,13 +68,13 @@ const Cartitems = (cartItems, removefromcart) => {
                   //   removefromcart(e.id);
                   // }}
                   alt=""
+                  height={70}
+                  width={70}
                 />
               </div>
               <hr />
             </div>
           );
-        } else {
-          return <>Hello hi</>; // Return null if the condition is not met
         }
       })}
     </div>
