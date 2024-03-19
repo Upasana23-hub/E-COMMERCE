@@ -23,6 +23,13 @@ const Cartitems = (cartItems, removefromcart) => {
   // };
   // console.log(cartItems.cartItems);
   const [items, setItems] = useState([]);
+  // const [val, setVal] = useState(0);
+  const inc = () => {
+    // setVal(val + 1);
+  };
+  const dec=() =>{
+    // setVal(val -1);
+  };
 
   useEffect(() => {
     const items = JSON.parse(localStorage.getItem("items"));
@@ -39,7 +46,7 @@ const Cartitems = (cartItems, removefromcart) => {
         <p>Price</p>
         <p>Quantity</p>
         <p>Total</p>
-        <p>Remove</p>
+        
       </div>
 
       <hr />
@@ -49,34 +56,67 @@ const Cartitems = (cartItems, removefromcart) => {
         if (items.includes(e.id)) {
           return (
             <div>
-              {e.offerPrice}
-              <div className="cartitems-format">
+              
+              <div className="cartitems-format cartitems-format-main">
                 <img
                   src={e.image}
                   alt=""
                   className="carticon-product-icon"
-                  height={200}
-                  width={200}
+                  height={60}
+                  width={60}
                 />
                 <p>{e.Name}</p>
                 <p> ₹{e.offerPrice}</p>
-                <button className="cartitems-quantity">{e.id}</button>
-                {/* <p>{e.offerPrice * cartItems.cartItems[e.id]}</p> */}
-                <img
-                  src={HighlightOffIcon}
-                  // onClick={() => {
-                  //   removefromcart(e.id);
-                  // }}
-                  alt=""
-                  height={70}
-                  width={70}
-                />
+                <div className="cartitems-quantity">
+                  
+                   <button onClick={dec} className="dec-butt">-</button>
+                  
+                  <p className="p-valu">1</p>
+                  
+                     <button onClick={inc}>+</button>
+                  
+
+                </div>
+                {/* <p>{e.offerPrice * [e.id]}</p> */}
+                
               </div>
               <hr />
             </div>
           );
         }
       })}
+      <div className="cartitems-down">
+        <div className="cartitems-total">
+          <h1>Cart Totals</h1>
+          <div>
+            <div className="cartitems-total-item">
+              <p>Subtotal</p>
+              <p>{0}</p>
+            </div>
+            <hr/>
+            <div className="cartitems-total-item">
+              <p>Shipping Fee</p>
+              <p>Free</p>
+            </div>
+            <hr/>
+            <div className="cartitems-total-item">
+              <h3>Total</h3>
+             <h3>{0}</h3>   {/*total cartitems price */}
+            </div>
+          </div>
+          <button>Proceed to checkout</button>
+        </div>
+        <div className="cartitems-promocode">
+          <p>If you have a promo code,Enter It here</p>
+            <div className="cartitems-promobox">
+              <input type="text" placeholder="promo code" />
+              <button>submit</button>
+
+            </div>
+        </div>
+          
+        
+      </div>
     </div>
   );
 };

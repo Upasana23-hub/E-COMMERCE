@@ -4,7 +4,10 @@ import './Cart.css';
 const Cart = () => {
   return (
     <div className='cart-outer'>
+      <div className="cart-inner">
       <Cartitems/>
+      </div>
+      
     </div>
   )
 }
