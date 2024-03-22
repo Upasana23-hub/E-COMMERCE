@@ -19,6 +19,7 @@ import Terms from "./Pages/terms"
 import Shipping from "./Pages/Shipping";
 
 import Cart from "./Components/Cart/Cart";
+// import Searchitem from "./Components/Searchitem/Searchitem";
 function App() {
   
   return (
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/Another" element={<Another/>}/>
+        {/* <Route path="/search/:term" element={<Searchitem/>}/>  */}
         <Route path="/Single/:id" element={<Single/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
