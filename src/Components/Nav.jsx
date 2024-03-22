@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import './Nav.css'
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 const Nav = () => {
   // State for search input
+  const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
 
 
-  const handleSearchChange = (event) => {
-    setSearchTerm(event.target.value);
-  };
+  const handleSubmit =(e)=>{
+   e.preventDefault();
+   navigate(`/Another?search=${searchTerm}`)
+  }
   return (
     <nav className='outer-div'>
       <Link to="/"><div className='name' >
@@ -18,19 +21,22 @@ const Nav = () => {
       </div>
       </Link>
 
-      <div className="search-bar">
+      <form 
+        onSubmit={handleSubmit}
+        className="search-bar">
         <input className='search'
+        
           type="text"
           placeholder="Search for products...."
           value={searchTerm}
-          onChange={handleSearchChange}
+          onChange={(e)=>setSearchTerm(e.target.value)}
         />
         
         <button className='search-button'>
         <i className="fa-solid fa-magnifying-glass" style={{color: "#ffffff",}} ></i>
         </button>
         
-      </div>
+      </form>
 
     <Link to="/signin">
       <div className="dropdown">
