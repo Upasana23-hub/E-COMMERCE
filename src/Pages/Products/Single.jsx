@@ -10,12 +10,11 @@ import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { LocalOffer as Badge } from "@mui/icons-material";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { useState } from "react";
 import { Table, TableBody, TableRow, TableCell } from "@mui/material";
 import PinDropIcon from "@mui/icons-material/PinDrop";
-import Cartitems from "../../Components/Cartitems/Cartitems";
 
 const Single = () => {
+  /* Scroll to Top */
   const location = useLocation();
   useEffect(() => {
     if (!location.hash) {
@@ -23,18 +22,10 @@ const Single = () => {
     }
   }, [location]);
 
-  // Create Empty cart
-  const getDefaultCart = () => {
-    let cart = {};
-    for (let index = 0; index < Data.length + 1; index++) {
-      cart[index] = 0;
-    }
-    return cart;
-  };
   const { id } = useParams();
   const date = new Date(new Date().getTime() + 5 * 24 * 60 * 60 * 1000);
 
-  // add to cart
+  /* Adding to Cart */
   const addtocart = (itemid) => {
     let cartItemString = localStorage.getItem("items");
     let cartItemArray = JSON.parse(cartItemString);
@@ -44,11 +35,7 @@ const Single = () => {
     } else if (cartItemArray.length) {
       localStorage.setItem("items", JSON.stringify([...cartItemArray, itemid]));
     }
-    // localStorage.setItem("items", [itemid]);
-    // console.log(cartItems);
   };
-
-  //remove from cart
 
   // Find the item in Data array based on id
   const selectedItem = Data.find((item) => item.id === parseInt(id));
