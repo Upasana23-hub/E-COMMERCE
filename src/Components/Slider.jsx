@@ -22,6 +22,7 @@ import { Link} from 'react-router-dom';
     className="mySwiper"
     >
       <SwiperSlide>
+      <Link to="/Another?search=shoe">
       <div className='fifth_slider'>
         <div className='photo8'>
         </div>
@@ -32,13 +33,15 @@ import { Link} from 'react-router-dom';
                 <button><span></span>BUY NOW</button>
         </div>
       </div>
+      </Link>
       </SwiperSlide>
       <SwiperSlide>
+      <Link to="/Another?search=watch">
         <div className='second_slider'>
         <div className='information1'>
-            <h1 className='Inf20'>Starting ₹149</h1>
-            <h3 className='Inf21'>Daily Needs</h3>
-                <h4 className='Inf22'>TOP DEALS  |   GREAT PRICES</h4>
+            <h1 className='Inf20'>Up To 40% off</h1>
+            <h3 className='Inf21'>Branded Watches</h3>
+                <h4 className='Inf22'>TOP DEALS  ||  GREAT PRICES</h4>
         </div>
         <div className='photo2'>
             <div className='photo3'>
@@ -46,8 +49,10 @@ import { Link} from 'react-router-dom';
             </div>
         </div>
       </div>
+      </Link>
       </SwiperSlide>
       <SwiperSlide>
+      <Link to="/Another?search=perfume">
       <div className='third_slider'>
         <div className='photo4'>
             <div className='photo5'>
@@ -55,22 +60,16 @@ import { Link} from 'react-router-dom';
             </div>
         </div>
         <div className='information2'>
-            <h1 className='Inf30'>Up to 80% off</h1>
-            <h3 className='Inf31'>Frangrance for</h3>
-            <h3 className='Inf32'>Every Ocassion</h3>
-            <div className='discout_banner1'>
-                <div className='bank_photo1'>
-
-                </div>
-                <div className='bank_dis1'>
-                    <h3 className='dis1'>10% discount on any cards</h3>
-                </div>
-            </div>
+            <h1 className='Inf30'>UP TO 80% OFF</h1>
+            <h3 className='Inf31'><i>EVERY FRAGNANCE</i></h3>
+            <h3 className='Inf32'>EVERY OCASSION</h3>
         </div>
         
       </div>
+      </Link>
       </SwiperSlide>
       <SwiperSlide>
+      <Link to="/Another?search=both">
       <div className='first_slider'>
         <div className='information'>
             <h1 className='Inf10'>Starting From ₹199</h1>
@@ -92,8 +91,10 @@ import { Link} from 'react-router-dom';
             </div>
         </div>
       </div>
+      </Link>
       </SwiperSlide>
       <SwiperSlide>
+      <Link to="/Another?search=decorate">
       <div className='fourth_slider'>
         <div className='photo6'>
             <div className='photo7'>
@@ -101,11 +102,12 @@ import { Link} from 'react-router-dom';
             </div>
         </div>
         <div className='information3'>
-            <h1 className='Inf40'>WINTER FEST</h1>
+            <h1 className='Inf40'>HOME PRODUCTS</h1>
             <h2 className='Inf41'><i>40-70% OFF</i></h2>
-                <h4 className='Inf42'>HOTTEST WINTER STYLES!</h4>
+                <h4 className='Inf42'>BEUTIFUL SHOWPICES</h4>
         </div>
       </div>
+      </Link>
       </SwiperSlide>
     </Swiper>
     </Link>

@@ -6,6 +6,8 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import { FreeMode, Navigation, Pagination } from 'swiper/modules';
+import { Link } from "react-router-dom";
+
 export const Small = () => {
   return (
     <>
@@ -16,6 +18,7 @@ export const Small = () => {
                 <div className='up_inner_card_div1'>
                 <div className="card_1">
                     <h3 className='ins'>Decorate your home in style</h3>
+                    <Link to="/Another?search=decorate">
                 <div className="pi">
                     <div className="up_pics">
                         <div className="pic1">
@@ -46,6 +49,7 @@ export const Small = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
             </div>
             <div className="card_2">
                 <div className="ins">
@@ -54,29 +58,38 @@ export const Small = () => {
                 <div className="pi">
                     <div className="up_pics">
                         <div className="pic1">
+                        <Link to="/Another?search=shirt">
                             <div className="pi5">
 
                             </div>
+                            </Link>
                             <p className="style">Clothing</p>
                         </div>
+                        
                         <div className="pic2">
+                        <Link to="/Another?search=shoe">
                             <div className="pi6">
 
                             </div>
+                        </Link>
                             <p className="style">Footwear</p>
                         </div>
                     </div>
                     <div className="dwn_pics">
                         <div className="pic3">
+                        <Link to="/Another?search=Watch">
                             <div className="pi7">
                                 
                             </div>
+                        </Link>
                             <p className="style">Watches</p>
                         </div>
                         <div className="pic4">
+                        <Link to="/Another?search=bag">
                             <div className="pi8">
 
                             </div>
+                        </Link>
                             <p className="style">Bags & wallets</p>
                         </div>
                     </div>
@@ -91,29 +104,37 @@ export const Small = () => {
                 <div className="pi">
                     <div className="up_pics">
                         <div className="pic1">
+                        <Link to="/Another?search=Women_cloth">
                             <div className="pi9">
 
                             </div>
+                            </Link>
                             <p className="style">Womens's Clothing</p>
                         </div>
                         <div className="pic2">
+                        <Link to="/Another?search=shoe">
                             <div className="pi10">
 
                             </div>
+                        </Link>
                             <p className="style">Footwear + Handlings</p>
                         </div>
                     </div>
                     <div className="dwn_pics">
                         <div className="pic3">
+                        <Link to="/Another?search=Watch">
                             <div className="pi11">
                                 
                             </div>
+                        </Link>
                             <p className="style">Watches</p>
                         </div>
                         <div className="pic4">
+                        <Link to="/Another?search=jwellery">
                             <div className="pi12">
 
                             </div>
+                        </Link>
                             <p className="style">Fashion jewellery</p>
                         </div>
                     </div>
@@ -123,6 +144,7 @@ export const Small = () => {
                 <div className="ins">
                     <h3>Get the perfect screen size | TVs Starting ₹5,999</h3>
                 </div>
+                <Link to="/Another?search=TV">
                 <div className="pii">
                     <div className="up_pics">
                         <div className="pic1">
@@ -153,16 +175,19 @@ export const Small = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
             </div>
             </div> 
             </div>
-            <div className='inner_card_div2'>
-            </div>
+            <Link to="/Another?search=mobile" className='inner_card_div2'>
+            
+            </Link>
     </div>
     <div className='full-slider-div'>
     <div className='up_info_div'>
         Up to 60% off | Car & bike accessories & more
     </div>
+    <Link to="/Another?search=helmet">
     <div className='Slider_div2'>
     
         <Swiper
@@ -233,6 +258,7 @@ export const Small = () => {
 
       </Swiper>
     </div>
+    </Link>
     </div>
 
 
