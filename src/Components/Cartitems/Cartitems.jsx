@@ -40,9 +40,20 @@ const Cartitems = () => {
         return true;
       } else {
         return false;
+    let cartFilterArr = cartArr.filter((itemId) => itemId === cartId);
+    return cartFilterArr.length;
+  };
+
+  /* Calculate total cart item price */
+  const calculateTotal = () => {
+    let total = 0;
+    items.forEach((itemId) => {
+      const item = Data.find((e) => e.id === itemId);
+      if (item) {
+        total += item.offerPrice;
       }
     });
-    return cartFilterArr.length;
+    return total;
   };
 
   /* On Page Load */
@@ -83,6 +94,36 @@ const Cartitems = () => {
               if (typeof e.offerPrice == "string") {
                 e.offerPrice = parseInt(e.offerPrice.replace(",", ""));
               }
+      <hr />
+      {Data.map((e) => {
+        if (items.includes(e.id)) {
+          if (typeof e.offerPrice === "string") {
+            e.offerPrice = parseInt(e.offerPrice.replace(",", ""));
+          }
+
+          return (
+            <div key={e.id}>
+              <div className="cartitems-format cartitems-format-main">
+                <img
+                  src={e.image}
+                  alt="cart-item"
+                  className="carticon-product-icon"
+                  height={60}
+                  width={60}
+                />
+                <p>{e.Name}</p>
+                <p> ₹{e.offerPrice}</p>
+                <div className="cartitems-quantity">
+                  {count(items, e.id) > 0 ? (
+                    <button
+                      onClick={() => decrementCounter(e.id)}
+                      className="dec-butt"
+                    >
+                      -
+                    </button>
+                  ) : (
+                    ""
+                  )}
 
               return (
                 <div>
@@ -147,6 +188,27 @@ const Cartitems = () => {
                 <input type="text" placeholder="promo code" />
                 <button>submit</button>
               </div>
+          );
+        }
+        return null;
+      })}
+      <div className="cartitems-down">
+        <div className="cartitems-total">
+          <h1>Cart Totals</h1>
+          <div>
+            <div className="cartitems-total-item">
+              <p>Subtotal</p>
+              <p>{calculateTotal()}</p> {/* Calculate total cart item price */}
+            </div>
+            <hr />
+            <div className="cartitems-total-item">
+              <p>Shipping Fee</p>
+              <p>Free</p>
+            </div>
+            <hr />
+            <div className="cartitems-total-item">
+              <h3>Total</h3>
+              <h3>{calculateTotal()}</h3> {/* Calculate total cart item price */}
             </div>
           </div>
         </>
