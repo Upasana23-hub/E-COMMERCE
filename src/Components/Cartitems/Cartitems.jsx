@@ -34,14 +34,20 @@ const Cartitems = () => {
   };
   /* Count Function for calculating number of items in state Array */
   const count = (cartArr, cartId) => {
-    let cartFilterArr = cartArr.filter((itemId) => {
-      if (itemId == cartId) {
-        return true;
-      } else {
-        return false;
+    let cartFilterArr = cartArr.filter((itemId) => itemId === cartId);
+    return cartFilterArr.length;
+  };
+
+  /* Calculate total cart item price */
+  const calculateTotal = () => {
+    let total = 0;
+    items.forEach((itemId) => {
+      const item = Data.find((e) => e.id === itemId);
+      if (item) {
+        total += item.offerPrice * count(items, itemId);
       }
     });
-    return cartFilterArr.length;
+    return total;
   };
 
   /* On Page Load */
@@ -68,15 +74,14 @@ const Cartitems = () => {
       </div>
 
       <hr />
-      {console.log("From CartItem Page", items)}
       {Data.map((e) => {
         if (items.includes(e.id)) {
-          if (typeof e.offerPrice == "string") {
+          if (typeof e.offerPrice === "string") {
             e.offerPrice = parseInt(e.offerPrice.replace(",", ""));
           }
 
           return (
-            <div>
+            <div key={e.id}>
               <div className="cartitems-format cartitems-format-main">
                 <img
                   src={e.image}
@@ -109,6 +114,7 @@ const Cartitems = () => {
             </div>
           );
         }
+        return null;
       })}
       <div className="cartitems-down">
         <div className="cartitems-total">
@@ -116,7 +122,7 @@ const Cartitems = () => {
           <div>
             <div className="cartitems-total-item">
               <p>Subtotal</p>
-              <p>{0}</p>
+              <p>{calculateTotal()}</p> {/* Calculate total cart item price */}
             </div>
             <hr />
             <div className="cartitems-total-item">
@@ -126,7 +132,7 @@ const Cartitems = () => {
             <hr />
             <div className="cartitems-total-item">
               <h3>Total</h3>
-              <h3>{0}</h3> {/*total cartitems price */}
+              <h3>{calculateTotal()}</h3> {/* Calculate total cart item price */}
             </div>
           </div>
           <button>Proceed to checkout</button>
