@@ -44,7 +44,7 @@ const Cartitems = () => {
     items.forEach((itemId) => {
       const item = Data.find((e) => e.id === itemId);
       if (item) {
-        total += item.offerPrice * count(items, itemId);
+        total += item.offerPrice;
       }
     });
     return total;
