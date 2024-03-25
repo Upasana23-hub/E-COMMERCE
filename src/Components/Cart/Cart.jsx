@@ -8,7 +8,9 @@ const Cart = () => {
         {localStorage.getItem("items") ? (
           <Cartitems />
         ) : (
-          <h1>No Items are added to Cart</h1>
+          <>
+            <h1 className="items-not">No Items are added to Cart</h1>
+          </>
         )}
       </div>
     </div>

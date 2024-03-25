@@ -1,12 +1,16 @@
-.cart-outer{
-    height: 200vh;
-    padding-top: 9vh;
-    background-color: rgb(231, 231, 231);
+.cart-outer {
+  height: 200vh;
+  padding-top: 9vh;
+  background-color: rgb(231, 231, 231);
 }
-.cart-inner{
-    height: 200vh;
-    width: 96%;
-    margin-left: 2%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 10px 17px 2px rgba(105, 105, 105, 0.2);
+.cart-inner {
+  height: 200vh;
+  width: 96%;
+  margin-left: 2%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 17px 2px rgba(105, 105, 105, 0.2);
+}
+.items-not {
+  margin-left: 30%;
+  margin-top: 3%;
 }
