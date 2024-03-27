@@ -93,7 +93,17 @@
     border-width: 1px;
     border-radius: 2px;
     background-color: #ececec;
+    color: rgb(38, 0, 151);
+  }
+  .address-old{
+    height: 15vh;
+    width: 98.5%;
+    background-color: #ececec;
+    margin-top: 5vh;
+    padding-left: 1.5%;
+    padding-top: 2vh;
   }
   .faq-ans{
     margin-top: 1.5vh;
   }
+  

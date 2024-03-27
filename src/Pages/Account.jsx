@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Account.css'; // import your CSS file for styling
+import { Link } from 'react-router-dom'
 
 const Account = () => {
   const [activeTab, setActiveTab] = useState('profile'); // State to manage active tab
@@ -7,6 +8,8 @@ const Account = () => {
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
   };
+
+  
 
   return (
     <div className="side-tab-container">
@@ -88,7 +91,10 @@ const Account = () => {
           </div>}
         {activeTab === 'address' && <div>
           <h3>Manage Addresses</h3>
-          <div className='new-address'>+ ADD NEW ADDRESS</div>
+          <Link to='/signup'><div className='new-address'>+ ADD NEW ADDRESS</div></Link>
+          <div className='address-old'>
+            Address
+          </div>
         </div>}
         {activeTab === 'cards' && <div>
             <h3>Manage Saved Cards</h3>
