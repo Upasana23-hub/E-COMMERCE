@@ -52,25 +52,30 @@
     display:  flex;
   }
   .profile-first-name{
-    height: 7vh;
+    height: 5vh;
     width: 25%;
     padding-left: 1.5%;
+    padding-top: 3vh;
+    background-color: #ececec;
   }
   .profile-last-name{
-    height: 7vh;
+    height: 5vh;
     width: 25%;
-    margin-left: 3%;
     padding-left: 1.5%;
+    padding-top: 3vh;
+    background-color: #ececec;
+    margin-left: 3%;
   }
   .profile-form{
     margin-top: 3vh;
     margin-bottom: 6vh;
   }
   .profile-email{
-    height: 7vh;
+    height: 5vh;
     width: 25%;
     padding-left: 1.5%;
-    margin-top: 3vh;
+    padding-top: 3vh;
+    background-color: #ececec;
   }
   .profile-heading{
     margin-top: 5vh;
