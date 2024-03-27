@@ -62,7 +62,6 @@ const Account = () => {
       <div className="tab-content">
         {activeTab === 'profile' && <div>
             <h3>Personal Informations</h3>
-            <form className='profile-form'>
               <div className='profile-name'>
                 <div className='profile-first-name'><p>First Name</p></div>
                 <div  className='profile-last-name'><p>Last Name</p></div>
@@ -76,8 +75,7 @@ const Account = () => {
               <div className='profile-name'>
                 <div className='profile-email'><p>Mobile Number</p></div>
               </div>
-              
-            </form>
+              <br/><br/>
             <h3 className='profile-faq'>FAQs</h3>
             <b><p>What happens when I update my email address (or mobile number)?</p></b>
             <p>Your login email id (or mobile number) changes, likewise. You'll receive all your account related communication on your updated email address (or mobile number).</p>
