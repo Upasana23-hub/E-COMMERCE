@@ -17,7 +17,7 @@ import Privacy from "./Pages/Privacy"
 import Return from "./Pages/Products/Return";
 import Terms from "./Pages/terms"
 import Shipping from "./Pages/Shipping";
-
+import Account from "./Pages/Account";
 import Cart from "./Components/Cart/Cart";
 // import Searchitem from "./Components/Searchitem/Searchitem";
 function App() {
@@ -41,6 +41,7 @@ function App() {
         <Route path="/terms" element={<Terms/>}/>
         <Route path="/Shipping" element={<Shipping/>}/>
         <Route path="/Cart" element={<Cart/>}/>
+        <Route path="/account" element={<Account/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -105,11 +105,11 @@ const Single = () => {
           <p className="ty-1">
             <Badge fontSize="small" sx={{ color: "#41A317" }} />
             &nbsp;&nbsp;<b>Bank Offer</b> Get ₹25* instant discount for the 1st
-            Flipkart Order using Flipkart UPI
+            Shopee Order using Shopee UPI
           </p>
           <p className="ty-1">
             <Badge fontSize="small" sx={{ color: "#41A317" }} />
-            &nbsp;&nbsp;<b>Bank Offer</b> 5% Cashback on Flipkart Axis Bank Card
+            &nbsp;&nbsp;<b>Bank Offer</b> 5% Cashback on Shopee Axis Bank Card
           </p>
           <p className="ty-1">
             <Badge fontSize="small" sx={{ color: "#41A317" }} />

@@ -23,7 +23,7 @@ const Shipping = () => {
           Sellers incur relatively higher shipping costs on low value items. In such cases, charging a nominal delivery charge helps them offset logistics costs.
           Please check your order summary to understand the delivery charges for individual products.
           <br/>  <br/>
-          For Products listed as Flipkart Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.
+          For Products listed as Shopee Plus, a Rs 40 charge for delivery per item may be applied if the order value is less than Rs 500. While, orders of Rs 500 or above are delivered free.
           <br/> <br/>
           <b>Why does the delivery date not correspond to the delivery timeline of X-Y business days?</b>
           <br/> <br/>
@@ -39,8 +39,8 @@ const Shipping = () => {
           <br/>
           <b>&diams;</b> &nbsp;&nbsp;&nbsp;Product's availability with the Seller<br/>
           <b>&diams;</b> &nbsp;&nbsp;&nbsp;The destination to which you want the order shipped to and location of the Seller.<br/> <br/>
-          <b>Are there any hidden costs (sales tax, octroi etc) on items sold by Sellers on Flipkart?</b> <br/> <br/>
-          There are NO hidden charges when you make a purchase on Flipkart. List prices are final and all-inclusive. The price you see on the product page is exactly what you would pay.<br/><br/>
+          <b>Are there any hidden costs (sales tax, octroi etc) on items sold by Sellers on Shopee?</b> <br/> <br/>
+          There are NO hidden charges when you make a purchase on Shopee. List prices are final and all-inclusive. The price you see on the product page is exactly what you would pay.<br/><br/>
           Delivery charges are not hidden charges and are charged (if at all) extra depending on the Seller's shipping policy.<br/><br/>
           <b>Why does the estimated delivery time vary for each seller?</b><br/><br/>
           You have probably noticed varying estimated delivery times for sellers of the product you are interested in. Delivery times are influenced by product availability, geographic location of the Seller, your shipping destination and the courier partner's time-to-deliver in your location.<br/><br/>
