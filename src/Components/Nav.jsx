@@ -38,7 +38,7 @@ const Nav = () => {
         
       </form>
 
-    <Link to="/signin">
+    <Link to="/account">
       <div className="dropdown">
         <div className='dropdown-list' >
         <i className="fa-solid fa-user"></i>
