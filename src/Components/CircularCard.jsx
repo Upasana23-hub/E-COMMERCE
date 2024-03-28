@@ -21,13 +21,13 @@ const CircularCard = () => {
       id: 2,
       name: "Women",
       image: women,
-      link: "/Another?search=Women_cloth" 
+      link: "/Another?search=Women" 
     },
     {
       id: 3,
       name: "Kids",
       image: kids,
-      link: "/Another?search=teddy_dress"
+      link: "/Another?search=teddy dress"
     },
     {
       id: 4,
