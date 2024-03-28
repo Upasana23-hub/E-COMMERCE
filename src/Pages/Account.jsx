@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Account.css'; // import your CSS file for styling
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom'
 
 const Account = () => {
   const [activeTab, setActiveTab] = useState('profile'); // State to manage active tab
@@ -9,7 +10,12 @@ const Account = () => {
     setActiveTab(tabName);
   };
 
-  
+  const location = useLocation();
+    useEffect(() => {
+        if (!location.hash) {
+            window.scrollTo(0, 0);
+        }
+    }, [location]);
 
   return (
     <div className="side-tab-container">
