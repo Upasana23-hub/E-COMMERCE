@@ -69,7 +69,7 @@ import { Link} from 'react-router-dom';
       </Link>
       </SwiperSlide>
       <SwiperSlide>
-      <Link to="/Another?search=both">
+      <Link to="/Another?search=shirt">
       <div className='first_slider'>
         <div className='information'>
             <h1 className='Inf10'>Starting From ₹199</h1>

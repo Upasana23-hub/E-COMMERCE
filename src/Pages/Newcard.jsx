@@ -11,7 +11,7 @@ const Newcard = () => {
                     <h3>Up to ₹499 | Pocket-friendly fashion</h3>
             </div>
             <div className='box01'>
-            <Link to="/Another?search=both">
+            <Link to="/Another?search=women">
                 <div className='up_pics'>
                         <div className="box01_1">
                             <div className="img1_1">
@@ -47,7 +47,7 @@ const Newcard = () => {
             <div className="instr">
                     <h3>Up to 50% off | Baby Fashion & Teddy Dresses</h3>
             </div>
-            <Link to="/Another?search=teddy_dress">
+            <Link to="/Another?search=teddy dress">
             <div className='box02'>
 
             </div>
