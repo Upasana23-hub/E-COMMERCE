@@ -141,7 +141,7 @@ const Homecard = () => {
         >
 
         <SwiperSlide>
-        <Link to="/Another?search=shoe">
+        <Link to="/Another?search=formal shoe">
         <div className="first_div">
                 <div className="sli1">
 
