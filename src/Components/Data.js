@@ -75,7 +75,7 @@ export const Data = [
       offerPrice: 999,
       actualPrice: "1,999",
       rating: 5,
-      name: "shoe",
+      name: "shoe women shoe",
       Name: "Deals4you ",
       about: "Sneakers For Women",
       size: "6, 7, 8, 9",
