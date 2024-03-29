@@ -52,7 +52,7 @@ const Single = () => {
         <div className="single-pic">
           <div className="single-picture">
             <div className="sin-heart">
-              <FavoriteIcon />
+              <FavoriteIcon  />
             </div>
             <img src={selectedItem.image} className="sing-img" alt="" />
           </div>
@@ -64,13 +64,13 @@ const Single = () => {
               className="si-butt-1"
             >
               <Link to="/cart">
-                <ShoppingCartIcon />
+                <ShoppingCartIcon className="single-icon" />
                 Add to cart
               </Link>
             </button>
 
             <button className="si-butt-2">
-              <FlashOnIcon />
+              <FlashOnIcon className="single-icon"/>
               Buy Now
             </button>
           </div>

@@ -77,22 +77,26 @@
     height: 50px;
     border-radius: 2px;
     margin-left: 0.1%;
-    background-color: rgb(253, 168, 48);
-    color: whitesmoke;
+    background-color: rgb(23, 9, 64);
+    color: white;
     justify-content: center;
     border: none;
     font-family: "Poppins", sans-serif;
 }
+
 .si-butt-2{
     width: 46%;
     height: 50px;
     border-radius: 2px;
     margin-left: 3%;
-    background-color: rgb(250, 124, 61);
+    background-color: rgb(94, 131, 254);
     color: white;
     justify-content: center;
     border: none;
     font-family: "Poppins", sans-serif;
+}
+.single-icon{
+    margin-top: 0.1vh;
 }
 .ra-tex{
     margin-top: 5;
