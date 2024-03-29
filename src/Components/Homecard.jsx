@@ -207,7 +207,7 @@ const Homecard = () => {
         </Link>
         </SwiperSlide>
         <SwiperSlide>
-            <Link to="/Another?search=women_cloth">
+            <Link to="/Another?search=women cloth">
             <div className="seventh_div">
                 <div className="sli7">
 
