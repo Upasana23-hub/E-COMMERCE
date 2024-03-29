@@ -7,9 +7,7 @@ export const Card = ({ Name, image, about, offerPrice, actualPrice, size,off }) 
   return (
     // <Link to={`single/${.id}`}>
       <div className="card">
-        <div className="card__heart">
-          <FavoriteIcon />
-        </div>
+          <button className="card-heart"><FavoriteIcon /></button>
         <div className="card__image">
           <img src={image} alt="images" />
         </div>
