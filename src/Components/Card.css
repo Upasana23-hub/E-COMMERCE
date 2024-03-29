@@ -1,7 +1,8 @@
 .card{
     padding: 20px;
     /* padding-top: 40%; */
-    height: 42vh;
+    width: 85%;
+    height: 48vh;
     transition: box-shadow 0.3s ease;
 }
 .card:hover{

@@ -1,6 +1,7 @@
 .card-out{
     padding-top: 7%;
-    width: 95%;
-   margin-left: 5%;
+    /* width: 95%; */
+    padding-right: 4%;
+   margin-left: 10%;
    padding-bottom: 5vh;
 }
