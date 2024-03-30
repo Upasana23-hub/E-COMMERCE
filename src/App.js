@@ -19,6 +19,7 @@ import Terms from "./Pages/terms"
 import Shipping from "./Pages/Shipping";
 import Account from "./Pages/Account";
 import Cart from "./Components/Cart/Cart";
+import Summary from "./Components/Summary/Summary";
 // import Searchitem from "./Components/Searchitem/Searchitem";
 function App() {
   
@@ -42,6 +43,7 @@ function App() {
         <Route path="/Shipping" element={<Shipping/>}/>
         <Route path="/Cart" element={<Cart/>}/>
         <Route path="/account" element={<Account/>}/>
+        <Route path="/order-summary" element={<Summary/>}/>
       </Routes>
       <Footer/>
     </div>

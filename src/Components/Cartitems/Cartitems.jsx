@@ -151,7 +151,11 @@ const Cartitems = () => {
                   {/* Calculate total cart item price */}
                 </div>
               </div>
-              <button>Proceed to checkout</button>
+              <button className="check-butt">
+                <Link to="/order-summary">
+                  Proceed to checkout
+                </Link>  
+              </button>    
             </div>
             <div className="cartitems-promocode">
               <p>If you have a promo code,Enter It here</p>
