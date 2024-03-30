@@ -70,8 +70,10 @@ const Single = () => {
             </button>
 
             <button className="si-butt-2">
-              <FlashOnIcon className="single-icon"/>
-              Buy Now
+              <Link to="/order-summary">
+                <FlashOnIcon className="single-icon"/>
+                Buy Now
+              </Link>
             </button>
           </div>
         </div>
