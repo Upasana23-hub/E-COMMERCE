@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Summary.css";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Summary = () => {
   const location = useLocation();
@@ -25,7 +25,7 @@ const Summary = () => {
           
           <div className="summary-inputBox">
             <label htmlFor="email">Email:</label><br/>
-            <input type="text" placeholder="  example@gmail.com "></input>
+            <input type="email" placeholder="  example@gmail.com "></input>
           </div>
           <div className="summary-inputBox">
             <label htmlFor="Address">Address:</label><br/>
@@ -43,10 +43,14 @@ const Summary = () => {
           </div>
           <div className="summary-inputBox">
             <label htmlFor="Pin code">Pin Code:</label><br/>
-            <input type="text" placeholder="  123456 "></input>
+            <input type="number" placeholder="  123456 "></input>
           </div>
           <br/>
-          <button type="submit" className='continue-btn'>Continue</button>
+          <button type="submit" className='continue-btn'>
+            <Link to="/Payment">
+            Continue
+            </Link>
+            </button>
 
         </form>
       </div>
