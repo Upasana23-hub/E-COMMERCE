@@ -47,7 +47,7 @@ const Nav = () => {
         </div>
       </div>
       </Link>
-      <Link to="/Another:id">
+      <Link to="/wishlist">
       <div className='wishlist'>
       <i className="fa-solid fa-heart" ></i>
       &nbsp;
