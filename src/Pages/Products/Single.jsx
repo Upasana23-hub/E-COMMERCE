@@ -5,7 +5,7 @@ import { Data } from "../../Components/Data";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import FlashOnIcon from "@mui/icons-material/FlashOn";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
+import { MdStarBorderPurple500 } from "react-icons/md";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { LocalOffer as Badge } from "@mui/icons-material";
 import { Link, useLocation } from "react-router-dom";
@@ -37,6 +37,21 @@ const Single = () => {
     }
   };
 
+  // add to wishlist
+  const addtowishlist = (wishid) => {
+    let wishItemString = localStorage.getItem("wish");
+    let wishItemArray = JSON.parse(wishItemString);
+    console.log("Test: ", wishItemArray);
+    if (!wishItemArray) {
+      localStorage.setItem("wish", JSON.stringify([wishid]));
+    } else if (wishItemArray.length) {
+      localStorage.setItem("wish", JSON.stringify([...wishItemArray, wishid]));
+    }
+    // localStorage.setItem("items", [itemid]);
+    // console.log(cartItems);
+  };
+
+
   // Find the item in Data array based on id
   const selectedItem = Data.find((item) => item.id === parseInt(id));
   // console.log(cartitems);
@@ -51,9 +66,16 @@ const Single = () => {
       <div className="single-inner">
         <div className="single-pic">
           <div className="single-picture">
-            <div className="sin-heart">
+            <button
+             onClick={() => {
+              addtowishlist(selectedItem.id);
+            }}
+
+             className="sin-heart">
+              <Link to="/wishlist">
               <FavoriteIcon />
-            </div>
+              </Link>
+            </button>
             <img src={selectedItem.image} className="sing-img" alt="" />
           </div>
           <div className="butto-div">
@@ -95,10 +117,9 @@ const Single = () => {
             </p>
           </div>
           <div className="rating-sec">
-            <button className="rati-box">
-              4.1
-              <StarBorderPurple500Icon fontSize="40%" />
-            </button>
+          <div className='wish-rate'>
+              <p>4.1</p><MdStarBorderPurple500 color='#fff'/>
+            </div>
             <p className="ra-tex">170 Ratings & 12 Reviews</p>
           </div>
           <p className="sin-avai">Available Offers</p>
