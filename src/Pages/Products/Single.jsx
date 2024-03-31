@@ -70,7 +70,6 @@ const Single = () => {
              onClick={() => {
               addtowishlist(selectedItem.id);
             }}
-
              className="sin-heart">
               <Link to="/wishlist">
               <FavoriteIcon />
@@ -86,14 +85,16 @@ const Single = () => {
               className="si-butt-1"
             >
               <Link to="/cart">
-                <ShoppingCartIcon />
+                <ShoppingCartIcon className="single-icon" />
                 Add to cart
               </Link>
             </button>
 
             <button className="si-butt-2">
-              <FlashOnIcon />
-              Buy Now
+              <Link to="/order-summary">
+                <FlashOnIcon className="single-icon"/>
+                Buy Now
+              </Link>
             </button>
           </div>
         </div>
