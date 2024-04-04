@@ -15,7 +15,7 @@ const CircularCard = () => {
       id: 1,
       name: "Men",
       image: men,
-      link: "/Another?search=shirt" 
+      link: "/Another?search= men" 
     },
     {
       id: 2,
