@@ -104,7 +104,7 @@ export const Small = () => {
                 <div className="pi">
                     <div className="up_pics">
                         <div className="pic1">
-                        <Link to="/Another?search=Women_cloth">
+                        <Link to="/Another?search=Women cloth">
                             <div className="pi9">
 
                             </div>
@@ -112,12 +112,12 @@ export const Small = () => {
                             <p className="style">Womens's Clothing</p>
                         </div>
                         <div className="pic2">
-                        <Link to="/Another?search=shoe">
+                        <Link to="/Another?search=Women shoe">
                             <div className="pi10">
 
                             </div>
                         </Link>
-                            <p className="style">Footwear + Handlings</p>
+                            <p className="style">Women Footwear</p>
                         </div>
                     </div>
                     <div className="dwn_pics">

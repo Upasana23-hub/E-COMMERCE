@@ -39,30 +39,19 @@
     margin-left: 5%;
 }
 
+.box01{
+    background-image: url(../pictures/winter-combo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .img1_1,.img2,.img3,.img4{
     height: 85%;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-
-
-.img1_1{
-    background-image: url(../pictures/men_clothing.jpg);
-}
-
-.img2{
-    background-image: url(../pictures/backpacks.jpg);
-}
-
-.img3{
-    background-image: url(../pictures/footwear.jpg);
-}
-
-.img4{
-    background-image: url(../pictures/view_all.jpeg);
 }
 
 .img9{

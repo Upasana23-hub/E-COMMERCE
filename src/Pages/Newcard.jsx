@@ -8,40 +8,13 @@ const Newcard = () => {
     <div className='outer_Newcard'>
         <div className='first_box'>
             <div className="instr">
-                    <h3>Up to ₹499 | Pocket-friendly fashion</h3>
+                    <h3>Starting from ₹499 | Best Winter Deals on Jackets and others</h3>
             </div>
+            <Link to="/Another?search=winter">
             <div className='box01'>
-            <Link to="/Another?search=women">
-                <div className='up_pics'>
-                        <div className="box01_1">
-                            <div className="img1_1">
-
-                            </div>
-                            <p className="style">clothing</p>
-                        </div>
-                        <div className="box01_2">
-                            <div className="img2">
-
-                            </div>
-                            <p className="style">Backpacks</p>
-                        </div>
-                </div>
-                <div className='dwn_pics'>
-                        <div className="box01_3">
-                            <div className="img3">
-                                
-                            </div>
-                            <p className="style">Footwear</p>
-                        </div>
-                        <div className="box01_4">
-                            <div className="img4">
-
-                            </div>
-                            <p className="style">View all</p>
-                        </div>
-                </div>
-                </Link>
+            
             </div>
+            </Link>
         </div>
         <div className='second_box'>
             <div className="instr">
@@ -69,7 +42,7 @@ const Newcard = () => {
             </div>
                 <div className="box04">
                     <div className='up_pics'>
-                    <Link to="/Another?search=Women_cloth" className="img9">
+                    <Link to="/Another?search=Women" className="img9">
                             
                             </Link>
                             <Link to="/Another?search=skirt" className="img10">
@@ -80,7 +53,7 @@ const Newcard = () => {
                             <Link to="/Another?search=jwellery" className="img11">
                             
                             </Link>
-                            <Link to="/Another?search=Women_cloth" className="img12">
+                            <Link to="/Another?search=kurti" className="img12">
                             
                             </Link>
                     </div>

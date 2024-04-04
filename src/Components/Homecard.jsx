@@ -89,7 +89,7 @@ const Homecard = () => {
             <div className="instr">
                     <h3>Starting ₹99 | All your home improvement needs</h3>
                 </div>
-            <Link to="/Another?search=home_acces">
+            <Link to="/Another?search=home acces">
             <div className="pic">
                     <div className="up_pics">
                         <div className="pic1">
@@ -207,13 +207,13 @@ const Homecard = () => {
         </Link>
         </SwiperSlide>
         <SwiperSlide>
-            <Link to="/Another?search=women_cloth">
+            <Link to="/Another?search=saree">
             <div className="seventh_div">
                 <div className="sli7">
 
                 </div>
                 <p className="dis_red">Starting from ₹199</p>
-                <p className="under_dis">Latest Kurties & sarees</p>
+                <p className="under_dis">Latest Deals on sarees</p>
             </div>
             </Link>
             </SwiperSlide>

@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="footer2">
                   <h3 className="heading-footer">CATEGORIES</h3>
                   <ul>
-                    <li><Link to="/Another?search=shirt">Men</Link></li>
+                    <li><Link to="/Another?search=men">Men</Link></li>
                     <li><Link to="/Another?search=women">Women</Link></li>
                     <li><Link to="/Another?search=teddy dress">Kids</Link></li>
                     <li><Link to="/Another?search=shoe">Footwear</Link></li>
