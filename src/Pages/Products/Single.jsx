@@ -37,19 +37,21 @@ const Single = () => {
     }
   };
 
-  // add to wishlist
+  /* Adding wishlist */
+  
   const addtowishlist = (wishid) => {
     let wishItemString = localStorage.getItem("wish");
     let wishItemArray = JSON.parse(wishItemString);
     console.log("Test: ", wishItemArray);
+    
+    // If no wishlist items exist, initialize the wishlist with the new item's ID
     if (!wishItemArray) {
-      localStorage.setItem("wish", JSON.stringify([wishid]));
-    } else if (wishItemArray.length) {
-      localStorage.setItem("wish", JSON.stringify([...wishItemArray, wishid]));
+        localStorage.setItem("wish", JSON.stringify([wishid]));
+    } else {
+        // Otherwise, add the new item's ID to the existing wishlist array
+        localStorage.setItem("wish", JSON.stringify([...wishItemArray, wishid]));
     }
-    // localStorage.setItem("items", [itemid]);
-    // console.log(cartItems);
-  };
+};
 
 
   // Find the item in Data array based on id

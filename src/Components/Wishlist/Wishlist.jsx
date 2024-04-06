@@ -24,6 +24,20 @@ const Wishlist = () => {
       }, []);
     
 
+    // 
+    
+    const removeFromWishlist = (WishId) => {
+        const updatedWish = wish.filter(itemId => itemId !== WishId);
+        setWish(updatedWish); // Update wishlist state
+    
+        // Check if updatedWish array is not empty before updating local storage
+        if (updatedWish.length !== 0) {
+            localStorage.setItem("wish", JSON.stringify(updatedWish)); // Update local storage
+        } else {
+            localStorage.removeItem("wish"); // Remove the "wish" key from local storage
+        }
+    }
+
   return (
     <>
     <div className="wish-outer">
@@ -61,7 +75,11 @@ const Wishlist = () => {
                         </div>
                     </div>
                     <div className="wish-remove">
-                    <button className='remove-btn'>
+                    <button 
+                    onClick={() =>{
+                        removeFromWishlist(f.id);
+                    }}
+                    className='remove-btn'>
                     <MdDelete fontSize={20} color='#170940'/>
                     </button>
                     </div>
