@@ -7,10 +7,12 @@ const Footer = () => {
         <div className="footer-outer">
             <div className="footer-upper">
                 <div className="footer1">
+                <Link to='/'>
                   <div className='shopee' >
-                    <img src='SHOPEE.png' alt='name' className='logo'/>
+                    <img src='SHOPEE.png' alt='name' className='logo' />
                     <div className='heading'>SHOPEE</div>
                   </div>
+                  </Link>
                   <p className="line">India's First Choice</p>
                 </div>
                 <div className="footer2">
