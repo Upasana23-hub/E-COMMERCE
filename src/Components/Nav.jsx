@@ -8,24 +8,28 @@ const Nav = () => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('');
 
-
-  const handleSubmit =(e)=>{
-   e.preventDefault();
-   navigate(`/Another?search=${searchTerm}`)
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (searchTerm.trim() !== '') {
+      navigate(`/Another?search=${searchTerm}`);
+    } else {
+      alert('Please enter a search term');
+    }
   }
+
   return (
     <nav className='outer-div'>
-      <Link to="/"><div className='name' >
-           <img src='SHOPEE.png' alt='name' className='logo'/>
+      <Link to="/">
+        <div className='name' >
+          <img src='SHOPEE.png' alt='name' className='logo'/>
           <div className='heading'>SHOPEE</div>
-      </div>
+        </div>
       </Link>
 
       <form 
         onSubmit={handleSubmit}
         className="search-bar">
         <input className='search'
-        
           type="text"
           placeholder="Search for products...."
           value={searchTerm}
@@ -33,33 +37,33 @@ const Nav = () => {
         />
         
         <button className='search-button'>
-        <i className="fa-solid fa-magnifying-glass" style={{color: "#ffffff",}} ></i>
+          <i className="fa-solid fa-magnifying-glass" style={{color: "#ffffff",}} ></i>
         </button>
         
       </form>
 
-    <Link to="/account">
-      <div className="dropdown">
-        <div className='dropdown-list' >
-        <i className="fa-solid fa-user"></i>
-        &nbsp;
+      <Link to="/account">
+        <div className="dropdown">
+          <div className='dropdown-list' >
+            <i className="fa-solid fa-user"></i>
+            &nbsp;
             My Account
+          </div>
         </div>
-      </div>
       </Link>
       <Link to="/wishlist">
-      <div className='wishlist'>
-      <i className="fa-solid fa-heart" ></i>
-      &nbsp;
-      <p>Wishlist</p>
-      </div>
+        <div className='wishlist'>
+          <i className="fa-solid fa-heart" ></i>
+          &nbsp;
+          <p>Wishlist</p>
+        </div>
       </Link>
       <Link to="/Cart">
-      <div className='cart-button'>
-      <i className="fa-solid fa-cart-shopping"></i>
-      &nbsp;
-      <p>Cart</p>
-      </div>
+        <div className='cart-button'>
+          <i className="fa-solid fa-cart-shopping"></i>
+          &nbsp;
+          <p>Cart</p>
+        </div>
       </Link>
       
     </nav>

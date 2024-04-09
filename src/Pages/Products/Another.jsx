@@ -11,6 +11,7 @@ const Another = () => {
   const searchTerm = searchParams.get('search');
 
   const [filteredData, setFilteredData] = useState([]);
+  const [searchError, setSearchError] = useState(false); //State to track search error
 
   useEffect(() => {
     if (Data && Data.length > 0 ) {
@@ -18,8 +19,10 @@ const Another = () => {
         item.name && item.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
       setFilteredData(filtered);
+      setSearchError(filtered.length === 0);  // set searcherror state based on filter
     } else {
       setFilteredData(Data);
+      setSearchError(false); // reset searcherror state if data isd empty
     }
   }, [searchTerm]);
 
@@ -31,6 +34,7 @@ const Another = () => {
 
   return (
     <>
+      {searchError && <div className='search-error'><h1>No items found matching your search. Please try again.... </h1></div>}
       <div style={{ display: 'flex', flexWrap: "wrap" }} className='card-out'>
         {filteredData.map(item => (
           <Link to={`/Single/${item.id}`} key={item.id}>
