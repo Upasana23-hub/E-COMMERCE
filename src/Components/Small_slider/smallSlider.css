@@ -24,20 +24,23 @@
 }
 .Slider_div2{
     height: 80%;
-    width: 100%;
+    width: 98.5%;
+    margin-left: 0.75%;
     /* display: flex; */
 }
 
 .first_pic,.second_pic,.third_pic,.fourth_pic,.fifth_pic,.sixth_pic,.seventh_pic,.eightth_pic,.nineth_pic,.tenth_pic,.eleventh_pic,.twelveth_pic{
     height: 87%;
-    width: 105%;
+    width: 101%;
     margin-top: 12%;
-    margin-left: 8%;
     /* background-color: black; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.second_pic,.third_pic,.fourth_pic,.fifth_pic,.sixth_pic,.seventh_pic,.eightth_pic,.nineth_pic,.tenth_pic,.eleventh_pic,.twelveth_pic{
+    margin-left: -5%;
 }
 .mySwiper{
     height: 100%;
@@ -46,22 +49,27 @@
 
 .first_pic{
     background-image: url(../../pictures/car_duster.jpg);
+    margin-left: 5%;
 }
 
 .second_pic{
     background-image: url(../../pictures/helmet1.jpg);
+    margin-left: 3%;
 }
 
 .third_pic{
     background-image: url(../../pictures/helmet2.jpg);
+    margin-left: 3%;
 }
 
 .fourth_pic{
     background-image: url(../../pictures/Car_air_freshner.jpg);
+    margin-left: 3%;
 }
 
 .fifth_pic{
     background-image: url(../../pictures/car_tyre_inflator.jpg);
+    margin-left: 0.1%
 }
 
 .sixth_pic{

@@ -131,6 +131,7 @@ const Homecard = () => {
             <div className="info_div">
                 Today's Deals
             </div>
+        <div className="scroller-div">
         <Swiper
         slidesPerView={6}
         spaceBetween={30}
@@ -274,6 +275,7 @@ const Homecard = () => {
             </SwiperSlide>
 
       </Swiper>
+      </div>
         </div>
         </>
         
