@@ -1,0 +1,217 @@
+.side-tab-box {
+    display: flex;
+    padding-top: 15vh;
+    height: 82vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:  #e0dcdcf4;
+    padding-bottom: 3vh;
+    box-shadow: 0px 10px 17px 2px rgba(105, 105, 105, 0.2); 
+    font-family: 'Poppins', sans-serif;
+  }
+  .debit_cards{
+    height: 13vh;
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .debit-details{
+    height: 60vh;
+    width: 100%;
+    margin-top: 1%;
+    /* background-color: blueviolet; */
+  }
+  .debit-inner{
+    margin-left: 32%;
+    margin-top: 3%;
+  }
+  .debit-names{
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 3%;
+    font-family: 'Mooli', sans-serif;
+  }
+  .input-name{
+    height: 6vh;
+    width: 47%;
+    margin-top: 1.5%;
+    border: none;
+    border-color: #fff;
+    border: 3px solid rgb(135, 135, 250);
+    border-radius: 3px;
+  }
+  .input-card{
+    height: 5.5vh;
+    width: 200px;
+    border: none;
+    border-color: #fff;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 15px;
+  }
+  .form-card{
+    height: 6vh;
+    width: 47%;
+    border-radius: 3px;
+    border: 3px solid rgb(135, 135, 250);
+    display: flex;
+    margin-top: 1.5%;
+  }
+  .icon-card{
+    margin-left: 32%;
+    margin-top: 3%;
+  }
+  .input-month,.input-year{
+    height: 5vh;
+    width: 20%;
+    border-radius: 4px;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    border: none;
+    font-size: 15px;
+  }
+  .input-year{
+    margin-left: 4%;
+    width: 15%;
+  }
+  .form-mm-yy{
+    height: 6vh;
+    width: 40%;
+    margin-top: 1.5%;
+    border: 3px solid rgb(135, 135, 250);
+    border-radius: 3px;
+  }
+  .input-cvv{
+    height: 5vh;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 7%;
+    border: none;
+    font-size: 15px;
+  }
+  .date-cvv{
+    display: flex;
+    margin-top: 3%;
+  }
+  .debit-cvv{
+    margin-left: -22.3%;
+    margin-top: 0.5%;
+  }
+  .form-cvv{
+    height: 6vh;
+    width: 60%;
+    margin-top: 2.5%;
+    border-radius: 3px;
+    border: 3px solid rgb(135, 135, 250);
+    display: flex;
+  }
+  .icon-cvv{
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  input:focus{
+    outline: none;
+  }
+  .pay-now{
+      background-color: rgb(135, 135, 250);
+      color: #150303;
+      height: 6vh;
+      width: 48%;
+      text-transform: normal;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      font-size:medium;
+      font-weight: 600;
+      letter-spacing: 1px;
+      position: relative;
+      transition: color 0.4s linear;
+      position: relative;
+      overflow: hidden;
+      border: none;
+      border-radius: 3px;
+      z-index: 1;
+      margin-top: 6%;
+      margin-left: 0%;
+      font-family: 'Mooli', sans-serif;
+  }
+  
+  .pay-now-span{
+      background-color: rgb(23, 9, 64);
+      color: #fff;
+      height: 100%;
+      width: 0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      transition: 0.3s;
+  }
+  
+  .pay-now:hover .pay-now-span{
+      width: 100%;
+      color: #fff;
+  }
+  .pay-now:hover{
+      color: #fff;
+  }
+  .pay-now-2{
+    height: 6vh;
+    border-radius: 3px;
+    width: 45.5%;
+    margin-left: 2%;
+    background-color:  rgb(135, 135, 250);
+    border: none;
+    font-family: 'Mooli', sans-serif;
+  }
+  .pay-now-2:hover{
+    color: #fff;
+  }
+  .upi-full-page{
+    height: 76vh;
+    width: 100%;
+  }
+  .upi-inner{
+    height: 80%;
+    width: 60%;
+    margin-left: 32%;
+  }
+  .upi-head,.upi-id,.upi-phonepe{
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 5%;
+    font-family: 'Mooli', sans-serif;
+  }
+  .upi-head{
+    margin-left: 1.5%;
+  }
+  .upi-logo-1{
+    height: 40px;
+    width: 40px;
+    margin-top: 23px;
+    margin-left: -9%;
+  }
+  .upi-id,.upi-phonepe{
+    margin-top: -4%;
+    margin-left: 1.5%;
+  }
+  .form-phonepe,.form-id{
+    height: 6vh;
+    width: 45%;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    border-radius: 3px;
+    border: 3px solid rgb(135, 135, 250);
+    display: flex;
+  }
+  .input-phonepe,.input-id{
+    border: none;
+    border-color: #fff;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 15px;
+  }
+  .upi-inner-up{
+    display: flex;
+  }
