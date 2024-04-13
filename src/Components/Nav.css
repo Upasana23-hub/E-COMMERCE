@@ -73,24 +73,22 @@
 }
 .dropdown{
     height: 7vh;
-    width: 100%;
+    width: 10%;
+    margin-top: 1.45vh;
     border-radius: 5px;
-    margin-left: 22%;
+    margin-left: 3%;
     background-color: rgb(23, 9, 64);
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-}
-.dropdown-list{
-    height: 8vh;
-    width: 100%;
-    margin-top: 1.45vh;
-    border-radius: 5px;
     font-size: larger;
-    background-color:rgb(23, 9, 64);
     color: white;
     border-color: transparent;
     display: inline-flex;
     padding-top: 2.5vh;
+}
+.dropdown p{
+    font-size: 20px;
+    margin-top: -1.5%;
 }
 .dropdown-list:hover{
     border-color: rgb(121, 115, 139);
@@ -98,13 +96,13 @@
 }
 .wishlist{
     height: 8vh;
-    width: 100%;
+    width: 5%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
     margin-top: 0.8vh;
     border-radius: 5px;
-    margin-left: 62%;
+    margin-left: 3.5%;
     font-size: larger;
     display: inline-flex;
     padding-top: 3vh;
@@ -121,13 +119,13 @@
 }
 .cart-button{
     height: 7vh;
-    width: 100%;
+    width: 5%;
     background-color:rgb(23, 9, 64);
     border-color: transparent;
     color: white;
     margin-top: 0.8vh;
     border-radius: 5px;
-    margin-left: 130%;
+    margin-left: 5%;
     font-size: larger;
     display: inline-flex;
     padding-top: 3vh;
