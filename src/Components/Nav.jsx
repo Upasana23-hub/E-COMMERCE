@@ -42,28 +42,20 @@ const Nav = () => {
         
       </form>
 
-      <Link to="/account">
-        <div className="dropdown">
-          <div className='dropdown-list' >
+      <Link to="/account" className="dropdown">
             <i className="fa-solid fa-user"></i>
             &nbsp;
-            My Account
-          </div>
-        </div>
+            <p>My Account</p>
       </Link>
-      <Link to="/wishlist">
-        <div className='wishlist'>
+        <Link to="/wishlist" className='wishlist'>
           <i className="fa-solid fa-heart" ></i>
           &nbsp;
           <p>Wishlist</p>
-        </div>
-      </Link>
-      <Link to="/Cart">
-        <div className='cart-button'>
+        </Link>
+      <Link to="/Cart" className='cart-button'>
           <i className="fa-solid fa-cart-shopping"></i>
           &nbsp;
           <p>Cart</p>
-        </div>
       </Link>
       
     </nav>
