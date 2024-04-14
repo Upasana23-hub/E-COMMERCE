@@ -232,7 +232,7 @@ p{
 }
 
 .slider_outer{
-    height: 50vh;
+    height: 58vh;
     width: 96%;
     /* background-color: black; */
     margin-top: 5%;
@@ -298,7 +298,7 @@ p{
 }
 
 .sli1,.sli2,.sli3,.sli4,.sli5,.sli6,.sli7,.sli8,.sli9,.sli10,.sli11,.sli12{
-    height: 80%;
+    height:30vh;
     width: 100%;
     background-color: blueviolet;
     background-image: url(../pictures/formal_shoes.jpeg);
@@ -341,6 +341,7 @@ p{
     font-weight:bolder;
     margin-left: 2%;
     color: black;
+    height: 15vh;
 }
 
 .seventh_div{
