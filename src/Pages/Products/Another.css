@@ -9,3 +9,34 @@
    margin-left: 19%;
    color: #FF5733;
 }
+@media only screen and (max-width: 480px) {
+   .card-out {
+     width: 100%;
+     margin-left: 0;
+   }
+   
+   .search-error {
+     margin-left: 5%;
+   }
+ }
+ 
+ @media only screen and (max-width: 768px) {
+   .card-out {
+     width: 86%;
+     margin-left: 7%;
+   }
+ }
+ 
+ @media only screen and (max-width: 1024px) {
+   .card-out {
+     width: 70%;
+     margin-left: 15%;
+   }
+ }
+ 
+ @media only screen and (max-width: 1600px) {
+   .card-out {
+     width: 90%;
+     margin-left: 5%;
+   }
+ }
