@@ -19,16 +19,17 @@ const Nav = () => {
 
   return (
     <nav className='outer-div'>
+      
       <Link to="/">
         <div className='name' >
           <img src='SHOPEE.png' alt='name' className='logo'/>
           <div className='heading'>SHOPEE</div>
         </div>
       </Link>
-
+    <div className='search-bar'>
       <form 
         onSubmit={handleSubmit}
-        className="search-bar">
+        className="search-bar1">
         <input className='search'
           type="text"
           placeholder="Search for products...."
@@ -41,24 +42,17 @@ const Nav = () => {
         </button>
         
       </form>
-
-      <Link to="/account" className="dropdown">
-            <i className="fa-solid fa-user"></i>
-            &nbsp;
-            <p>My Account</p>
-      </Link>
-        <Link to="/wishlist" className='wishlist'>
-          <i className="fa-solid fa-heart" ></i>
-          &nbsp;
-          <p>Wishlist</p>
-        </Link>
-      <Link to="/Cart" className='cart-button'>
-          <i className="fa-solid fa-cart-shopping"></i>
-          &nbsp;
-          <p>Cart</p>
-      </Link>
+      </div>
+    <div className='list'>
+      <ol>
+        <li><Link to="/account"><i className="fa-solid fa-user"></i> My Account</Link></li>
+        <li><Link to="/account"><i className="fa-solid fa-heart" ></i> Wishlist</Link></li>
+        <li><Link to="/account"><i className="fa-solid fa-cart-shopping"></i> Cart</Link></li>
+      </ol>
+      </div>
       
     </nav>
+    
   );
 };
 
