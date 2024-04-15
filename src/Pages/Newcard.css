@@ -54,6 +54,11 @@
     background-repeat: no-repeat;
 }
 
+.img9,.img10,.img11,.img12{
+    height: 90%;
+    width: 100%;
+}
+
 .img9{
     background-image: url(../pictures/women_ghagra.jpeg);
 }
@@ -82,4 +87,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.up-card-details3{
+    height: 8vh;
+}
+.instr{
+    margin-top: 4%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
 }

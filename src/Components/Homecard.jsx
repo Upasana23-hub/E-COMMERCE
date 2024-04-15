@@ -13,7 +13,7 @@ const Homecard = () => {
         
             <div className="first_card">
                 <div className="instr">
-                    <h3>Applications for your home | Up to 50% off</h3>
+                    <h3 className="up-card-details">Applications for your home | Up to 50% off</h3>
                 </div>
                 <Link to="/Another?search=electronics">
                 <div className="pic">
@@ -50,7 +50,7 @@ const Homecard = () => {
             </div>
             <div className="second_card">
                 <div className="instr">
-                    <h3>Baby essentials & toys | Barnds & more</h3>
+                    <h3 className="up-card-details">Baby essentials & toys | Barnds & more</h3>
                 </div>
                 <Link to="/Another?search=baby">
             <div className="pic">
@@ -87,7 +87,7 @@ const Homecard = () => {
             </div>
             <div className="third_card">
             <div className="instr">
-                    <h3>Starting ₹99 | All your home improvement needs</h3>
+                    <h3 className="up-card-details">Starting ₹99 | All your home improvement needs</h3>
                 </div>
             <Link to="/Another?search=home acces">
             <div className="pic">
