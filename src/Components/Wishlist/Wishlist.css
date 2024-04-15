@@ -17,10 +17,18 @@
   .wish-head{
     height: 9vh;
     width: 100%;
+    display: flex;
   }
   .wish-head h2{
     margin-left: 4%;
     padding-top: 1%;
+    font-family: 'Poppins', sans-serif;
+  }
+  .count-wishitem{
+    margin-left: 0.5%;
+    padding-top: 1.2%;
+    color: rgb(135, 135, 250);
+    font-size: 20px;
     font-family: 'Poppins', sans-serif;
   }
   .wish-items{
@@ -103,3 +111,52 @@
     color: rgb(2, 98, 2);
     font-weight: 700;
   }
+  .empty-wishlist {
+    margin-top: 10vh;
+    padding-top: 5vh;
+    margin-left: 32.4%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+  .add-wishlist-btn{
+    background-color: rgb(23, 9, 64);
+    color: #fff;
+    height: 6vh;
+    width: 20%;
+    text-transform: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size:medium;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    transition: color 0.4s linear;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 3px;
+    z-index: 1;
+    margin-top: 4%;
+    margin-left: 39.5%;
+    font-family: 'Mooli', sans-serif;
+}
+
+.add-wishlist-span{
+    background-color: rgb(135, 135, 250);
+    color: #150303;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+.add-wishlist-btn:hover .add-wishlist-span{
+    width: 100%;
+    color: #150303;
+}
+.add-wishlist-btn:hover{
+    color: #150303;
+}

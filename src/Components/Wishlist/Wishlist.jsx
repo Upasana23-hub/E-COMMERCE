@@ -3,7 +3,7 @@ import './Wishlist.css';
 import Data from '../Data';
 import { MdStarBorderPurple500 } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 const Wishlist = () => {
 
     const [wish, setWish] = useState([]);
@@ -43,10 +43,18 @@ const Wishlist = () => {
     <div className="wish-outer">
         <div className="wish-inner">
             <div className='wish-head'>
-                <h2 >My Wishlist</h2>
+                <h2 >My Wishlist </h2><h3 className='count-wishitem'>({wish.length})</h3>
             </div>
-            <hr/>
-        {console.log("From Wishlist Page", wish)}
+            {wish == 0 ? (
+            <div>
+            <h1 className="empty-wishlist">Your Shopee Wishlist is empty </h1>
+            <Link to="/">
+            <button className='add-wishlist-btn'><span className='add-wishlist-span'></span>Add Products to Wishlist</button>
+            </Link>
+            </div>
+        ) : ( 
+        <>
+        <hr/>
         {Data.map((f) => {
             if(wish.includes(f.id)) {
                 return (
@@ -90,6 +98,8 @@ const Wishlist = () => {
             }
             return null;
         })}
+        </>
+    )}
         </div>
     </div>
     </>
