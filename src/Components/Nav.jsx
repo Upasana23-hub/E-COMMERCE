@@ -46,8 +46,8 @@ const Nav = () => {
     <div className='list'>
       <ol>
         <li><Link to="/account"><i className="fa-solid fa-user"></i> My Account</Link></li>
-        <li><Link to="/account"><i className="fa-solid fa-heart" ></i> Wishlist</Link></li>
-        <li><Link to="/account"><i className="fa-solid fa-cart-shopping"></i> Cart</Link></li>
+        <li><Link to="/wishlist"><i className="fa-solid fa-heart" ></i> Wishlist</Link></li>
+        <li><Link to="/cart"><i className="fa-solid fa-cart-shopping"></i> Cart</Link></li>
       </ol>
       </div>
       
