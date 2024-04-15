@@ -17,7 +17,9 @@ export const Small = () => {
             <div className='inner_card_div1'>
                 <div className='up_inner_card_div1'>
                 <div className="card_1">
-                    <h3 className='ins'>Decorate your home in style</h3>
+                    <div className='instr'>
+                        <h3 className='up-card-details2'>Decorate your home in style</h3>
+                    </div>
                     <Link to="/Another?search=decorate">
                 <div className="pi">
                     <div className="up_pics">
@@ -52,8 +54,8 @@ export const Small = () => {
                 </Link>
             </div>
             <div className="card_2">
-                <div className="ins">
-                    <h3>Up to 60% off | Styles for men</h3>
+                <div className="instr">
+                    <h3 className='up-card-details2'>Up to 60% off | Styles for men</h3>
                 </div>
                 <div className="pi">
                     <div className="up_pics">
@@ -98,8 +100,8 @@ export const Small = () => {
                 </div>
                 <div className='dwn_inner_card_div1'>
                 <div className="card_3">
-                <div className="ins">
-                    <h3>Up to 60% off | Styles for women</h3>
+                <div className="instr">
+                    <h3 className='up-card-details2'>Up to 60% off | Styles for women</h3>
                 </div>
                 <div className="pi">
                     <div className="up_pics">
@@ -141,8 +143,8 @@ export const Small = () => {
                 </div>
             </div>
             <div className="card_4">
-                <div className="ins">
-                    <h3>Get the perfect screen size | TVs Starting ₹5,999</h3>
+                <div className="instr">
+                    <h3 className='up-card-details2'>Get the perfect screen size | TVs Starting ₹5,999</h3>
                 </div>
                 <Link to="/Another?search=TV">
                 <div className="pii">
