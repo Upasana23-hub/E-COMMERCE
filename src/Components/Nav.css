@@ -109,6 +109,10 @@
 .nav Link {
     color: white;
 }
+.nav-links{
+    text-transform: none;
+    color: #ffffff;
+}
 
 
 

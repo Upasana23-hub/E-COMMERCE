@@ -46,11 +46,13 @@ const Summary = () => {
             <input type="number" placeholder="  123456 "></input>
           </div>
           <br/>
+
+          <Link to="/Payment">
           <button type="submit" className='continue-btn'>
-            <Link to="/Payment">
+            
             Continue
-            </Link>
             </button>
+          </Link>
 
         </form>
       </div>
