@@ -72,6 +72,15 @@ const Footer = () => {
                   </div>
                 </div>
             </div>
+            <div className='footer-list'>
+              <ol>
+                <li><Link to="/"><i class="fa-solid fa-house"></i><br/> Home</Link></li>
+                <li><Link to="/account"><i class="fa-solid fa-user" ></i><br/> You</Link></li>
+                <li><Link to="/wishlist"><i class="fa-solid fa-heart" ></i> <br/>Wishlist</Link></li>
+                <li><Link to="/cart"><i class="fa-solid fa-cart-shopping"></i><br/> Cart</Link></li>
+                <li><Link to="/About"><i class="fa-solid fa-bars"></i><br/> About</Link></li>
+              </ol>
+            </div>
             <hr className="hr1"/>
             <div className="footer-lower">
               <p> &copy; <em id="date"></em>2024 Shopee, All Right Reserved.</p>
