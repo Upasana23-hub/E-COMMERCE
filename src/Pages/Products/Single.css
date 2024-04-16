@@ -67,10 +67,8 @@
     margin-top: 5vh;
 }
 .butto-div{
-    /* width: 100%;
-    height: 25vh;
-    background-color: aquamarine; */
-    display: flex;
+    color: #fff;
+    
 }
 .si-butt-1{
     width: 46%;
@@ -82,6 +80,9 @@
     justify-content: center;
     border: none;
     font-family: "Poppins", sans-serif;
+}
+.si-butt-1:hover{
+    color: #878787;
 }
 
 .si-butt-2{

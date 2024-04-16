@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="footer2">
                   <h3 className="heading-footer">CATEGORIES</h3>
-                  <ul>
+                  <ul className="footer-link-col1">
                     <li><Link to="/Another?search=men">Men</Link></li>
                     <li><Link to="/Another?search=women">Women</Link></li>
                     <li><Link to="/Another?search=teddy dress">Kids</Link></li>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div className="footer3">
                 <h3 className="heading-footer">INFORMATIONS</h3>
-                  <ul>
+                  <ul className="footer-link-col2">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/About">About Us</Link></li>
                     <li><Link to="/terms">Term and Condition</Link></li>
@@ -60,10 +60,10 @@ const Footer = () => {
                 <div className="footer5">
                   <h3>SOCIAL</h3>
                   <div className="social">
-                  <a href="hgg"><i class="fa-brands fa-facebook" ></i></a>
-                  <a href="hgg"><i class="fa-brands fa-instagram" ></i></a>
-                  <a href="hgg"><i class="fa-brands fa-youtube" ></i></a>
-                  <a href="gjhg"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="hgg" className="footer-logo"><i class="fa-brands fa-facebook" ></i></a>
+                  <a href="hgg" className="footer-logo"><i class="fa-brands fa-instagram" ></i></a>
+                  <a href="hgg" className="footer-logo"><i class="fa-brands fa-youtube" ></i></a>
+                  <a href="gjhg" className="footer-logo"><i class="fa-brands fa-twitter"></i></a>
                   </div>
                   <br/><br/>
                   <div className="newsletter"> 

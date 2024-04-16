@@ -102,7 +102,7 @@ a{
     text-decoration: none;
     color: rgb(177, 177, 177);
 }
-ul{
+.footer-link-col1,.footer-link-col2{
     color: rgb(177, 177, 177);
     margin-top: 1.6vh;
     margin-left: 7.5%;

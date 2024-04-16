@@ -79,25 +79,29 @@ const Single = () => {
             </button>
             <img src={selectedItem.image} className="sing-img" alt="" />
           </div>
-          <div className="butto-div">
+          <div >
+          <Link to="/cart" className="butto-div">
             <button
               onClick={() => {
                 addtocart(selectedItem.id);
               }}
               className="si-butt-1"
             >
-              <Link to="/cart">
+              
                 <ShoppingCartIcon className="single-icon" />
                 Add to cart
-              </Link>
+              
             </button>
-
+            </Link>
+            
+            <Link to="/order-summary">
             <button className="si-butt-2">
-              <Link to="/order-summary">
+              
                 <FlashOnIcon className="single-icon"/>
                 Buy Now
-              </Link>
+             
             </button>
+            </Link>
           </div>
         </div>
         <div className="single-det">
