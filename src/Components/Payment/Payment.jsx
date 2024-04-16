@@ -6,7 +6,7 @@ import { MdPayment } from "react-icons/md";
 import { FaQuestionCircle } from "react-icons/fa";
 
 const Payment = () => {
-  const [activeTab, setActiveTab] = useState('profile'); // State to manage active tab
+  const [activeTab, setActiveTab] = useState('debit'); // State to manage active tab
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
