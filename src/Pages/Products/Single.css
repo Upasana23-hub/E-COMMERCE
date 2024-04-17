@@ -5,13 +5,13 @@
 .single-outer{
     
     
-    height: 200vh;
+    /* height: 200vh; */
     width: 100%;
     
     background-color:rgb(231, 231, 231) ;
 }
 .single-inner{
-    height: 200vh;
+    height: 120vh;
     width: 90%;
     margin-left: 5%;
     background-color: rgb(255, 255, 255);
@@ -183,6 +183,66 @@
     color: #00cc00;
     font-size: 15px;
 }
-/* .TableRow{
-    
-} */
+@media screen and (max-width: 480px) {
+    .single-inner {
+      flex-direction: column;
+      width: 100%;
+      padding-top: 20%;
+    }
+    .single-pic{
+    height: 20vh;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    .single-det{
+        width: 100%;
+        margin-top: 120%;
+    }
+    .butto-div{
+        margin-top: 35%;
+    }
+    .sin-heart {
+      margin-top: -20px;
+      margin-right: 10px;
+    }
+    .sin-picture {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive styles for 768px and below */
+  @media screen and (max-width: 768px) {
+    .single-inner {
+      padding-top: 10vh;
+    }
+  }
+  
+  /* Responsive styles for 1024px and below */
+  @media screen and (max-width: 1024px) {
+    .single-pic,
+    .single-det {
+      width: 100%;
+    }
+    .si-butt-1,
+    .si-butt-2 {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .single-pic,
+    .single-det {
+      width: 100%;
+    }
+    .si-butt-1,
+    .si-butt-2 {
+      width: 100%;
+      margin-left: 2%;
+      margin-top: 10px;
+    }
+    .butto-div{
+        margin-top: 25%;
+    }
+  }
