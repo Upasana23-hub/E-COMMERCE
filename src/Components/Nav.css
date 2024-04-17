@@ -198,6 +198,7 @@
         width: 100%; 
         margin-bottom: 2.5vh;
         margin-left: 0%;
+        border: none;
     }
 
     .list {
