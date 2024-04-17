@@ -123,3 +123,92 @@
 .check-butt{
  color: whitesmoke;
 }
+
+@media (max-width: 1290px) {
+  .cartitems{
+    margin-left: 2%;
+  }
+  .cartitems-format-main {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjusted grid columns for smaller screens */
+    gap: 2%; /* Adjusted gap for smaller screens */
+    padding: 10px 1%; /* Adjusted padding for smaller screens */
+    font-size: 16px; /* Adjusted font size for smaller screens */
+    margin-left: 3.5%;
+  }
+
+  .cartitems-down {
+    margin: 3% 1%; /* Adjusted margin for smaller screens */
+    margin-left: 2.7%;
+  }
+
+  .cartitems-total {
+    margin-right: 5%; /* Adjusted margin for smaller screens */
+    gap: 10px; /* Adjusted gap for smaller screens */
+  }
+
+  .cartitems-promobox input {
+    width: 65%; /* Adjusted input width for smaller screens */
+  }
+
+  .cartitems-promobox button {
+    width: 30%; /* Adjusted button width for smaller screens */
+  }
+  .cartitems-promobox{
+    width: 90%;
+  }
+  .cartitems-quantity{
+    margin-top: 2.5vh;
+  }
+}
+
+
+
+@media (max-width: 420px) {
+  .cartitems {
+    margin-left: 2%;
+  }
+
+  .cartitems-format-main {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Adjusted grid columns for smaller screens */
+    gap: 2%; /* Adjusted gap for smaller screens */
+    padding: 10px 1%; /* Adjusted padding for smaller screens */
+    font-size: 14px; /* Adjusted font size for smaller screens */
+    margin-left: 3.5%;
+  }
+
+  .cartitems-down {
+    margin: 3% 1%; /* Adjusted margin for smaller screens */
+    margin-left: 2.7%;
+  }
+
+  .cartitems-total {
+    margin-right: 5%; /* Adjusted margin for smaller screens */
+    gap: 5px; /* Adjusted gap for smaller screens */
+    width: 50%;
+  }
+
+  .cartitems-promobox {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+
+  .cartitems-promobox input {
+    width: 65%; /* Adjusted input width for smaller screens */
+  }
+
+  .cartitems-promobox button {
+    width: 30%; /* Adjusted button width for smaller screens */
+  }
+
+  .cartitems-quantity {
+    margin-top: 2.5vh; /* Adjusted margin top for smaller screens */
+  }
+  .cartitems-promobox{
+    width: 87%;
+  }
+  .cartitems-promocode{
+    margin-top: 5vh;
+  }
+  .cartitems-promocode button{
+    display: none;
+  }
+}

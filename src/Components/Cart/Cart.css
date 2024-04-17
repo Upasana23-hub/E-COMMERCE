@@ -1,5 +1,4 @@
 .cart-outer {
-  height: 200vh;
   padding-top: 9vh;
   background-color: rgb(231, 231, 231);
 }
@@ -13,4 +12,25 @@
 .items-not {
   margin-left: 30%;
   margin-top: 3%;
+}
+@media (max-width: 1290px) {
+  .cart-inner {
+    width: 94%; /* Adjusting width for smaller screens */
+    margin-left: 3%; /* Adjusting margin for smaller screens */
+  }
+
+  .items-not {
+    margin-left: 25%; /* Adjusting margin for smaller screens */
+  }
+}
+
+@media (max-width: 420px) {
+  .cart-inner {
+    width: 90%; /* Adjusting width for smaller screens */
+    margin-left: 5%; /* Adjusting margin for smaller screens */
+  }
+
+  .items-not {
+    margin-left: 10%; /* Adjusting margin for smaller screens */
+  }
 }
