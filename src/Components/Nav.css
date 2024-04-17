@@ -199,9 +199,10 @@
 
     .search-button {
         height: auto; 
-        width: 100%; 
+        width: 52%; 
         margin-bottom: 2.5vh;
         margin-left: 0%;
+        border: none;
     }
 
     .list {
