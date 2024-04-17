@@ -164,3 +164,43 @@
 
     
 }
+
+
+@media screen and (max-width: 420px) {
+    .outer-div {
+        display: inline-flex;
+        width: 100%; 
+        z-index: auto; 
+    }
+
+    .logo {
+        height: 9vh; 
+        width: 900%; 
+        margin-top: 1.5vh;
+    }
+
+    .search-bar {
+        height: auto; 
+        width: 90%; 
+        margin-left: 3%;
+        margin-top: 0.3vh;
+    }
+
+    .search {
+        height: auto; 
+        width: 180%;
+        margin-bottom: 2vh;
+        margin-left: 0%;
+    }
+
+    .search-button {
+        height: auto; 
+        width: 100%; 
+        margin-bottom: 2.5vh;
+        margin-left: 0%;
+    }
+
+    .list {
+        display: none; 
+    }
+}
