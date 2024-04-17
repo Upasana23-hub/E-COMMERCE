@@ -183,66 +183,59 @@
     color: #00cc00;
     font-size: 15px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
     .single-inner {
-      flex-direction: column;
-      width: 100%;
-      padding-top: 20%;
+        flex-direction: column;
+        width: 70%;
+        padding-top: 20%;
+        height: 180vh; 
+        margin-left: 5%;
     }
-    .single-pic{
-    height: 20vh;
-      width: 100%;
-      padding: 0;
-      margin: 0;
+    .single-pic {
+        height: 20vh;
+        width: 70%;
+        padding: 0;
+        margin: 0;
     }
-    .single-det{
+    .sing-img{
+        height: 45vh;
+        width: 87%;
+    }
+    .single-picture {
+        height: 58vh;
+        width: 70%;
+    }
+    .single-det {
         width: 100%;
         margin-top: 120%;
     }
-    .butto-div{
-        margin-top: 35%;
+    .si-butt-1 {
+        padding-top: 15%;
+        width: 60%;
     }
     .sin-heart {
-      margin-top: -20px;
-      margin-right: 10px;
+        margin-top: 9%;
+        margin-right: 10px;
     }
     .sin-picture {
-      width: 100%;
+        width: 70%;
     }
-  }
-  
-  /* Responsive styles for 768px and below */
-  @media screen and (max-width: 768px) {
-    .single-inner {
-      padding-top: 10vh;
-    }
-  }
-  
-  /* Responsive styles for 1024px and below */
-  @media screen and (max-width: 1024px) {
+}
+
+/* Responsive styles for 1290px and below */
+@media screen and (max-width: 1290px) {
+    .single-inner,
     .single-pic,
     .single-det {
-      width: 100%;
+        width: 100%;
     }
     .si-butt-1,
     .si-butt-2 {
-      width: 100%;
-      margin-left: 0;
-      margin-top: 10px;
+        width: 46%; 
+        margin-left: 3%; 
+        margin-top: 10px;
     }
-  }
-  @media screen and (max-width: 1440px) {
-    .single-pic,
-    .single-det {
-      width: 100%;
+    .butto-div {
+        margin-top: 25%; 
     }
-    .si-butt-1,
-    .si-butt-2 {
-      width: 100%;
-      margin-left: 2%;
-      margin-top: 10px;
-    }
-    .butto-div{
-        margin-top: 25%;
-    }
-  }
+}
