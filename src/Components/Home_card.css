@@ -446,3 +446,35 @@ p{
     height: 100%;
     margin-bottom:10% ;
 }
+@media only screen and (max-width: 420px) {
+    .card_outer {
+        height: auto;
+        margin-top: 2%;
+        flex-wrap: wrap;
+    }
+    
+    .first_card, .second_card, .third_card, .fourth_card {
+        width: 90%;
+        margin-left: 5%;
+        height: 60vh;
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 421px) and (max-width: 1290px) {
+    
+
+    .card_outer {
+        height: 40vh; 
+        margin-top: 5%;
+    }
+
+    .first_card, .second_card, .third_card, .fourth_card {
+        width: 22%; 
+        margin-left: 2%;
+    }
+
+    
+}
