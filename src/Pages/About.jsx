@@ -42,14 +42,14 @@ const location = useLocation();
         <div className='image'>
         <img src={currentImage } alt='img' Height={442} width={536}/>
         </div>
-        <div className="text">
+        <div className="about-text-1">
           <p className='about-text'>
           We launched Shopee in 2018, as a curated and managed marketplace with an endeavor to inspire consumers to make fashion and lifestyle choices that best suit them. We have a wide assortment of offerings, across price points, to cater to women, men and children of diverse demographics. Presently, Shopee houses 1,500+ brands and over 1.8 million products across five consumer segments: women, men, kids, tech and home. Within these consumer segments, we merchandise across several categories including western wear, Indian wear, lingerie, footwear, bags, jewelry, accessories, athleisure, home décor, bath, bed and kitchen in order to cater to the diverse consumers’ journeys across our platform. We offer a mix of brands across established national brands, international brands, luxury brands, and emerging labels and designers.
           </p>
         </div>
       </div>
       <br/> <br/><br/>
-      <p className='about1'>WHAT SETS US APART</p>
+      <p className='about-new-1'>WHAT SETS US APART</p>
       <div className='about-text1'>
         <p className='about-textbox'>While we offer a wide range of products, we place strong emphasis on curation. We identify fashion-forward brands, vetting for style and quality, and further select styles within these brands to offer. We also place importance on selling full-price products, reducing reliance on discounting, and selling the latest season’s designs. In addition, we use digital content, personalized mobile application experiences and proprietary recommendation algorithms, to build differentiated style-driven, discovery-led experiences for consumers.</p>
       </div>
