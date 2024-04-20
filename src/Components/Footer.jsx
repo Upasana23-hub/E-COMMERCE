@@ -52,7 +52,7 @@ const Footer = () => {
                   </div>
                   <div className="email">
                   <i className="fa-solid fa-envelope"></i>
-                  <p>Email: contact@shopee.com</p>
+                  <p>Email: <a href="mailto:shopee4303@gmail.com">shopee4303@gmail.com</a></p>
                   </div>
                   <div className="connect">
                   </div>
@@ -60,10 +60,10 @@ const Footer = () => {
                 <div className="footer5">
                   <h3>SOCIAL</h3>
                   <div className="social">
-                  <a href="hgg" className="footer-logo"><i class="fa-brands fa-facebook" ></i></a>
-                  <a href="hgg" className="footer-logo"><i class="fa-brands fa-instagram" ></i></a>
-                  <a href="hgg" className="footer-logo"><i class="fa-brands fa-youtube" ></i></a>
-                  <a href="gjhg" className="footer-logo"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=61558414601366&sk=about" className="footer-logo"><i class="fa-brands fa-facebook" ></i></a>
+                  <a href="https://www.instagram.com/" className="footer-logo"><i class="fa-brands fa-instagram" ></i></a>
+                  <a href="https://www.youtube.com/@owncoding5636/videos" className="footer-logo"><i class="fa-brands fa-youtube" ></i></a>
+                  <a href="https://twitter.com/?lang=en-in" className="footer-logo"><i class="fa-brands fa-twitter"></i></a>
                   </div>
                   <br/><br/>
                   <div className="newsletter"> 
