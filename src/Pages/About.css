@@ -3,9 +3,9 @@
     padding: 0;
 }
 .main-outer{
-    height: 360vh;
     width: 100%;
     padding-top: 12vh;
+    padding-bottom: 5vh;
 }
 .about-outer{
     height: 42.5vh;
@@ -42,13 +42,18 @@
     text-align: center;
     margin-top: 6vh;
 }
+.about-new-1{
+    font-size: 52px;
+    text-align: center;
+    margin-top: 6vh;
+}
 .image{
     height: 70vh;
     width: 37%;
     margin-left:11% ;
     /* background-color: aqua; */
 }
-.text{
+.about-text-1{
     height: 69vh;
     width: 35%;
     /* background-color: rgb(185, 255, 178); */
@@ -173,3 +178,91 @@
 .image-new{
     box-shadow: 0px 15px 15px 5px rgba(78, 78, 78, 0.2); 
 }
+
+
+@media only screen and (max-width: 1290px) {
+    .body {
+        flex-direction: column;
+    }
+    .image{
+        margin-left:17% ;
+        margin-bottom: 2vh;
+    }
+
+    
+    .about-text-1{
+        width: 80%;
+        height: 101vh;
+        margin:0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .about1{
+        margin-top: 10vh;
+    }
+    .about-new-1{
+        margin-top: 35vh;
+    }
+    .about-text{
+        padding-bottom: 10vh;
+        margin-top: 10vh;
+    }
+    .about-textbox{
+        margin-top: 3vh;
+    }
+    .new-promise{
+        /* height: 5vh;
+        margin-top: 5vh; */
+        display: none;
+    }
+    .box{
+        /* width: 96%;
+        padding-left: 2%;
+        padding-right: 2%; */
+        display: none;
+    }
+
+    .box1{
+        width: 27%;
+        margin-left: 4%;
+        
+    }
+    .box2{
+        width: 27%;
+        margin-left: 5%;
+        
+    }
+    .box3 {
+        width: 27%;
+        margin-left: 5%;
+    }
+    .text1 {
+        width: 90%;
+        margin: 5% auto;
+        margin-left: 15%;
+    }
+
+    .button {
+        margin-left: 35%;
+        margin-top: 3vh;
+        
+    }
+    .our-promise{
+        padding-bottom: 60vh;
+    }
+
+    .follow-text {
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 10vh;
+    }
+
+    .follow-img {
+        width: 50%;
+        padding-right: 10%;
+        margin-left: 5%;
+        margin-top: 7vh;
+    }
+}
+
+

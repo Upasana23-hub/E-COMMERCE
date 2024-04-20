@@ -237,6 +237,7 @@ li{
 
 @media screen and (max-width: 420px) {
     .footer-outer {
+        margin-top: 5vh;
         height: auto;
         padding: 2vh 2%;
         z-index: 2;
