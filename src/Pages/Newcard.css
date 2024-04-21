@@ -1,6 +1,6 @@
 .outer_Newcard{
     /* background-color: black; */
-    height: 55vh;
+    height: 64vh;
     width: 96%;
     margin-top: 5%;
     margin-left: 2%;
@@ -9,7 +9,7 @@
 }
 
 .first_box,.second_box,.third_box,.fourth_box{
-    height: 100%;
+    height: 64vh;
     width: 30%;
     /* background-color: aqua; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -20,14 +20,14 @@
 }
 
 .box01,.box02,.box03,.box04{
-    height: 75%;
+    height: 45vh;
     width: 90%;
     margin-left: 5%;
     margin-top: 4%;
 }
 
 .box01_1,.box01_2,.box01_3,.box01_4,.img9,.img10,.img11,.img12{
-    height: 90%;
+    height: 48vh;
     width: 47.5%;
     /* background-color: blue; */
     background-position: center;
@@ -89,7 +89,7 @@
     background-repeat: no-repeat;
 }
 .up-card-details3{
-    height: 8vh;
+    height: 13vh;
 }
 .instr{
     margin-top: 4%;
