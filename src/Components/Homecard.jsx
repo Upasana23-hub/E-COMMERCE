@@ -7,19 +7,23 @@ import "swiper/css/pagination";
 import { FreeMode, Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 const Homecard = () => {
-  const [slidesPerView, setSlidesPerView] = useState(6);
+  const [slidesPerView, setSlidesPerView] = useState(calculateSlidesPerView());
+
+  function calculateSlidesPerView() {
+    if (window.innerWidth <= 420) {
+      return 2;
+    } else if (window.innerWidth <= 768) {
+      return 3;
+    } else {
+      return 6;
+    }
+  }
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 420) { // Adjusted the condition for 420px width
-        setSlidesPerView(3); // Set slidesPerView to 2 for 420px width
-      } else if (window.innerWidth <= 768) {
-        setSlidesPerView(3);
-      } else {
-        setSlidesPerView(6);
-      }
+      setSlidesPerView(calculateSlidesPerView());
     };
-  
+
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
