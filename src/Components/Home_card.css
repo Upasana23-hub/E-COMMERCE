@@ -458,23 +458,53 @@ p{
         margin-left: 5%;
         height: 60vh;
     }
-
-    
-}
-
-
-@media only screen and (min-width: 421px) and (max-width: 1290px) {
-    
-
-    .card_outer {
-        height: 40vh; 
-        margin-top: 5%;
-    }
-
-    .first_card, .second_card, .third_card, .fourth_card {
-        width: 22%; 
+    .first_div,.second_div,.third_div,.fourth_div,.fifth_div,.sixth_div,.seventh_div{
+        width: 100%;
+        height: 30vh;
         margin-left: 2%;
     }
-
+    .scroller-div {
+        height: 28vh;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .slider_outer {
+        height: 40vh;
+        width: 100%;
+        /* margin: 5% auto; */
+        margin-left: 5%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .info_div {
+        width: 100%;
+        height: 2vh;
+    }
+    .sli1{
+        height: 10vh;
+        width: 100%;
+    }
+    
     
 }
+
+/* @media only screen and (min-width: 420px) and (max-width: 1290px) {
+    .slider_outer {
+        height: 40vh;
+        width: 100%;
+        margin: 5% auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    
+
+    .scroller-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .mySwiper {
+        height: auto;
+        margin-bottom: 5%;
+    }
+    
+} */
