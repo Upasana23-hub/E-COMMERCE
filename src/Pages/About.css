@@ -270,7 +270,7 @@
 @media only screen and (max-width: 420px) {
     
     .about-outer{
-        width: 194%;
+        width: 100%;
         padding: 0;
     }
     .title{
@@ -280,31 +280,29 @@
         flex-direction: column;
     }
     .image {
-        /* margin-left: 0;
-        margin-bottom: 2vh;
-        width: 80%; */
-        text-align: center;
-        margin-left: 34%;
+        height: 50vh;
+        width: 5%;
+        margin-left:5% ;
     }
 
     .about-text-1 {
-        width: 170%;
+        width: 86%;
         height: auto;
         margin: 0;
-        padding: 10%;
+        padding: 7%;
     }
     .about1 {
-        width: 150%;
+        width: 75%;
         padding-left: 10%;
-        margin-top: 10vh;
+        margin-top: 28vh;
         text-align: center;
-        margin-left: 12%;
+        margin-left: 6%;
     }
     .about-new-1 {
-        width: 150%;
-        padding-left: 10%;
-        margin-top: 40vh;
-        margin-left: 10%;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 80vh;
     }
     .about-text {
         padding-bottom: 5vh;
@@ -312,14 +310,10 @@
     }
     .about-textbox {
         margin-top: 3vh;
-        width: 215%;
-        padding-left: 1%;
+        width: 100%;
     }
     .new-promise,
     .box,
-    .button {
-        display: none;
-    }
     .box1,
     .box2,
     .box3 {
@@ -336,18 +330,19 @@
         padding-bottom: 30vh;
     }
     .follow{
-        width:190% ;
+        width:100% ;
+        display: contents;
     }
     .follow-text {
-        width: 80%;
-        margin-left: 10%;
+        width: 86%;
+        margin-left: 7%;
         padding-bottom: 10vh;
     }
 
     .follow-img {
-        width: 50%;
+        width: 80%;
         padding-right: 10%;
         margin-left: 5%;
-        margin-top: 7vh;
+        display: none;
     }
 }
