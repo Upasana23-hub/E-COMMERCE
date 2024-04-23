@@ -19,3 +19,22 @@
 .outer1:hover{
     cursor: pointer;
 }  
+
+@media screen and (max-width: 420px){
+    .outer1{
+        height: 8vh;
+    }
+    .img{
+        height: 5.5vh;
+        width: 100%;
+    }
+    .inner-text-div{
+        height: 2vh;
+        width: 90%;
+        margin-top: 0%;
+        justify-content: center;
+    }
+    .inner-text-div p{
+        font-size: 11px;
+    }
+}

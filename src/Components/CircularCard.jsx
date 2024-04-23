@@ -49,7 +49,7 @@ const CircularCard = () => {
     },
     {
       id: 7,
-      name: "Winterwear",
+      name: "Winter",
       image: winterwear,
       link: "/Another?search=winter"
     },
