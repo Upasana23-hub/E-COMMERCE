@@ -458,14 +458,16 @@ p{
         margin-left: 5%;
         height: 60vh;
     }
-    .first_div,.second_div,.third_div,.fourth_div,.fifth_div,.sixth_div,.seventh_div{
-        width: 100%;
-        height: 30vh;
-        margin-left: 2%;
+    .first_div,.second_div,.third_div,.fourth_div,.fifth_div,.sixth_div,.seventh_div,.eightth_div,.nineth_div,.tenth_div,.eleventh_div,.twelveth_div{
+        width: 87%;
+        height: 27vh;
+        
+        
     }
+    
     .scroller-div {
-        height: 28vh;
-        width: 100%;
+        height: 30vh;
+        width: 87%;
         margin-top: 5%;
     }
     .slider_outer {
@@ -479,8 +481,8 @@ p{
         width: 100%;
         height: 2vh;
     }
-    .sli1{
-        height: 10vh;
+    .sli1,.sli2,.sli3,.sli4,.sli5,.sli6,.sli7,.sli8,.sli9,.sli10,.sli11,.sli12{
+        height: 18vh;
         width: 100%;
     }
     
