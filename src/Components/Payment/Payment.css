@@ -238,7 +238,8 @@
   }
   .image-phonepe{
     height: 80px;
-    width: 90px;
+    width: 100px;
+    margin-left: -7%;
   }
   .upi_cards{
     height: 13vh;
@@ -250,6 +251,11 @@
   .or-p{
     margin-Top:25px;
     font-Size:15px;
+  }
+  .image-visa{
+    height: 80px;
+    width: 90px;
+    margin-left: -7%;
   }
 
   @media screen and (max-width: 420px) {
