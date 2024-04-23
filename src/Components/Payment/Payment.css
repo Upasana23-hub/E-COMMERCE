@@ -95,8 +95,9 @@
     margin-top: 3%;
   }
   .debit-cvv{
-    margin-left: -22.3%;
+    margin-left: -23.3%;
     margin-top: 0.5%;
+    width: 30%;
   }
   .form-cvv{
     height: 6vh;
@@ -177,14 +178,17 @@
     width: 60%;
     margin-left: 32%;
   }
-  .upi-head,.upi-id,.upi-phonepe{
+  .upi-head-1,.upi-head,.upi-id,.upi-phonepe{
     font-size: larger;
     font-weight: 600;
     margin-top: 5%;
     font-family: 'Mooli', sans-serif;
   }
-  .upi-head{
+  .upi-head-1{
     margin-left: 1.5%;
+  }
+  .upi-head{
+    margin-left: 2%;
   }
   .upi-logo-1{
     height: 40px;
@@ -214,4 +218,212 @@
   }
   .upi-inner-up{
     display: flex;
+  }
+  .p-debit{
+    font-weight: 400;
+    font-size:17px;
+    margin-left:5px;
+    margin-Top:-2px;
+  }
+  .p-upi{
+    font-weight: 400;
+    font-size:17px;
+    margin-Left:5px;
+    margin-Top:1.5px;
+  }
+  .verify-p{
+    color:rgb(135, 135, 250);
+    margin-Left:52px;
+    margin-Top:12px;
+  }
+  .image-phonepe{
+    height: 80px;
+    width: 100px;
+    margin-left: -7%;
+  }
+  .upi_cards{
+    height: 13vh;
+    width: 40%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .or-p{
+    margin-Top:25px;
+    font-Size:15px;
+  }
+  .image-visa{
+    height: 80px;
+    width: 90px;
+    margin-left: -7%;
+  }
+
+  @media screen and (max-width: 420px) {
+    .side-tab-box {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+    .tabs{
+      display: flex;
+      height: 5vh;
+      width: 120px;
+    }
+    .p-debit,.p-upi{
+      font-size: 13px;
+      padding: 0;
+      margin-top: -15%;
+      padding-top: 2%;
+      width: 150px;
+    }
+    .p-upi{
+      padding-top: 4%;
+    }
+
+    .debit-head{
+      height: 10vh;
+      width: 100%;
+    }
+    .icon-debit-card{
+      margin-top: -12.5%;
+    }
+    .tab{
+      height: 30px;
+      width: 130px;
+      margin-top: -10%;
+      background-color: #fff;
+    }
+    .upi-head-1 img{
+      margin-top: -15%;
+    }
+    .tab-2{
+      font-size: 13px;
+      margin-top: -7%;
+      margin-left: 0%;
+      background-color: #fff;
+      height: 8vh;
+      width: 150px;
+      padding-right:10% ;
+      padding-left: 3%;
+    }
+    .tabs hr{
+      height: 50px;
+      margin-top: -10%;
+    }
+    .hr-2 hr{
+      display: none;
+    }
+    .tab-content{
+      margin-top: 5%;
+      width: 83.8%;
+    }
+    .debit-inner{
+      margin-top: 8%;
+    }
+    .date-cvv{
+      margin-top: 7.5%;
+    }
+    .acc-name-div{
+      margin-top: 7.5%;
+    }
+    .debit_cards{
+      height: 10vh;
+    }
+    .debit_cards img{
+      height: 40px;
+    }
+    .image-visa{
+      margin-left: -19%;
+    }
+    .debit-names{
+      font-size: 13px;
+    }
+    .debit-details{
+      margin-left: -17.5%;
+    }
+    .form-card{
+      width: 250px;
+      margin-top: 5%;
+    }
+    .icon-card{
+      margin-left: 10%;
+    }
+    .input-year{
+      width: 30px;
+    }
+    .input-month{
+      width: 30%;
+      margin-left: 5%;
+    }
+    .form-mm-yy{
+      width: 55%;
+      margin-top: 5%;
+    }
+    .form-cvv{
+      width: 124%;
+      margin-top: 12%;
+    }
+    .debit-cvv{
+      margin-top: 2.5%;
+    }
+    .icon-cvv{
+      margin-left: -0.5%;
+    }
+    .input-name{
+      width: 107%;
+      margin-top: 5%;
+    }
+    .pay-now{
+      width: 109%;
+      margin-top: 7.5%
+    }
+    .upi_cards{
+      height: 10vh;
+    }
+    .upi_cards img{
+      height: 40px;
+    }
+    .image-phonepe{
+      margin-left: -10%;
+    }
+    .upi-inner{
+      margin-left: 20%;
+    }
+    .upi-inner-up h5{
+      font-size: 13px;
+    }
+    .upi-logo-1{
+      height: 30px;
+      width: 30px;
+      margin-left: -15%;
+    }
+    .upi-head{
+      margin-top: 14%;
+    }
+    .upi-phonepe,.upi-id{
+      font-size: 13px;
+    }
+    .form-phonepe,.form-id{
+      width: 110%;
+      height: 6.2vh;
+    }
+    .verify-p{
+      margin-left: 2%;
+      margin-top: 4%;
+    }
+    .or-p{
+      margin-top: 5%;
+    }
+    .phonepe-div{
+      margin-top: -5%;
+      margin-left: -5%;
+    }
+    .upi-div{
+      margin-top: -5%;
+      margin-left: -5%;
+    }
+    .pay-now-2{
+      width: 112%;
+      margin-top: 10%;
+    }
   }
