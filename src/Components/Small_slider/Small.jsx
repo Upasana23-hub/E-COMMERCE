@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 import "./smallSlider.css";
 // import { Data } from '../Data'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,6 +9,28 @@ import { FreeMode, Navigation, Pagination } from "swiper/modules";
 import { Link } from "react-router-dom";
 
 export const Small = () => {
+    const [slidesPerView, setSlidesPerView] = useState(calculateSlidesPerView());
+
+  function calculateSlidesPerView() {
+    if (window.innerWidth <= 420) {
+      return 3;
+    } else if (window.innerWidth <= 768) {
+      return 3;
+    } else {
+      return 6;
+    }
+  }
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSlidesPerView(calculateSlidesPerView());
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   return (
     <>
       <div className="Full_page1">
@@ -171,7 +193,7 @@ export const Small = () => {
           <Link to="/Another?search=helmet">
             <div className="Slider_div2">
               <Swiper
-                slidesPerView={6}
+                slidesPerView={slidesPerView}
                 spaceBetween={30}
                 freeMode={true}
                 navigation={true}
