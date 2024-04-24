@@ -272,5 +272,19 @@
         height: 69vh;
         width: 100%;
     }
+    .full-slider-div{
+        height: 40vh;
+    }
+    .up_info_div{
+        height: 9vh; 
+        font-size: 110%;
+        width: 90%;
+    }
+    .Slider_div2{
+        height: 35vh;
+    }
+    .first_pic,.second_pic,.third_pic,.fourth_pic,.fifth_pic,.sixth_pic,.seventh_pic,.eightth_pic,.nineth_pic,.tenth_pic,.eleventh_pic,.twelveth_pic{
+        height: 25vh;
+    }
   }
  
