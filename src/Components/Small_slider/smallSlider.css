@@ -248,3 +248,29 @@
 .pi12{
     background-image: url(../../pictures/women_jwellery.jpeg);
 }
+
+@media screen and (max-width: 420px) {
+    .outer_card_div{
+        width: 100%;
+        height: 140vh;
+    }
+    .inner_card_div1 {
+      width: 4000px;
+      margin-bottom: 2%;
+      flex-direction: column;
+      height: 130vh;
+      margin-left: 2%;
+    }
+    .up_inner_card_div1,.dwn_inner_card_div1{
+        width: 100%;
+        height: 70vh;
+    }
+    .inner_card_div2{
+        visibility: hidden;
+    }
+    .card_1,.card_2,.card_3,.card_4{
+        height: 69vh;
+        width: 100%;
+    }
+  }
+ 
