@@ -173,8 +173,7 @@
 @media screen and (max-width: 420px) {
     .outer-div {
         display: inline-flex;
-        width: 100%; 
-        z-index: auto; 
+        width: 94%; 
     }
 
     .logo {
