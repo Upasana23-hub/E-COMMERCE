@@ -10,7 +10,7 @@ import { Link} from 'react-router-dom';
     <Link to="/Another:id">
 
     <Swiper
-    spaceBetween={30}
+    spaceBetween={2}
     centeredSlides={true}
     loop={true}
     autoplay={{
