@@ -31,19 +31,19 @@ const Summary = () => {
             <label htmlFor="Address">Address:</label><br/>
             <input type="text" placeholder="  room - street - locality "></input>
           </div>
-          <div className="summary-inputBox">
+          <div className="summary-inputBox-city">
             <label htmlFor="City">City:</label><br/>
-            <input type="text" placeholder="  enter your city"></input>
+            <input type="text" placeholder="  enter your city" className="city-input"></input>
           </div>
 
           
-          <div className="summary-inputBox">
+          <div className="summary-inputBox-state">
             <label htmlFor="State">State:</label><br/>
-            <input type="text" placeholder="  enter your state "></input>
+            <input type="text" placeholder="  enter your state " className="state-input"></input>
           </div>
-          <div className="summary-inputBox">
+          <div className="summary-inputBox-pin">
             <label htmlFor="Pin code">Pin Code:</label><br/>
-            <input type="number" placeholder="  123456 "></input>
+            <input type="number" placeholder="  123456 " required className="pin-input"></input>
           </div>
           <br/>
 

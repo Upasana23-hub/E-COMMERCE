@@ -16,7 +16,7 @@
     background-color: white;
     border-radius: 5px;
 }
-.summary-inputBox{
+.summary-inputBox,.summary-inputBox-city,.summary-inputBox-pin,.summary-inputBox-state{
     height: 10vh;
     width: 100%;
     padding-top: 2vh;
@@ -44,4 +44,42 @@
     color: rgb(1, 0, 0);
     border-radius: 5px;
     border: none;
+}
+.city-input,.state-input,.pin-input{
+    width: 90%;
+    margin-left: 5%;
+    height: 5vh;
+    margin-top: 1vh;
+}
+.summary-inputBox-city label{
+    margin-left: 5%;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+}
+.summary-inputBox-state label{
+    margin-left: 5%;
+    margin-bottom: 3vh;
+    margin-top: 6vh;
+}
+.summary-inputBox-pin label{
+    margin-left: 5%;
+    margin-bottom: 3vh;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 420px){
+    .inner-summary{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .city-input{
+        margin-top: 3%;
+    }
+    .state-input{
+        margin-top: 3%;
+    }
+    
+    .summary-inputBox-pin label{
+        margin-top: -5%;
+    }
 }
