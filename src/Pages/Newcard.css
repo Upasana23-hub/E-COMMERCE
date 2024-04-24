@@ -97,3 +97,38 @@
     margin-left: 5%;
     margin-right: 5%;
 }
+@media screen and (max-width: 420px) {
+    .outer_Newcard {
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .first_box,.second_box,.third_box {
+      width: 99%;
+      height: 50vh;
+      margin-bottom: 5%;
+    }
+    .fourth_box{
+        width: 99%;
+        height: 70vh;
+        margin-bottom: 5%; 
+    }
+    .up_pics{
+        height: 25vh;
+    }
+    .dwn_pics{
+        height: 25vh;
+        margin-top: 2%;
+    }
+    
+    .box01, .box02, .box03, .box04 {
+      height: 30vh; 
+    }
+    
+    .box01_1, .box01_2, .box01_3, .box01_4, .img9, .img10, .img11, .img12 {
+      height: 45vh; 
+    }
+    .img9,.img10,.img11,.img12{
+        height: 24vh;
+    }
+  }
