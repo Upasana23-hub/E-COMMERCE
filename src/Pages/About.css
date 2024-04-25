@@ -281,8 +281,11 @@
     }
     .image {
         height: 50vh;
-        width: 5%;
-        margin-left:5% ;
+        width: 100%;
+        margin-left:0% ;
+    }
+    .image img{
+        width: 95%;
     }
 
     .about-text-1 {
@@ -296,7 +299,7 @@
         padding-left: 10%;
         margin-top: 28vh;
         text-align: center;
-        margin-left: 6%;
+        margin-left: 1%;
     }
     .about-new-1 {
         width: 90%;
