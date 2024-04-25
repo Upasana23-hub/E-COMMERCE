@@ -173,7 +173,7 @@
 @media screen and (max-width: 420px) {
     .outer-div {
         display: inline-flex;
-        width: 94%; 
+        width: 100%; 
     }
 
     .logo {
@@ -185,7 +185,7 @@
     .search-bar {
         height: auto; 
         width: 90%; 
-        margin-left: 3%;
+        margin-left: 10%;
         margin-top: 0.3vh;
     }
 

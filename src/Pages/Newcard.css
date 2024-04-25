@@ -104,14 +104,19 @@
     }
     
     .first_box,.second_box,.third_box {
-      width: 99%;
+      width: 98%;
       height: 60vh;
       margin-bottom: 5%;
+      margin-left: 1%;
     }
     .fourth_box{
-        width: 99%;
-        height: 70vh;
+        width: 98%;
+        height: 65vh;
         margin-bottom: 5%; 
+        margin-left: 1%;
+    }
+    .first_box{
+        margin-left: 1%;
     }
     .up_pics{
         height: 25vh;
