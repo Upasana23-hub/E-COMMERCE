@@ -36,7 +36,7 @@
 }
 .Inf11{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5%;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
 }
@@ -47,7 +47,7 @@
 
 .Inf12{
     text-align: center;
-    margin-top: 12px;
+    margin-top: 5%;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -57,7 +57,7 @@
     width: 350px;
     /* background-color: chocolate; */
     margin-left: 25%;
-    margin-top: 4%;
+    margin-top: 6%;
     display: flex;
 }
 
@@ -153,8 +153,8 @@
 }
 
 .photo3{
-    height: 80%;
-    width: 40%;
+    height: 82%;
+    width: 42%;
     margin-top: 6%;
     margin-left: 18%;
     background-image: url(../pictures/slider_image2.png);
@@ -210,7 +210,7 @@
     color: black;
 }
 .Inf31{
-    margin-top: 10px;
+    margin-top: 3%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     margin-left: 5%;
@@ -218,7 +218,7 @@
 }
 
 .Inf32{
-    margin-top: 10px;
+    margin-top: 3%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     margin-left: 5%;
@@ -277,7 +277,7 @@
 }
 
 .Inf42{
-    margin-top: 10px;
+    margin-top: 1.5%;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     margin-left: 10%;
@@ -336,7 +336,7 @@
     color: #ecdcdc;
 }
 
-button{
+.sli-buy-btn{
     border: 1.5px solid #150303;
     color: #150303;
     background: none;
@@ -361,7 +361,7 @@ button{
     color: #150303;
 }
 
-span{
+.sli-buy-span{
     background-color: #786a57;
     color: black;
     height: 100%;
@@ -373,11 +373,11 @@ span{
     transition: 0.3s;
 }
 
-button:hover span{
+.sli-buy-btn:hover .sli-buy-span{
     width: 100%;
     color: black;
 }
-button:hover{
+.sli-buy-btn:hover{
     color: black;
 }
 
@@ -389,5 +389,91 @@ button:hover{
     background: none;
 }
 .swiper-scrollbar-drag:after{
-    content: ""; width: 40px; height: 40px; border-radius: 50%; background: blue; position: absolute; top: 0; left: 50%; margin: 0 0 0 -20px;
+    content: ""; width: 40px; height: 40px; border-radius: 50%; background: black; position: absolute; top: 0; left: 50%; margin: 0 0 0 -20px;
 }
+
+.full-slider-page{
+    height: 60vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 420px){
+    .full-slider-page{
+        height: 30vh;
+        width: 100%;
+    }
+    .second_slider,.third_slider,.fourth_slider,.fifth_slider,.first_slider{
+        height: 100%;
+        width: 100%;
+    }
+    .Inf20,.Inf30,.Inf40,.Inf10,.Inf50{
+        font-size: 20px;
+        margin-top: 20%;
+    }
+    .Inf21,.Inf31,.Inf41,.Inf11,.Inf51{
+        font-size: 17px;
+    }
+    .Inf22,.Inf32,.Inf42,.Inf12,.Inf52{
+        font-size: 15px;
+        margin-top: 10%;
+    }
+    .photo3,.photo5,.photo1,.photo7{
+        width: 150px;
+        margin-left: 5%;
+    }
+    .photo3{
+        margin-top: 12%;
+    }
+    .photo5{
+        width: 170px;
+        margin-left: 10%;
+        margin-top: 15%;
+        margin-left: 17%;
+    }
+    .Inf50{
+        margin-top: 22%;
+        font-size: 18px;
+        width: 150px;
+        margin-left: -10%;
+    }
+    .Inf51{
+        font-size: 15px;
+        width: 150px;
+        margin-left: -7%; 
+    }
+    .Inf52{
+        margin-left: -1%;
+    }
+    .sli-buy-btn{
+        height: 2vh;
+        width: 65px;
+        font-size: 10px;
+        padding: 1px 3.5px !important;
+        margin-top: 12%;
+    }
+    .discout_banner{
+        height: 3vh;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .dis{
+        font-size: 10px;
+    }
+    .photo1{
+        width: 200px;
+        height: 22.5vh;
+        margin-top: 10%;
+        margin-left: 6%;
+    }
+    .information3{
+        padding-left: 0%;
+        margin-left: -3%;
+        margin-top: 3%;
+    }
+    .photo7{
+        height: 80px;
+        width: 80px;
+        margin-left: 60%;
+        margin-top: 30%;
+    }
+};
