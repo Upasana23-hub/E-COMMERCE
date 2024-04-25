@@ -150,7 +150,7 @@ const Payment = () => {
                 <h5 className='upi-head'>Choose an option</h5>
                 </div>
                 <div className='phonepe-div'>
-                <input type='radio' style={{marginLeft:-20, marginTop:30}}/>
+                <input type='radio' name='phonepe' style={{marginLeft:-20, marginTop:30}}/>
                   <h5 className='upi-phonepe'>PhonePe</h5>
                   <div className='form-phonepe'>
                   <input
@@ -163,7 +163,7 @@ const Payment = () => {
                 </div>
                 <p className='or-p'>OR</p>
                 <div className='upi-div'>
-                  <input type='radio' style={{marginLeft:-20, marginTop:30}}/>
+                  <input type='radio' name='phonepe' style={{marginLeft:-20, marginTop:30}}/>
                 <h5 className='upi-id'>Your UPI ID</h5>
                   <div className='form-id'>
                   <input
