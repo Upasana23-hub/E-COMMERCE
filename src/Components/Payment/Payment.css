@@ -158,16 +158,46 @@
       color: #fff;
   }
   .pay-now-2{
-    height: 6vh;
-    border-radius: 3px;
-    width: 45.5%;
-    margin-left: 2%;
-    background-color:  rgb(135, 135, 250);
-    border: none;
-    font-family: 'Mooli', sans-serif;
+    background-color: rgb(135, 135, 250);
+      color: #150303;
+      height: 6vh;
+      width: 46%;
+      text-transform: normal;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      font-size:medium;
+      font-weight: 600;
+      letter-spacing: 1px;
+      position: relative;
+      transition: color 0.4s linear;
+      position: relative;
+      overflow: hidden;
+      border: none;
+      border-radius: 3px;
+      z-index: 1;
+      margin-top: 6%;
+      margin-left: 2%;
+      font-family: 'Mooli', sans-serif;
   }
   .pay-now-2:hover{
     color: #fff;
+  }
+  .pay-now-span-2{
+    background-color: rgb(23, 9, 64);
+    color: #fff;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.3s;
+  }
+
+  .pay-now-2:hover .pay-now-span-2{
+      width: 100%;
+      color: #fff;
   }
   .upi-full-page{
     height: 76vh;
@@ -266,7 +296,8 @@
     }
     .tabs{
       display: flex;
-      height: 5vh;
+      height: 4.5vh;
+      padding-top: 1%;
       width: 120px;
     }
     .p-debit,.p-upi{
@@ -298,17 +329,17 @@
     }
     .tab-2{
       font-size: 13px;
-      margin-top: -7%;
+      margin-top: -9%;
       margin-left: 0%;
       background-color: #fff;
-      height: 8vh;
+      height: 6.5vh;
       width: 150px;
       padding-right:10% ;
       padding-left: 3%;
     }
     .tabs hr{
-      height: 50px;
-      margin-top: -10%;
+      height: 47px;
+      margin-top: -9%;
     }
     .hr-2 hr{
       display: none;

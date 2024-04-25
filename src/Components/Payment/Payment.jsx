@@ -174,7 +174,7 @@ const Payment = () => {
                   <p className='verify-p'>VERIFY</p>
                   
                   </div>
-                  <button className='pay-now-2'><span className='pay-now-span'></span>PAY NOW</button>
+                  <button className='pay-now-2'><span className='pay-now-span-2'></span>PAY NOW</button>
                 </div>
               </div>
             </div>
