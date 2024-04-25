@@ -7,8 +7,8 @@ import "swiper/css/scrollbar";
 import { Link} from 'react-router-dom';
  const Slider = () => {
   return (
-    <Link to="/Another:id">
-
+    <>
+    <div className='full-slider-page'>
     <Swiper
     spaceBetween={2}
     centeredSlides={true}
@@ -18,7 +18,7 @@ import { Link} from 'react-router-dom';
       disableOnInteraction: false,
     }}
     navigation={true}
-    modules={[Autoplay, Navigation]}
+    modules={[Autoplay,Navigation]}
     className="mySwiper"
     >
       <SwiperSlide>
@@ -38,15 +38,17 @@ import { Link} from 'react-router-dom';
       </Link>
       </SwiperSlide>
       <SwiperSlide>
-      <Link to="/Another?search=shoe">
-      <div className='fifth_slider'>
-        <div className='photo8'>
+      <Link to="/Another?search=decorate">
+      <div className='fourth_slider'>
+        <div className='photo6'>
+            <div className='photo7'>
+
+            </div>
         </div>
-        <div className='information4'>
-            <h1 className='Inf50'><i>GET FIT IN STYLE.</i></h1>
-            <h2 className='Inf51'>2024 COLLECTION</h2>
-                <h6 className='Inf52'>UP TO 30% OFF*</h6>
-                <button><span></span>BUY NOW</button>
+        <div className='information3'>
+            <h1 className='Inf40'>HOME PRODUCTS</h1>
+            <h2 className='Inf41'><i>40-70% OFF</i></h2>
+                <h4 className='Inf42'>BEUTIFUL SHOWPICES</h4>
         </div>
       </div>
       </Link>
@@ -74,8 +76,7 @@ import { Link} from 'react-router-dom';
         <div className='information'>
             <h1 className='Inf10'>Starting From ₹199</h1>
             <h3 className='Inf11'>Deals on Top Brands</h3>
-            <h4 className='Inf12'>Free Delivery  </h4>
-            <h4 className='Inf12'>  Latest Trend</h4>
+            <h4 className='Inf12'>Free Delivery  ||  Latest Trend</h4>
             <div className='discout_banner'>
                 <div className='bank_photo'>
 
@@ -94,24 +95,22 @@ import { Link} from 'react-router-dom';
       </Link>
       </SwiperSlide>
       <SwiperSlide>
-      <Link to="/Another?search=decorate">
-      <div className='fourth_slider'>
-        <div className='photo6'>
-            <div className='photo7'>
-
-            </div>
+      <Link to="/Another?search=shoe">
+      <div className='fifth_slider'>
+        <div className='photo8'>
         </div>
-        <div className='information3'>
-            <h1 className='Inf40'>HOME PRODUCTS</h1>
-            <h2 className='Inf41'><i>40-70% OFF</i></h2>
-                <h4 className='Inf42'>BEUTIFUL SHOWPICES</h4>
+        <div className='information4'>
+            <h1 className='Inf50'><i>GET FIT IN STYLE.</i></h1>
+            <h2 className='Inf51'>2024 COLLECTION</h2>
+                <h6 className='Inf52'>UP TO 30% OFF*</h6>
+                <button className='sli-buy-btn'><span className='sli-buy-span'></span>BUY NOW</button>
         </div>
       </div>
       </Link>
       </SwiperSlide>
     </Swiper>
-    </Link>
-    
+    </div>
+    </>
   )
 }
 
