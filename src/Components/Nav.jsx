@@ -20,11 +20,9 @@ const Nav = () => {
   return (
     <nav className='outer-div'>
       
-      <Link to="/">
-        <div className='name' >
+      <Link to="/" className='name'>
           <img src='SHOPEE.png' alt='name' className='logo'/>
           <div className='heading'>SHOPEE</div>
-        </div>
       </Link>
     <div className='search-bar'>
       <form 

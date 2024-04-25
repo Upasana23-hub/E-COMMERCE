@@ -449,14 +449,15 @@ p{
 @media only screen and (max-width: 420px) {
     .card_outer {
         height: auto;
-        margin-top: 2%;
+        margin-top: 5%;
         flex-wrap: wrap;
     }
     
     .first_card, .second_card, .third_card, .fourth_card {
         width: 90%;
         margin-left: 5%;
-        height: 60vh;
+        height: 62vh;
+        margin-bottom: 5%;
     }
     .first_div,.second_div,.third_div,.fourth_div,.fifth_div,.sixth_div,.seventh_div,.eightth_div,.nineth_div,.tenth_div,.eleventh_div,.twelveth_div{
         width: 87%;
@@ -472,9 +473,9 @@ p{
     }
     .slider_outer {
         height: 40vh;
-        width: 100%;
+        width: 94%;
         /* margin: 5% auto; */
-        margin-left: 5%;
+        margin-left: 3%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .info_div {
