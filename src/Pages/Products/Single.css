@@ -189,7 +189,7 @@
         width: 70%;
         padding-top: 20%;
         height: 180vh; 
-        margin-left: 5%;
+        margin-left: 0%;
     }
     .single-pic {
         height: 20vh;
@@ -227,7 +227,10 @@
     .single-inner,
     .single-pic,
     .single-det {
-        width: 100%;
+        width: 98%;
+    }
+    .single-inner{
+        margin-left: 1%;
     }
     .si-butt-1,
     .si-butt-2 {

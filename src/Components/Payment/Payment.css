@@ -291,7 +291,7 @@
   @media screen and (max-width: 420px) {
     .side-tab-box {
       flex-direction: column;
-      width: 100%;
+      width: 96%;
       height: auto;
     }
     .tabs{
@@ -347,6 +347,7 @@
     .tab-content{
       margin-top: 5%;
       width: 83.8%;
+      margin-left: 3.5%;
     }
     .debit-inner{
       margin-top: 8%;
