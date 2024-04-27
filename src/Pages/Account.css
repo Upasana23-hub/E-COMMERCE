@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 .side-tab-container {
+    height:115vh ;
     display: flex;
     padding-top: 15vh;
-    height: 115vh;
     padding-left: 2%;
     padding-right: 2%;
     background-color:  #e0dcdcf4;
@@ -107,3 +107,23 @@
     margin-top: 1.5vh;
   }
   
+
+
+  @media only screen and (min-width: 1290px) {
+    .tabs {
+        width: 20%;
+    }
+    
+    .tab-content {
+        width: 80%;
+    }
+    
+    .profile-first-name,
+    .profile-last-name,
+    .profile-email {
+        width: 22%;
+    }
+}
+
+
+
