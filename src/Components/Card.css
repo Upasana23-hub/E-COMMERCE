@@ -2,6 +2,7 @@
     padding: 20px;
     /* padding-top: 40%; */
     height: 45vh;
+    width: 225px;
     transition: box-shadow 0.3s ease;
 }
 .card:hover{
@@ -9,7 +10,7 @@
 }
 
 .card>.card__image>img{
-    width: 200px;
+    width: 180px;
     height: 200px;
     object-fit: contain;
 }
@@ -21,11 +22,12 @@
     border: none;
     margin: 0%;
     padding: 0%;
+    background-color: #fff;
     margin-top: 0%;
 }
 
 .card-heart:hover{
-    color: red;
+    color: rgb(250, 89, 89);
 }
 
 .card__details > p{
@@ -47,9 +49,7 @@
     display:flex;
     justify-content: space-between;
     /* color: red; */
-    padding-right: 5.2rem;
-    
-    
+    padding-right: 4.4rem;
 }
 .span1{
     font-weight: bold;
@@ -62,13 +62,16 @@
 }
 .span3{
     color: rgb(2, 98, 2);
-    padding-left: 7px;
+    padding-left: 4px;
     font-size: 14px;
     font-weight: 600;
+   
 }
 .productDet{
     position: relative;
     transition: 0.5s;
+    height: 12vh;
+    width: 235px;
 }
 .productDet>.card__size{
     opacity: 0;
@@ -84,3 +87,68 @@
 .sizing{
     color: rgb(37, 36, 36);
 }
+@media screen and (max-width: 420px) {
+    .card {
+      width: 155px;
+      height: 40vh;
+     margin-top: 22%;
+     /* background-color: brown; */
+     margin-left: -2.5%;
+     transition: box-shadow 0.3s ease;
+    }
+    .card:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    }
+  
+    .card > .card__image > img {
+      width: 125px;
+      height: 180px;
+      object-fit: contain;
+      /* background-color: bisque; */
+    }
+  
+    .card-heart {
+      margin-top: -20px; 
+    }
+    .card-heart:hover{
+        color: rgb(250, 89, 89);
+        cursor: pointer;
+    }
+  
+    .card__details > .para {
+      font-size: 16px; 
+    }
+  
+    .rate {
+      padding-right: 0.1rem; 
+    }
+  
+    .span1,
+    .span2,
+    .span3 {
+      font-size: 12px; 
+    }
+  
+    .productDet {
+      height: 15vh;
+      width: 160px;
+      margin-top: 10px;
+      position: relative;
+    transition: 0.5s; 
+    
+    }
+  
+    .productDet > .card__size {
+        opacity: 0;
+        position: absolute;
+    }
+    .card:hover .productDet{
+        transform: translateY(-20%);
+        transition: 0.5s;
+    }
+    .card:hover .productDet > .card__size{
+        opacity: 1;
+    }
+    
+  }
+  
