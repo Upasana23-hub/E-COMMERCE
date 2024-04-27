@@ -9,6 +9,35 @@
     box-shadow: 0px 10px 17px 2px rgba(105, 105, 105, 0.2); 
     font-family: 'Poppins', sans-serif;
   }
+  .payment-tabs {
+    width: 24%;
+    background-color: #ffffff;
+    padding-top: 2vh;
+    box-shadow: 0px 10px 17px 2px rgba(105, 105, 105, 0.2); 
+    margin-left: 2%;
+    
+  }
+  .payment-tab-2{
+    margin-top: 3vh;
+    margin-left: 4%;
+  }
+  .payment-tab {
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 1vh;
+    /* border-bottom: 1px solid #ccc; */
+  }
+  .payment-tab.active {
+    color: rgb(38, 0, 151);
+    background-color: rgb(240, 240, 240);
+  }
+  .payment-tab-content {
+    padding: 20px;
+    background-color: white;
+    width: 85%;
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;
+  }
   .debit_cards{
     height: 13vh;
     width: 40%;
@@ -294,7 +323,7 @@
       width: 96%;
       height: auto;
     }
-    .tabs{
+    .payment-tabs{
       display: flex;
       height: 4.5vh;
       padding-top: 1%;
@@ -318,7 +347,7 @@
     .icon-debit-card{
       margin-top: -12.5%;
     }
-    .tab{
+    .payment-tab{
       height: 30px;
       width: 130px;
       margin-top: -10%;
@@ -327,7 +356,7 @@
     .upi-head-1 img{
       margin-top: -15%;
     }
-    .tab-2{
+    .payment-tab-2{
       font-size: 13px;
       margin-top: -9%;
       margin-left: 0%;
@@ -337,17 +366,17 @@
       padding-right:10% ;
       padding-left: 3%;
     }
-    .tabs hr{
+    .payment-tabs hr{
       height: 47px;
       margin-top: -9%;
     }
     .hr-2 hr{
       display: none;
     }
-    .tab-content{
+    .payment-tab-content{
       margin-top: 5%;
       width: 83.8%;
-      margin-left: 3.5%;
+      margin-left: 2%;
     }
     .debit-inner{
       margin-top: 8%;
