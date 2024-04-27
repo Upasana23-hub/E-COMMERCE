@@ -42,13 +42,14 @@
 
 }
 .search {
-    height: 8vh;
+    height: 7vh;
     width: 90%;
     background-color: azure;
     margin-left: 1%;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: large;
-    margin-top: 2vh;
+    margin-top: 2.5vh;
+    padding-left: 3%;
 }
 
 .search-button {
@@ -193,7 +194,8 @@
         height: auto; 
         width: 180%;
         margin-bottom: 2vh;
-        margin-left: 0%;
+        margin-left: 2%;
+        height: 6vh;
     }
 
     .search-button {
