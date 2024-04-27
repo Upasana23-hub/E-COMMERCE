@@ -28,11 +28,18 @@ function SignUp() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Check if password is less than 8 characters
+    if (formData.password.length < 8) {
+      setPasswordError(' Minimum 8 characters needed');
+      return;
+    }
+
     if (formData.password !== formData.confirmPassword) {
       setPasswordError('Passwords do not match');
       return;
     }
-    setPasswordError('Password does not match');
+    // If Password match clear the error message
+    setPasswordError('');
     // Add validation logic here
     // Submit data to server or handle it as required
     console.log(formData);
@@ -62,6 +69,7 @@ function SignUp() {
         <div className="signup-form-group">
           <label htmlFor="password">Password:</label><br/>
           <input type="password" id="password" name="password" value={formData.password} onChange={handleChange} required/>
+          {passwordError && <span className="error-message">{passwordError}</span>}
         </div>
         <div className="signup-form-group">
           <label htmlFor="confirmPassword">Confirm Password:</label><br/>
