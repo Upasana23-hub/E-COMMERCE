@@ -79,8 +79,8 @@ const Single = () => {
             </button>
             <img src={selectedItem.image} className="sing-img" alt="" />
           </div>
-          <div >
-          <Link to="/cart" className="butto-div">
+          <div className="cart-buy-div">
+          <Link to="/cart" className="si-butt-1">
             <button
               onClick={() => {
                 addtocart(selectedItem.id);
@@ -88,16 +88,16 @@ const Single = () => {
               className="si-butt-1"
             >
               
-                <ShoppingCartIcon className="single-icon" />
+              <ShoppingCartIcon/>
                 Add to cart
               
             </button>
             </Link>
             
-            <Link to="/order-summary">
+            <Link to="/order-summary" className="si-butt-2">
             <button className="si-butt-2">
               
-                <FlashOnIcon className="single-icon"/>
+                <FlashOnIcon/>
                 Buy Now
              
             </button>
