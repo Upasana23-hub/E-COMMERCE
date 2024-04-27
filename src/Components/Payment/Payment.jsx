@@ -23,8 +23,8 @@ const Payment = () => {
   return (
     <>
     <div className="side-tab-box">
-      <div className="tabs">
-        <h3 className='tab-2' style={{color:'rgb(135, 135, 250)'}}>   Payment methods</h3>
+      <div className="payment-tabs">
+        <h3 className='payment-tab-2' style={{color:'rgb(135, 135, 250)'}}>   Payment methods</h3>
         <br/><hr 
         style={{
             color: 'black',
@@ -32,7 +32,7 @@ const Payment = () => {
         }}
         />
         <div
-          className={`tab ${activeTab === 'debit' ? 'active' : ''}`}
+          className={`payment-tab ${activeTab === 'debit' ? 'active' : ''}`}
           onClick={() => handleTabClick('debit')}
         >
         <div style={{display:'flex', marginTop:10}} className='debit-head'>
@@ -40,7 +40,7 @@ const Payment = () => {
         </div>
         </div>
         <div
-          className={`tab ${activeTab === 'upi' ? 'active' : ''}`}
+          className={`payment-tab ${activeTab === 'upi' ? 'active' : ''}`}
           onClick={() => handleTabClick('upi')}
         >
          <div style={{display:'flex'}} className='upi-head-1'>
@@ -56,7 +56,7 @@ const Payment = () => {
         />
         </div>
       </div>
-      <div className="tab-content">
+      <div className="payment-tab-content">
         {activeTab === 'debit' && <div>
           <div className="debit_cards">
             <img src='https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visa-icon.png' alt=''className='image-visa'/>
