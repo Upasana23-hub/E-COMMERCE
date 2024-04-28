@@ -84,3 +84,18 @@
   .signin-link{
     color: blue;
   }
+
+  @media only screen and (max-width: 1290px) {
+    .signin-inner {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+  .signin-inner {
+      width: 90%;
+      margin-left: 5%;
+  }
+  
+}
