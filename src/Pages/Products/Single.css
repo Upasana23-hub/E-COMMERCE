@@ -36,11 +36,13 @@
     border: none;
     margin: 0%;
     padding: 0%;
-    margin-top: -5%;
+    margin-top: -90%;
+    padding-left: 20%;
     background-color: #fff;
 }
 .sin-heart:hover{
     color: rgb(250, 89, 89);
+    transition: 0.5s;
 }
 
 .single-picture{
@@ -77,11 +79,12 @@
     
 }
 .si-butt-1{
-    width: 46%;
-    height: 42px;
+    width: 85%;
+    height: 45px;
     border-radius: 2px;
     margin-left: 0.1%;
-    padding-top: 0.9vh;
+    margin-top: -1.5%;
+    padding-top: 1.2vh;
     display: flex;
     cursor: pointer;
     text-transform: normal;
@@ -101,11 +104,12 @@
 }
 
 .si-butt-2{
-    width: 46%;
-    height: 42px;
+    width: 85%;
+    height: 45px;
     border-radius: 2px;
-    margin-left: 3%;
-    padding-top: 0.9vh;
+    margin-left: 2%;
+    padding-top: 1.5vh;
+    margin-top: -1.5%;
     display: flex;
     cursor: pointer;
     text-transform: normal;
@@ -126,6 +130,24 @@
 .single-icon{
     margin-top: 0.1vh;
 }
+.single-rate{
+    height: 2.5vh;
+    width: 7%;
+    background-color: rgb(2, 98, 2);
+    padding-top: 0.2%;
+    margin-top: 1.5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+  }
+.single-rate p{
+    color: #fff;
+    margin-left: 15%;
+    margin-right: 5%;
+    font-weight: 700;
+  }
 .ra-tex{
     margin-top: 5;
     color: #878787;
@@ -147,8 +169,6 @@
     color: black;
     font-size: 170%;
     margin-top: 1%;
-    
-    
 }
 .sin-span2-2{
     color: gray;
@@ -159,10 +179,6 @@
 }
 .sin-rate{
     display:flex;
-   
-    /* color: red; */
-    
-  
 }
 .sin-span2-3{
     color: rgb(2, 98, 2);
@@ -210,13 +226,26 @@
     color: #00cc00;
     font-size: 15px;
 }
+.cart-icon-p{
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.link-cart-div{
+    width: 300px;
+    height: 100px;
+}
+.link-buynow-div{
+    width: 300px;
+}
+
 @media screen and (max-width: 420px) {
     .single-inner {
         flex-direction: column;
-        width: 70%;
+        width: 96%;
         padding-top: 20%;
         height: 180vh; 
-        margin-left: 0%;
+        margin-left: 2%;
     }
     .single-pic {
         height: 20vh;
@@ -226,46 +255,51 @@
     }
     .sing-img{
         height: 45vh;
-        width: 87%;
+        width: 280px;
+        margin-left: 8%;
+        margin-top: 20%;
+        border: none;
     }
     .single-picture {
         height: 58vh;
-        width: 70%;
+        width: 90%;
+        margin-left: 10%;
+        display: flex;
     }
     .single-det {
         width: 100%;
         margin-top: 120%;
     }
-    .si-butt-1 {
-        padding-top: 15%;
-        width: 60%;
-    }
     .sin-heart {
-        margin-top: 9%;
-        margin-right: 10px;
+        margin-top: -125%;
+        padding-left: 0%;
+    }
+    .sin-heart:hover{
+        color: rgb(250, 89, 89);
+        transition: 0.5s;
     }
     .sin-picture {
         width: 70%;
     }
-}
-
-/* Responsive styles for 1290px and below */
-@media screen and (max-width: 1290px) {
-    .single-inner,
-    .single-pic,
-    .single-det {
-        width: 98%;
+    .cart-buy-div{
+        display: grid;
     }
-    .single-inner{
-        margin-left: 1%;
+    .si-butt-1{
+        padding-top: 2%;
+        width: 125%;
+        margin-left: 4%;
+        border-radius: 15px;
+        margin-bottom: 1%;
     }
-    .si-butt-1,
-    .si-butt-2 {
-        width: 46%; 
-        margin-left: 3%; 
-        margin-top: 10px;
+    .si-butt-2{
+        padding-top: 2%;
+        width: 125%;
+        margin-left: 4%;
+        margin-top: -17%;
+        border-radius: 15px;
     }
-    .butto-div {
-        margin-top: 25%; 
-    }
+    .single-rate{
+        height: 20px;
+        width: 40px;
+      }
 }
