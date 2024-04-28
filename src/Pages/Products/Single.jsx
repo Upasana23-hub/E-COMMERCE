@@ -68,19 +68,19 @@ const Single = () => {
       <div className="single-inner">
         <div className="single-pic">
           <div className="single-picture">
+          <img src={selectedItem.image} className="sing-img" alt="" />
             <button
              onClick={() => {
               addtowishlist(selectedItem.id);
             }}
-             className="sin-heart">
-              <Link to="/wishlist">
-              <FavoriteIcon />
+            className="sin-heart">
+              <Link to="/wishlist" className="sin-heart">
+              <FavoriteIcon style={{height:35 ,width:30}}/>
               </Link>
             </button>
-            <img src={selectedItem.image} className="sing-img" alt="" />
           </div>
           <div className="cart-buy-div">
-          <Link to="/cart" className="si-butt-1">
+          <Link to="/cart" className="link-cart-div">
             <button
               onClick={() => {
                 addtocart(selectedItem.id);
@@ -89,12 +89,12 @@ const Single = () => {
             >
               
               <ShoppingCartIcon/>
-                Add to cart
+               <p className="cart-icon-p"> Add to cart</p>
               
             </button>
             </Link>
             
-            <Link to="/order-summary" className="si-butt-2">
+            <Link to="/order-summary" className="link-buynow-div">
             <button className="si-butt-2">
               
                 <FlashOnIcon/>
@@ -124,7 +124,7 @@ const Single = () => {
             </p>
           </div>
           <div className="rating-sec">
-          <div className='wish-rate'>
+            <div className='single-rate'>
               <p>4.1</p><MdStarBorderPurple500 color='#fff'/>
             </div>
             <p className="ra-tex">170 Ratings & 12 Reviews</p>
