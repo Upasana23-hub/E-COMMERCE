@@ -42,16 +42,15 @@ const Single = () => {
   const addtowishlist = (wishid) => {
     let wishItemString = localStorage.getItem("wish");
     let wishItemArray = JSON.parse(wishItemString);
-    console.log("Test: ", wishItemArray);
-    
-    // If no wishlist items exist, initialize the wishlist with the new item's ID
-    if (!wishItemArray) {
-        localStorage.setItem("wish", JSON.stringify([wishid]));
-    } else {
-        // Otherwise, add the new item's ID to the existing wishlist array
-        localStorage.setItem("wish", JSON.stringify([...wishItemArray, wishid]));
+
+    // Check if the item ID already exists in the wishlist
+    if (!wishItemArray || !wishItemArray.includes(wishid)) {
+        // If the item ID doesn't exist, add it to the wishlist
+        const updatedWishlist = wishItemArray ? [...wishItemArray, wishid] : [wishid];
+        localStorage.setItem("wish", JSON.stringify(updatedWishlist));
     }
 };
+
 
 
   // Find the item in Data array based on id
