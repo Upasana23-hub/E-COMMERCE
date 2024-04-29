@@ -460,16 +460,15 @@ p{
         margin-bottom: 5%;
     }
     .first_div,.second_div,.third_div,.fourth_div,.fifth_div,.sixth_div,.seventh_div,.eightth_div,.nineth_div,.tenth_div,.eleventh_div,.twelveth_div{
-        width: 87%;
+        width: 90%;
         height: 27vh;
-        
-        
     }
     
     .scroller-div {
-        height: 30vh;
-        width: 87%;
+        height: 32vh;
+        width: 95%;
         margin-top: 5%;
+        margin-left: 2.5%;
     }
     .slider_outer {
         height: 40vh;
@@ -490,24 +489,3 @@ p{
     
 }
 
-/* @media only screen and (min-width: 420px) and (max-width: 1290px) {
-    .slider_outer {
-        height: 40vh;
-        width: 100%;
-        margin: 5% auto;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    
-
-    .scroller-div {
-        height: auto;
-        width: 100%;
-    }
-
-    .mySwiper {
-        height: auto;
-        margin-bottom: 5%;
-    }
-    
-} */
