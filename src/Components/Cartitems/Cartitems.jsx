@@ -96,11 +96,9 @@ const Cartitems = () => {
                       src={e.image}
                       alt="cart-item"
                       className="carticon-product-icon"
-                      height={60}
-                      width={60}
                     />
-                    <p>{e.Name}</p>
-                    <p> ₹{e.offerPrice}</p>
+                    <p className="cartitems-name">{e.Name}</p>
+                    <p className="cartitems-price"> ₹{e.offerPrice}</p>
                     <div className="cartitems-quantity">
                       {count(items, e.id) > 0 ? (
                         <button
@@ -122,9 +120,13 @@ const Cartitems = () => {
                         +
                       </button>
                     </div>
-                    <p>{count(items, e.id) * e.offerPrice}</p>
+                    <p className="cartitems-inbox-total">{count(items, e.id) * e.offerPrice}</p>
                   </div>
-                  <hr />
+                  <hr 
+                  style={{
+                    marginTop:-10
+                  }}
+                  />
                 </div>
               );
             }
