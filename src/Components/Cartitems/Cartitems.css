@@ -45,8 +45,8 @@
   margin-left: 4%;
 }
 .p-valu {
-  margin-left: 6%;
-  margin-top: 10%;
+  margin-left: 4%;
+  margin-top: 2.5%;
   font-size: smaller;
 }
 .cartitems-down {
@@ -210,5 +210,9 @@
   }
   .cartitems-promocode button{
     display: none;
+  }
+  .p-valu{
+    margin-top: 10%;
+    margin-left: 4%;
   }
 }
