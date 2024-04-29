@@ -9,7 +9,7 @@
 }
 .cartitems-format-main {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
   gap: 75px;
   padding: 20px 12px;
@@ -22,15 +22,33 @@
   font-size: 17px;
   font-weight: 500;
 }
-/* .carticon-product-icon{
-    height: 85px;
-} */
+.carticon-product-icon{
+    margin-left: -25px;
+    height:100px;
+    width:102px;
+}
+.cartitems-name{
+  width: 150px;
+  text-align: center;
+  margin-left: -60px;
+  font-size: 14px;
+}
+.cartitems-price{
+  text-align: center;
+  margin-left: -165px;
+  font-size: 14px;
+}
 .cartitems-quantity {
   height: 7vh;
   width: 100%;
   /* background-color: aquamarine; */
   display: flex;
-  margin-left: -18%;
+  margin-left: -4.5%;
+}
+.cartitems-inbox-total{
+  text-align: center;
+  margin-left: -165px;
+  font-size: 14px;
 }
 .dec-butt {
   border-radius: 50%;
@@ -45,8 +63,8 @@
   margin-left: 4%;
 }
 .p-valu {
-  margin-left: 6%;
-  margin-top: 10%;
+  margin-left: 4%;
+  margin-top: 2.5%;
   font-size: smaller;
 }
 .cartitems-down {
@@ -169,7 +187,7 @@
   }
 
   .cartitems-format-main {
-    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); /* Adjusted grid columns for smaller screens */
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 0.7fr; /* Adjusted grid columns for smaller screens */
     gap: 2%; /* Adjusted gap for smaller screens */
     padding: 10px 1%; /* Adjusted padding for smaller screens */
     font-size: 14px; /* Adjusted font size for smaller screens */
@@ -210,5 +228,32 @@
   }
   .cartitems-promocode button{
     display: none;
+  }
+  .p-valu{
+    margin-top: 10%;
+    margin-left: 4%;
+  }
+  .carticon-product-icon{
+    height: 60px;
+    width: 60px;
+    margin-left: 0%;
+  }
+  .cartitems-name{
+    margin-left: -18%;
+    font-size: 10px;
+    width: 60px;
+  }
+  .cartitems-price{
+    margin-left: -5%;
+    font-size: 10px;
+    width: 50px;
+  }
+  .cartitems-inbox-total{
+    font-size: 10px;
+    width: 50px;
+    margin-left: 2%;
+  }
+  .cartitems-quantity{
+    margin-left: 5%;
   }
 }
