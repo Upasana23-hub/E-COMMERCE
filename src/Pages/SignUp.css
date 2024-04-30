@@ -63,3 +63,17 @@
   color: red;
 }
 
+@media only screen and (max-width: 1290px) {
+  .signup-inner {
+      width: 60%; /* Adjust as needed */
+      margin-left: 20%; /* Adjust as needed */
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .signup-inner {
+      width: 80%; /* Adjust as needed */
+      margin-left: 10%; /* Adjust as needed */
+  }
+}
