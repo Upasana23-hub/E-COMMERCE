@@ -13,7 +13,7 @@ export const Small = () => {
 
   function calculateSlidesPerView() {
     if (window.innerWidth <= 420) {
-      return 3;
+      return 2;
     } else if (window.innerWidth <= 768) {
       return 3;
     } else {
