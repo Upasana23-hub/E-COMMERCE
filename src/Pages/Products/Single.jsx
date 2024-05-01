@@ -68,15 +68,17 @@ const Single = () => {
         <div className="single-pic">
           <div className="single-picture">
           <img src={selectedItem.image} className="sing-img" alt="" />
+          <Link to="/wishlist">
             <button
              onClick={() => {
               addtowishlist(selectedItem.id);
             }}
             className="sin-heart">
-              <Link to="/wishlist" className="sin-heart">
+              
               <FavoriteIcon style={{height:35 ,width:30}}/>
-              </Link>
+              
             </button>
+            </Link>
           </div>
           <div className="cart-buy-div">
           <Link to="/cart" className="link-cart-div">
