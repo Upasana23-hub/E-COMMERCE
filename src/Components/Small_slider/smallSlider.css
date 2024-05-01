@@ -284,25 +284,13 @@
     }
     .Slider_div2{
         height: 35vh;
+        width: 97%;
+        margin-left: 3%;
     }
     .first_pic,.second_pic,.third_pic,.fourth_pic,.fifth_pic,.sixth_pic,.seventh_pic,.eightth_pic,.nineth_pic,.tenth_pic,.eleventh_pic,.twelveth_pic{
         height: 25vh;
-        width: 128px;
-    }
-    .second_pic{
+        width: 170px;
         margin-left: 0%;
-    }
-    .third_pic{
-        margin-left: -5%;
-    }
-    .fourth_pic{
-        margin-left: -8%;
-    }
-    .fifth_pic{
-        margin-left: -12%;
-    }
-    .sixth_pic,.seventh_pic,.eightth_pic,.nineth_pic,.tenth_pic,.eleventh_pic,.twelveth_pic{
-        margin-left: -14%;
     }
     .pi1,.pi2,.pi3,.pi4,.pi5,.pi6,.pi7,.pi8,.pi9,.pi10,.pi11,.pi12,.pi13,.pi14,.pi15,.pi16{
         height: 75%;
