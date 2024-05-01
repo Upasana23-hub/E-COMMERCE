@@ -97,7 +97,7 @@ const Account = () => {
           </div>}
         {activeTab === 'address' && <div>
           <h3>Manage Addresses</h3>
-          <Link to='/signup'><div className='new-address'>+ ADD NEW ADDRESS</div></Link>
+          <Link to='/order-summary'><div className='new-address'>+ ADD NEW ADDRESS</div></Link>
           <div className='address-old'>
             Address
           </div>
