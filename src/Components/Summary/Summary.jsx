@@ -9,6 +9,7 @@ const Summary = () => {
           window.scrollTo(0, 0);
       }
   }, [location]);
+
   return (
     <div className="outer-summary">
       <div className="inner-summary">
@@ -43,7 +44,12 @@ const Summary = () => {
           </div>
           <div className="summary-inputBox-pin">
             <label htmlFor="Pin code">Pin Code:</label><br/>
-            <input type="number" placeholder="  123456 " required className="pin-input"></input>
+            <input type="number" placeholder="  123456 " 
+            min="0"
+            max="9"
+            onInput={(e) => e.target.value = e.target.value.slice(0, 6)}
+            required className="pin-input"
+            ></input>
           </div>
           <br/>
 
