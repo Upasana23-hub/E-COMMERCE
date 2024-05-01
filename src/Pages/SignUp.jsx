@@ -64,7 +64,14 @@ function SignUp() {
         </div>
         <div className="signup-form-group">
           <label htmlFor="contactnumber">Contact Number:</label><br/>
-          <input type="number" id="contactnumber" name="contactnumber" value={formData.contactnumber} onChange={handleChange} required/>
+          <input type="number"
+            min="0" 
+            step="0"
+            max="9"
+            onInput={(e) => e.target.value = e.target.value.slice(0, 10)} 
+            id="contactnumber" 
+            name="contactnumber"
+            value={formData.contactnumber} onChange={handleChange} required/>
         </div>
         <div className="signup-form-group">
           <label htmlFor="password">Password:</label><br/>
@@ -90,7 +97,14 @@ function SignUp() {
         </div>
         <div className="signup-form-group">
           <label htmlFor="zip">ZIP Code:</label><br/>
-          <input type="text" id="zip" name="zip" value={formData.zip} onChange={handleChange} required/>
+          <input type="number"
+            min="0"
+            step="0"
+            max="9"
+            onInput={(e) => e.target.value = e.target.value.slice(0, 6)}
+            id="zip"
+            name="zip"
+            value={formData.zip} onChange={handleChange} required/>
         </div>
         <br/>
         <p>By creating an account or logging in, you agree to Shopee’s<Link to="/Terms" className='signup-link'>Conditions of Use</Link> and <Link to="/Privacy" className='signup-link'>Privacy Policy</Link>. </p>
