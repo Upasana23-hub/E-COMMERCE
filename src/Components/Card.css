@@ -24,10 +24,12 @@
     padding: 0%;
     background-color: #fff;
     margin-top: 0%;
+    cursor: pointer;
 }
 
 .card-heart:hover{
     color: rgb(250, 89, 89);
+    transition: 0.5s;
 }
 
 .card__details > p{
