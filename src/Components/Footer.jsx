@@ -65,7 +65,7 @@ const Footer = () => {
                   <a href="https://www.youtube.com/@owncoding5636/videos" className="footer-logo"><i class="fa-brands fa-youtube" ></i></a>
                   <a href="https://twitter.com/?lang=en-in" className="footer-logo"><i class="fa-brands fa-twitter"></i></a>
                   </div>
-                  <br/><br/>
+                  <br/>
                   <div className="newsletter"> 
                     <input type="text" className="news"/>
                     <button>Subscribe</button>
