@@ -237,12 +237,14 @@ li{
 
 @media screen and (max-width: 420px) {
     .footer-outer {
-        height: auto;
-        padding: 2vh;
+        height: 4vh;
+        padding-top: 1.5vh;
+        padding-left: 2.2vh;
         z-index: 2;
-        width: 92.1%;
         background-color: rgb(23, 9, 64);
-       
+        position:fixed;
+        bottom: 0;
+        
     }
     .footer-upper{
         height: 12vh;
