@@ -78,6 +78,8 @@
   .remove-btn{
     border: none;
     margin-top: 27%;
+    background-color: #fff;
+    cursor: pointer;
   }
   .wish-rate{
     height: 2.5vh;

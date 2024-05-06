@@ -101,6 +101,7 @@
     .outer_Newcard {
       flex-direction: column;
       height: auto;
+      margin-bottom: 17%;
     }
     
     .first_box,.second_box,.third_box {
