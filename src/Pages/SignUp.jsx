@@ -67,7 +67,7 @@ function SignUp() {
           <input type="number"
             min="0" 
             step="0"
-            max="9"
+            max="9999999999"
             onInput={(e) => e.target.value = e.target.value.slice(0, 10)} 
             id="contactnumber" 
             name="contactnumber"
@@ -100,7 +100,7 @@ function SignUp() {
           <input type="number"
             min="0"
             step="0"
-            max="9"
+            max="999999"
             onInput={(e) => e.target.value = e.target.value.slice(0, 6)}
             id="zip"
             name="zip"
