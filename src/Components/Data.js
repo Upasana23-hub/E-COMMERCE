@@ -1548,7 +1548,7 @@ export const Data = [
         offerPrice: "220",
         actualPrice: "399",
         rating: 4,
-        name: "women skirt ladies skirt",
+        name: "baby kids diapers",
         Name: "PAMPERS",
         about: "Pampers Baby Dry Diapers",
         off:"38% off",
