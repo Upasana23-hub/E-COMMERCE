@@ -35,6 +35,7 @@
   .tab-content {
     padding: 20px;
     background-color: rgb(255, 255, 255);
+    height: auto;
     width: 85%;
     margin-left: 2%;
     font-family: 'Poppins', sans-serif;
@@ -127,6 +128,7 @@
 @media only screen and (max-width: 420px) {
   .side-tab-container{
     padding-left: 2%;
+    height: 170vh;
     padding-right: 2%;
   }
   .tabs{
