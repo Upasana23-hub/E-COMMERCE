@@ -5,13 +5,20 @@ import { Data } from "../../Components/Data";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import FlashOnIcon from "@mui/icons-material/FlashOn";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import { MdStarBorderPurple500 } from "react-icons/md";
+import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { LocalOffer as Badge } from "@mui/icons-material";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { Table, TableBody, TableRow, TableCell } from "@mui/material";
 import PinDropIcon from "@mui/icons-material/PinDrop";
+import { FreeMode, Navigation, Pagination } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+
 
 const Single = () => {
   /* Scroll to Top */
@@ -62,9 +69,14 @@ const Single = () => {
     return <div>Item not found!</div>;
   }
 
+  const womenProduct=Data.filter((product)=>product.categories === selectedItem.categories);
+
+
+
   return (
     <div className="single-outer">
       <div className="single-inner">
+        <div className="single-inner-upper">
         <div className="single-pic">
           <div className="single-picture">
           <img src={selectedItem.image} className="sing-img" alt="" />
@@ -125,9 +137,10 @@ const Single = () => {
             </p>
           </div>
           <div className="rating-sec">
-            <div className='single-rate'>
-              <p>4.1</p><MdStarBorderPurple500 color='#fff'/>
-            </div>
+            <button className="rati-box">
+              4.1
+              <StarBorderPurple500Icon fontSize="40%" />
+            </button>
             <p className="ra-tex">170 Ratings & 12 Reviews</p>
           </div>
           <p className="sin-avai">Available Offers</p>
@@ -191,7 +204,49 @@ const Single = () => {
             </TableBody>
           </Table>
         </div>
+        </div>
+        <Link to='/signin'><p className="single-report"><i class="fa-regular fa-message"></i> &nbsp; Report an issue with this product</p></Link>
+        <hr/>
+        <div className="single-inner-lower">
+
+          <div className='full-slider-div'>
+              <div className='up_info_div'>
+                Suggested For You
+              </div>
+    
+              <div className='single-Slider_div2'>
+    
+                <Swiper
+                  slidesPerView={6}
+                  spaceBetween={20}
+                  freeMode={true}
+                  navigation={true}
+                  modules={[FreeMode, Pagination, Navigation]}
+                  className="mySwiper">
+
+                  {womenProduct.slice(0,10).map((product)=>(
+                      <SwiperSlide key={product.id}> 
+                        <div className="single-product-pic">
+                          <Link to={`/Single/${product.id}`}>
+                            <img src= {product.image} alt={product.Name}/>
+                          </Link>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+        
+                </Swiper>
+    </div>
+    
+    </div>
+
+
+
+
+
+        </div>
+
       </div>
+      
     </div>
   );
 };
