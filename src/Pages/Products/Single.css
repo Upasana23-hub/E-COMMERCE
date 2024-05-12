@@ -8,14 +8,26 @@
     background-color:rgb(231, 231, 231) ;
 }
 .single-inner{
-    height: 120vh;
     width: 90%;
     margin-left: 5%;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 17px 2px rgba(105, 105, 105, 0.2);
-    display: flex;
     padding-top: 16vh;
+    padding-bottom: 5vh;
 }
+.single-inner-upper{
+    display: flex;
+    height: 105vh;
+}
+hr{
+    color: gray;
+}
+.single-report{
+    color: rgb(0, 0, 196);
+    padding-bottom: 3vh;
+    margin-left: 50%;
+}
+
 .single-pic{
     height: 57vh;
     box-sizing: content-box;
@@ -225,6 +237,42 @@
 }
 .link-buynow-div{
     width: 300px;
+}
+
+.single-inner-lower{
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;
+}
+.similar-products-container{
+    display: inline-flex;
+    height: 30vh;
+    width: 100%;
+    box-shadow: -5px 10px 17px 10px rgba(105, 105, 105, 0.2);
+    margin-top: 5vh;
+    /* margin-left: 1%;
+    margin-right: 1%; */
+}
+.single-outer1{
+    height: 34vh;
+    width: 30%;
+    margin-left: 2%;
+}
+.single-img{
+    height: 18vh;
+    width: 96%;
+}
+.single-Slider_div2{
+    height: 80%;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* display: flex; */
+}
+.single-product-pic img{
+    margin-top: 2vh;
+    height: 35vh;
+    width: 98%;
 }
 
 @media screen and (max-width: 420px) {
