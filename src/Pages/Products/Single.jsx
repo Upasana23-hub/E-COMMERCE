@@ -209,7 +209,7 @@ const Single = () => {
         <hr/>
         <div className="single-inner-lower">
 
-          <div className='full-slider-div'>
+          <div className='sugg-full-slider-div'>
               <div className='up_info_div'>
                 Suggested For You
               </div>
@@ -218,7 +218,7 @@ const Single = () => {
     
                 <Swiper
                   slidesPerView={6}
-                  spaceBetween={20}
+                  spaceBetween={32}
                   freeMode={true}
                   navigation={true}
                   modules={[FreeMode, Pagination, Navigation]}
