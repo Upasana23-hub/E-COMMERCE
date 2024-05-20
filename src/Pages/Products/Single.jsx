@@ -9,7 +9,7 @@ import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import { LocalOffer as Badge } from "@mui/icons-material";
 import { Link, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Table, TableBody, TableRow, TableCell } from "@mui/material";
 import PinDropIcon from "@mui/icons-material/PinDrop";
 import { FreeMode, Navigation, Pagination } from 'swiper/modules';
@@ -21,12 +21,33 @@ import 'swiper/css/pagination';
 
 
 const Single = () => {
+  const [slidesPerView, setSlidesPerView] = useState(calculateSlidesPerView());
+
+  function calculateSlidesPerView() {
+    if (window.innerWidth <= 420) {
+      return 3;
+    } else if (window.innerWidth <= 768) {
+      return 5;
+    } else {
+      return 6;
+    }
+  }
+
   /* Scroll to Top */
   const location = useLocation();
   useEffect(() => {
+    
     if (!location.hash) {
       window.scrollTo(0, 0);
     }
+    const handleResize = () => {
+      setSlidesPerView(calculateSlidesPerView());
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, [location]);
 
   const { id } = useParams();
@@ -217,7 +238,7 @@ const Single = () => {
               <div className='single-Slider_div2'>
     
                 <Swiper
-                  slidesPerView={6}
+                  slidesPerView={slidesPerView}
                   spaceBetween={32}
                   freeMode={true}
                   navigation={true}
