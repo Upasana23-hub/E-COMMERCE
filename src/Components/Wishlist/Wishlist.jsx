@@ -45,7 +45,7 @@ const Wishlist = () => {
             <div className='wish-head'>
                 <h2 >My Wishlist </h2><h3 className='count-wishitem'>({wish.length})</h3>
             </div>
-            {wish == 0 ? (
+            {wish === 0 ? (
             <div>
             <h1 className="empty-wishlist">Your Shopee Wishlist is empty </h1>
             <Link to="/">
