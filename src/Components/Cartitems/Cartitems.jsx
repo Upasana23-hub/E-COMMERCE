@@ -65,7 +65,7 @@ const Cartitems = () => {
 
   return (
     <>
-      {items == 0 ? (
+      {items === 0 ? (
         <div>
           <h1 className="empty-cart">Your Shopee cart is empty </h1>
           <Link to="/">
