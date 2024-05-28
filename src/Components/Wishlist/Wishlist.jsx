@@ -95,6 +95,7 @@ const Wishlist = () => {
                 <hr/>
                 </>
                 );
+                
             }
             return null;
         })}
