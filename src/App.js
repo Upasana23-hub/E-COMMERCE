@@ -26,11 +26,11 @@ import Payment from "./Components/Payment/Payment";
 function App() {
   
   return (
-    <Router >
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
       <Nav/> 
       
-      <Routes basename={process.env.PUBLIC_URL}>
+      <Routes >
         <Route path="/" element={<Home />}/>
         <Route path="/Another" element={<Another/>}/>
         {/* <Route path="/search/:term" element={<Searchitem/>}/>  */}
