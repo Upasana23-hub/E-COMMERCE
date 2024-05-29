@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <Nav/> 
       
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" element={<Home />}/>
         <Route path="/Another" element={<Another/>}/>
         {/* <Route path="/search/:term" element={<Searchitem/>}/>  */}
