@@ -239,7 +239,7 @@ li{
     .footer-outer {
         height: 4vh;
         padding-top: 1.5vh;
-        padding-left: 2.2vh;
+        padding-left: 1vh;
         z-index: 2;
         background-color: rgb(23, 9, 64);
         position:fixed;

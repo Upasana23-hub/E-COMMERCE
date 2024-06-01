@@ -281,7 +281,7 @@ hr{
     margin-left: 2%;
     margin-right: 10%;
     margin-bottom: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .up_info_div{
     height: 10%;
@@ -296,15 +296,20 @@ hr{
 }
 
 @media screen and (max-width: 420px) {
+    .single-outer{
+        width: 100%;
+        background-color: #ffffff;
+    }
     .single-inner-upper{
         flex-direction: column;
         height: 157vh;
     }
     .single-inner {
-        width: 96%;
+        width: 98%;
         padding-top: 20%;
         height: 210vh; 
-        margin-left: 2%;
+        margin-left: 0%;
+        box-shadow: 0 0 0 0;
     }
     .single-pic {
         height: 20vh;
@@ -327,7 +332,7 @@ hr{
     }
     .single-det {
         width: 100%;
-        margin-top: 90%;
+        margin-top: 100%;
     }
     .sin-heart {
         margin-top: 50%;
@@ -345,14 +350,14 @@ hr{
     }
     .si-butt-1{
         padding-top: 2%;
-        width: 125%;
+        width: 122%;
         margin-left: 4%;
         margin-top: -10%;
         border-radius: 15px;
     }
     .si-butt-2{
         padding-top: 3.5%;
-        width: 125%;
+        width: 122%;
         margin-left: 4%;
         margin-top: -26%;
         border-radius: 15px;
@@ -361,9 +366,13 @@ hr{
         height: 20px;
         width: 40px;
     }
+    .single-report{
+        margin-top: 7vh;
+    }
 
     .sugg-full-slider-div{
         height: 28vh;
+        width: 100%;
     }
     .single-Slider_div2 {
         height: 22vh; 
@@ -381,7 +390,3 @@ hr{
     }
     
   }
- 
-
-
-
