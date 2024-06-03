@@ -210,3 +210,45 @@
         display: none; 
     }
 }
+
+
+
+@media screen and (max-width: 380px) {
+    .outer-div {
+        display: inline-flex;
+        width: 100%; 
+    }
+
+    .logo {
+        height: 8vh; 
+        width: 100%; 
+        margin-top: 2vh;
+        margin-left: 2%;
+    }
+
+    .search-bar {
+        height: auto; 
+        width: 85%; 
+        margin-left: 5%;
+        margin-top: 0.5vh;
+    }
+
+    .search {
+        height: 5vh; 
+        width: 100%;
+        margin-bottom: 1.5vh;
+        margin-left: 0%;
+    }
+
+    .search-button {
+        height: auto; 
+        width: 45%; 
+        margin-bottom: 2vh;
+        margin-left: 5%;
+        border: none;
+    }
+
+    .list {
+        display: none; 
+    }
+}

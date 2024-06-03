@@ -8,6 +8,7 @@ import bag from "../pictures/bag.avif"
 import shoe from "../pictures/shoe.jpg"
 import watch from "../pictures/watch.jpg"
 import mobile from "../pictures/mobile.jpg"
+import { Link } from 'react-router-dom';
 
 const CircularCard = () => {
   const data = [
@@ -66,9 +67,9 @@ const CircularCard = () => {
       {data.map((item) => (
         <div className="outer1" key={item.id}>
           
-          <a href={item.link} className="inner-image-div">
+          <Link to={item.link} className="inner-image-div">
             <img src={item.image} alt='pic' className='img'/>
-          </a>
+          </Link>
           <div className="inner-text-div">
             <p>{item.name}</p>
           </div>
