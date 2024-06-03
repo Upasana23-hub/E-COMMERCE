@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/E-COMMERCE/static/css/main.c05a32fe.css",
+    "main.css": "/E-COMMERCE/static/css/main.f08f09f8.css",
     "main.js": "/E-COMMERCE/static/js/main.3fcfff91.js",
     "static/media/slider_image3-Photoroom.png-Photoroom.png": "/E-COMMERCE/static/media/slider_image3-Photoroom.png-Photoroom.76df10eaeb56fa5047e9.png",
     "static/media/slider_image5.png": "/E-COMMERCE/static/media/slider_image5.34d3f2718aa01eed60dd.png",
@@ -91,11 +91,11 @@
     "static/media/men.avif": "/E-COMMERCE/static/media/men.ca870e10b8c78b01ceae.avif",
     "index.html": "/E-COMMERCE/index.html",
     "static/media/Home.Css": "/E-COMMERCE/static/media/Home.31d6cfe0d16ae931b73c.Css",
-    "main.c05a32fe.css.map": "/E-COMMERCE/static/css/main.c05a32fe.css.map",
+    "main.f08f09f8.css.map": "/E-COMMERCE/static/css/main.f08f09f8.css.map",
     "main.3fcfff91.js.map": "/E-COMMERCE/static/js/main.3fcfff91.js.map"
   },
   "entrypoints": [
-    "static/css/main.c05a32fe.css",
+    "static/css/main.f08f09f8.css",
     "static/js/main.3fcfff91.js"
   ]
 }
