@@ -16,4 +16,21 @@
    
    
  }
+
+
+ @media screen and (max-width: 360px) {
+  .card-out {
+      padding-top: 17%;
+      width: 90%;
+      margin-left: 2%;
+      padding-bottom: 7vh;
+  }
+
+  .search-error {
+      padding-top: 20%;
+      margin-left: 15%;
+      color: #FF5733;
+      font-size: small; /* Adjust font size for better readability */
+  }
+}
  
