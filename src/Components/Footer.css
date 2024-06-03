@@ -291,7 +291,7 @@ li{
     .footer-outer {
         height: 4.5vh;
         padding-top: 2vh;
-        padding-left: 4vh;
+        padding-left: 2vh;
         z-index: 2;
         background-color: rgb(23, 9, 64);
         position: fixed;
@@ -324,7 +324,7 @@ li{
     .footer-list ol li {
         color: #ffffff;
         letter-spacing: 1px;
-        margin-left: 4%;
+        margin-left: 6%;
         font-family: "Poppins", sans-serif;
         font-size: small;
         font-weight: bold;
